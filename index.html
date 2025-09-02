@@ -1024,6 +1024,10 @@ fetch('events.json')
   .then(events => {
     globalEvents = events;
 
+    events.forEach((e, i) => {
+  console.log(i, e.name || e.title, e.lat, e.lon || e.lng);
+});
+
     const todayStr = new Date().toISOString().slice(0, 10);
     eventsToday = globalEvents.filter(ev =>
       ev.dateEvents?.some(e => e.date === todayStr)
