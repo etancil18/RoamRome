@@ -1,221 +1,1745 @@
-<!DOCTYPE html>
-<html>
 <head>
-  <title>LocalLoop MVP Map</title>
+  <title>Rome x Roam Map</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.min.js"></script>
+
   <style>
-    body { margin: 0; padding: 0; }
-    #map { height: 100vh; width: 100vw; }
-    #details {
-      position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
-      width: 300px; background: white; padding: 10px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.3);
-      font-family: sans-serif; font-size: 14px;
-      display: none; z-index: 1000;
+    * {
+      box-sizing: border-box;
     }
-    #details button {
-      display: block; margin-top: 5px; background: #ccc;
-      border: none; padding: 5px; cursor: pointer;
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
     }
-    #vibeFilter, #map-search, #clearRoute, #removeLastPoint {
-      position: absolute; z-index: 1000; font-size: 14px; padding: 5px;
+    #map {
+      height: 100vh;
+      width: 100vw;
     }
-    #map-search { top: 10px; left: 50px; width: 250px; }
-    #vibeFilter { top: 10px; left: 330px; }
-    #removeLastPoint { top: 10px; right: 450px; }
-    #clearRoute { top: 10px; right: 350px; }
+    .controls {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      z-index: 1000;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      background: rgba(255,255,255,0.9);
+      padding: 8px;
+      border-radius: 8px;
+    }
+    .controls select,
+    .controls button {
+      font-size: 14px;
+      padding: 5px;
+      flex: 1 1 120px;
+    }
   </style>
 </head>
 <body>
-
-<input id="map-search" type="text" placeholder="Search by name or vibe..." />
-<select id="vibeFilter">
-  <option value="">Show All</option>
-  <option value="rooftop">Rooftop</option>
-  <option value="jazz">Jazz</option>
-  <option value="artsy">Artsy</option>
-  <option value="coffee">Coffee</option>
-  <option value="hip">Hip</option>
+<div class="controls">
+  <input type="text" id="vibeSearchInput" placeholder="What's the vibe..." />
+  <select id="themeDropdown">
+  <option value="">Select Theme</option>
+  <option value="al fresco all day">Al Fresco All Day</option>
+  <option value="art & culture">Art & Culture</option>
+  <option value="art to afterparty">Art to Afterparty</option>
+  <option value="brunch & beyond">Brunch & Beyond</option>
+  <option value="cheap & cheerful">Cheap & Cheerful</option>
+  <option value="chill hang">Chill Hang</option>
+  <option value="creative kickstart">Creative Kickstart</option>
+  <option value="date day">Date Day</option>
   <option value="date night">Date Night</option>
-  <option value="nightlife">Nightlife</option>
-  <option value="hidden gem">Hidden Gem</option>
-  <option value="wine">Wine</option>
+  <option value="foodie tour">Foodie Tour</option>
+  <option value="friends night out">Friends Night Out</option>
+  <option value="gallery crawl">Gallery Crawl</option>
+  <option value="health nut">Health Nut</option>
+  <option value="hidden gems">Hidden Gems</option>
+  <option value="last call">Last Call</option>
+  <option value="late start legends">Late Start Legends</option>
+  <option value="luxe life">Luxe Life</option>
+  <option value="midday recharge">Midday Recharge</option>
+  <option value="mindful mornings">Mindful Mornings</option>
+  <option value="music mile">Music Mile</option>
+  <option value="neighborhood sampler">Neighborhood Sampler</option>
+  <option value="nightcap circuit">Nightcap Circuit</option>
+  <option value="pages to pours">Pages to Pours</option>
+  <option value="party time">Party Time</option>
+  <option value="patio perfection">Patio Perfection</option>
+  <option value="post-work wind down">Post-Work Wind Down</option>
+  <option value="quiet escape">Quiet Escape</option>
+  <option value="rom-com main character">Rom-Com Main Character</option>
+  <option value="rooftops & views">Rooftops & Views</option>
+  <option value="saturday surge">Saturday Surge</option>
+  <option value="self-care">Self-Care</option>
+  <option value="solo explorer">Solo Explorer</option>
+  <option value="sports day">Sports Day</option>
+  <option value="stretch, shop, sip">Stretch, Shop, Sip</option>
+  <option value="sunrise start">Sunrise Start</option>
+  <option value="sunset lovers">Sunset Lovers</option>
+  <option value="sunday reset">Sunday Reset</option>
+  <option value="tech bro escape">Tech Bro Escape</option>
+  <option value="weekend warriors">Weekend Warriors</option>
+  <option value="work session">Work Session</option>
+  </select>
+  <select id="neighborhood-input">
+<option value="">Select Neighborhood</option>
+<option value="aventino">Aventino</option>
+<option value="centro storico">Centro Storico</option>
+<option value="esquilino">Esquilino</option>
+<option value="flaminio">Flaminio</option>
+<option value="garbatella">Garbatella</option>
+<option value="monteverde">Monteverde</option>
+<option value="monti">Monti</option>
+<option value="parioli">Parioli</option>
+<option value="pigneto">Pigneto</option>
+<option value="prati">Prati</option>
+<option value="san lorenzo">San Lorenzo</option>
+<option value="testaccio">Testaccio</option>
+<option value="trastevere">Trastevere</option>
 </select>
-<button id="removeLastPoint">Remove Last Point</button>
-<button id="clearRoute">Clear Route</button>
-
+  <select id="priceFilter">
+    <option value="">Price</option>
+    <option value="$">$</option>
+    <option value="$$">$$</option>
+    <option value="$$$">$$$</option>
+    <option value="$$$$">$$$$</option>
+  </select>
+  <select id="durationDropdown">
+    <option value="medium">How Long?</option>
+    <option value="short">Short (≤2h)</option>
+    <option value="medium">Medium (2.5–5h)</option>
+    <option value="long">Long (5.5–8h)</option>
+  </select>
+  <button id="crawlNowBtn">Crawl Now</button>
+  <button id="saveRouteBtn">Save Route</button>
+<button id="clearRouteBtn">Clear Route</button>
+<button id="favoritesBtn">My Favorites</button>
+<label><input type="checkbox" id="liveToggle" /> Only Show Live</label>
+</div>
 <div id="map"></div>
-<div id="details"><strong>Click a pin to see details</strong></div>
-
+<div id="crawlSummary" style="display:none; padding: 16px; background: #fff; border: 2px solid #333; max-width: 300px; position: absolute; top: 20px; right: 20px; z-index: 9999; box-shadow: 0 0 10px rgba(0,0,0,0.2); border-radius: 8px;">
+    <!-- Populated by JS -->
+  </div>
+  <div id="routePreview" style="
+  position: fixed;
+  top: 80px;
+  right: 0;
+  width: 250px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: white;
+  border-left: 2px solid #ccc;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  padding: 10px;
+  display: none;
+  z-index: 1000;
+">
+  <h4>🧭 Route Preview</h4>
+  <ol id="routeList"></ol>
+</div>
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
 <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
-
 <script>
-const map = L.map('map').setView([40.72, -73.98], 12);
+const defaultIcon = L.icon({
+  iconUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-icon.png',
+  shadowUrl: 'https://unpkg.com/leaflet@1.9.3/dist/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: '&copy; OpenStreetMap contributors'
+  let allLocations = [];
+  
+const map = L.map('map', {
+  zoomControl: false
+}).setView([41.9028, 12.4534], 12);
+  L.control.zoom({ position: 'bottomleft' }).addTo(map);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; OpenStreetMap contributors & Carto',
+  subdomains: 'abcd',
+  maxZoom: 19
 }).addTo(map);
 
-const markerCluster = L.markerClusterGroup({
-  spiderfyOnMaxZoom: true,
-  showCoverageOnHover: false,
-  zoomToBoundsOnClick: true,
-  maxClusterRadius: 40,
-  disableClusteringAtZoom: 17
-});
-map.addLayer(markerCluster);
-
-const allMarkers = [];
-let selectedPoints = [];
-let currentRoute = null;
-
-const vibeMap = {
-  jazz: ["jazz"],
-  artsy: ["art", "artsy", "gallery", "museum"],
-  coffee: ["coffee", "café", "matcha"],
-  hip: ["hip", "trendy", "dj", "brunch"],
-  "date night": ["date", "intimate", "date night", "charming"],
-  nightlife: ["nightlife", "dance", "social", "dj", "speakeasy"],
-  "hidden gem": ["hidden", "hidden gem", "speakeasy", "underground"],
-  wine: ["wine", "natural wine", "craft wine"],
-  rooftop: ["rooftop", "scenic", "views", "skyline"]
+  const dayPartColors = {
+  M: 'blue',         // Morning
+  MD: 'green',       // Midday
+  A: 'orange',       // Afternoon
+  HH: 'gold',      // Happy Hour 
+  E: 'violet',          // Evening
+  L: 'red'         // Late Night 
 };
 
-fetch('events.json')
-  .then(res => res.json())
-  .then(events => {
-    events.forEach(ev => {
-      const marker = L.marker([ev.lat, ev.lon], {
-        icon: L.divIcon({
-          className: '',
-          html: '📍',
-          iconSize: [50, 50],
-          iconAnchor: [5, 5]
-        })
-      });
 
-      marker.vibe = ev.vibe.toLowerCase();
-      marker.name = ev.name.toLowerCase();
+  function isLocationOpenNow(ev) {
+  const now = new Date();
+  const dayKeys = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+  const todayKey = dayKeys[now.getDay()];
+  const yesterdayKey = dayKeys[(now.getDay() + 6) % 7];
+  const currentHour = now.getHours();
 
-      marker.on('click', () => {
-        showDetails(ev, marker.getLatLng());
-      });
+  const todayHours = ev.hoursNumeric?.[todayKey];
+  const yesterdayHours = ev.hoursNumeric?.[yesterdayKey];
 
-      allMarkers.push(marker);
-      markerCluster.addLayer(marker);
-    });
-  });
-
-function showDetails(ev, latlng) {
-  const details = document.getElementById('details');
-  const suggestions = findNearbySimilar(latlng, ev.vibe.toLowerCase(), 350);
-
-  let suggestionHtml = '';
-  if (suggestions.length > 0) {
-    suggestionHtml = `<strong>Also could be the move:</strong><ul>` +
-      suggestions.map(s => `<li>${s.name}</li>`).join('') + `</ul>`;
-  } else {
-    suggestionHtml = '<em>No similar spots nearby</em>';
-  }
-
-  details.innerHTML = `
-    <strong>${ev.name}</strong><br>
-    Vibe: ${ev.vibe}<br>
-    <a href="${ev.link}" target="_blank">View More</a><br>
-    <button id="addToRoute">Add to Route</button>
-    <button id="closeDetails">Close</button>
-    ${suggestionHtml}
-  `;
-  details.style.display = 'block';
-
-  document.getElementById('addToRoute').addEventListener('click', () => {
-    addPointToRoute(latlng);
-  });
-
-  document.getElementById('closeDetails').addEventListener('click', () => {
-    details.style.display = 'none';
-  });
-}
-
-function findNearbySimilar(latlng, vibeText, radius = 350) {
-  const vibeTags = vibeText.split(',').map(v => v.trim());
-  return allMarkers.filter(marker => {
-    const distance = latlng.distanceTo(marker.getLatLng());
-    const markerVibe = marker.vibe;
-    const vibeMatch = vibeTags.some(tag => markerVibe.includes(tag));
-    return distance <= radius && vibeMatch && !latlng.equals(marker.getLatLng());
-  }).slice(0, 3);
-}
-
-function addPointToRoute(latlng) {
-  if (selectedPoints.length >= 5) {
-    alert('Maximum 5 points allowed. Clear or remove a point to add new.');
-    return;
-  }
-
-  selectedPoints.push(latlng);
-  updateRoute();
-}
-
-function updateRoute() {
-  if (currentRoute) {
-    map.removeControl(currentRoute);
-  }
-
-  if (selectedPoints.length >= 2) {
-    currentRoute = L.Routing.control({
-      waypoints: selectedPoints,
-      routeWhileDragging: false
-    }).addTo(map);
-  }
-}
-
-function applyFilters() {
-  const vibe = document.getElementById('vibeFilter').value.toLowerCase();
-  const query = document.getElementById('map-search').value.toLowerCase();
-
-  markerCluster.clearLayers();
-
-  allMarkers.forEach(marker => {
-    let vibeMatch = !vibe;
-    if (vibe && vibeMap[vibe]) {
-      vibeMatch = vibeMap[vibe].some(keyword => marker.vibe.includes(keyword));
+  const isWithin = (open, close) => {
+    if (close < open) {
+      return currentHour >= open || currentHour < close;
+    } else {
+      return currentHour >= open && currentHour < close;
     }
+  };
 
-    const searchMatch = !query || marker.name.includes(query) || marker.vibe.includes(query);
-
-    if (vibeMatch && searchMatch) {
-      markerCluster.addLayer(marker);
+  // Check if still open from yesterday’s late-night hours
+  if (yesterdayHours && yesterdayHours.open !== undefined && yesterdayHours.close !== undefined) {
+    if (yesterdayHours.close < yesterdayHours.open && currentHour < yesterdayHours.close) {
+      return true;
     }
-  });
+  }
+
+  // Check today’s hours
+  if (todayHours && todayHours.open !== undefined && todayHours.close !== undefined) {
+    return isWithin(todayHours.open, todayHours.close);
+  }
+
+  return false;
 }
+  
+  let globalEvents = [];
+let allMarkers = [];
+let selectedRoute = [];
+let currentRoute = null;
+const maxRouteStops = 5;
+  let savedRoutes = [];
+  let eventsToday = [];
 
-document.getElementById('vibeFilter').addEventListener('change', applyFilters);
-document.getElementById('map-search').addEventListener('input', applyFilters);
-
-document.getElementById('clearRoute').addEventListener('click', () => {
+// ─── DRAW ROUTE FUNCTION ───────────────────────────────────────────────────────
+function drawRoute() {
+console.log("Redrawing route for stops:", selectedRoute);
+  
   if (currentRoute) {
     map.removeControl(currentRoute);
     currentRoute = null;
   }
-  selectedPoints = [];
-});
+  if (selectedRoute.length < 2) return;
 
-document.getElementById('removeLastPoint').addEventListener('click', () => {
-  if (selectedPoints.length === 0) {
-    alert('No points to remove.');
+  const waypoints = selectedRoute.map(loc => L.latLng(loc.lat, loc.lon));
+  currentRoute = L.Routing.control({
+    waypoints,
+    routeWhileDragging: false,
+    draggableWaypoints: false,
+    addWaypoints: false,
+    show: false,
+    createMarker: () => null, // Hide default markers
+    lineOptions: {
+      styles: [{ color: 'red', opacity: 0.9, weight: 5 }]
+    },
+  }).addTo(map);
+}
+
+  // ─── ROUTE PREVIEW FUNCTION ───────────────────────────────────────────────────────
+  function updateRoutePreview() {
+  const container = document.getElementById('routePreview');
+  const list = document.getElementById('routeList');
+
+  if (selectedRoute.length === 0) {
+    container.style.display = 'none';
+    list.innerHTML = '';
     return;
   }
-  selectedPoints.pop();
-  updateRoute();
+
+  container.style.display = 'block';
+  list.innerHTML = '';
+
+  selectedRoute.forEach((stop, idx) => {
+    const item = document.createElement('li');
+    item.textContent = stop.name;
+
+    const removeBtn = document.createElement('button');
+    removeBtn.textContent = '❌';
+    removeBtn.style.marginLeft = '10px';
+    removeBtn.onclick = () => {
+      selectedRoute.splice(idx, 1);
+      drawRoute();
+      updateRoutePreview();
+    };
+
+    item.appendChild(removeBtn);
+    list.appendChild(item);
+  });
+}
+
+// ─── ADD TO ROUTE HANDLER ──────────────────────────────────────────────────────
+function addToRoute(ev) {
+  console.log("addToRoute invoked", ev.name, selectedRoute.length);
+
+  if (selectedRoute.length >= maxRouteStops) {
+    alert(`You can add up to ${maxRouteStops} stops only.`);
+    return;
+  }
+
+  if (selectedRoute.some(loc => loc.name === ev.name)) {
+    alert('This location is already in your route.');
+    return;
+  }
+
+  selectedRoute.push(ev);
+  console.log("✅ Location added to route:", ev.name);
+  console.log("🧭 Route now has:", selectedRoute.map(s => s.name));
+
+  drawRoute();
+
+  if (selectedRoute.length >= 2) {
+    setTimeout(showRouteControls, 100); // ensures DOM is ready
+  }
+
+  updateRoutePreview(); // this shows the list of stops on the right side
+}
+
+// Save a single venue to "My Favorites" ──────────────────────────────────────────────────────
+function saveVenueToFavorites(ev) {
+  try {
+    const key = 'savedFavorites'; // keep routes under 'savedRoutes' and singles under 'savedFavorites'
+    const existing = localStorage.getItem(key);
+    const favorites = existing ? JSON.parse(existing) : [];
+
+    // de-dupe by id or name
+    const vid = ev.id || ev.name;
+    const already = favorites.some(f => (f.id || f.name) === vid);
+    if (already) {
+      alert('Already in My Favorites.');
+      return;
+    }
+
+    // store a compact record (extend if you want)
+    favorites.push({
+      id: ev.id || null,
+      name: ev.name,
+      lat: parseFloat(ev.lat),
+      lon: parseFloat(ev.lon),
+      link: ev.link || '',
+      vibe: ev.vibe || '',
+      price: ev.price || '',
+      tags: ev.tags || '',
+      addedAt: Date.now()
+    });
+
+    localStorage.setItem(key, JSON.stringify(favorites));
+    alert(`Added “${ev.name}” to My Favorites!`);
+  } catch (e) {
+    console.warn('saveVenueToFavorites failed:', e);
+    alert('Could not save to favorites.');
+  }
+}
+
+function getSavedRoutes() {
+  try { return JSON.parse(localStorage.getItem('savedRoutes') || '[]'); } catch { return []; }
+}
+function setSavedRoutes(list) { localStorage.setItem('savedRoutes', JSON.stringify(list || [])); }
+
+function getSavedFavorites() {
+  try { return JSON.parse(localStorage.getItem('savedFavorites') || '[]'); } catch { return []; }
+}
+function setSavedFavorites(list) { localStorage.setItem('savedFavorites', JSON.stringify(list || [])); }
+
+function buildRouteIds(routeArr) {
+  return (routeArr || []).map(x => (x.id || x.name)).join(',');
+}
+function buildRouteShareUrl(routeArr) {
+  const url = new URL(location.href);
+  url.searchParams.set('route', buildRouteIds(routeArr));
+  return url.toString();
+}
+  
+// ─── FILTER MARKERS ────────────────────────────────────────────────────
+function filterMarkersByVibe() {
+  const vibeSearch = document.getElementById('vibeSearchInput').value.trim().toLowerCase();
+  const onlyLive = document.getElementById('liveToggle').checked;
+  const baseEvents = onlyLive ? eventsToday : globalEvents;
+
+  const filtered = baseEvents.filter(ev => {
+    if (!vibeSearch) return true;
+
+    const nameMatch = (ev.name || '').toLowerCase().includes(vibeSearch);
+    const vibeMatch = (ev.vibe || '').toLowerCase().includes(vibeSearch);
+
+    return nameMatch || vibeMatch;
+  });
+
+  renderMarkers(filtered);
+}
+
+// ─── RENDER MARKERS (with Similar & Add-To-Route) ──────────────────────────────
+const markerLayer = L.layerGroup().addTo(map);
+// 🔹 Global cache for all markers (used by the route filter)
+window.allMarkers = window.allMarkers || [];
+
+function showRouteControls() {
+  const popup = document.querySelector('.leaflet-popup-content');
+  console.log("Popup element:", popup);
+  console.log("showRouteControls: popup content found?", !!popup);
+
+  if (!popup) return;
+
+  const existingSaveBtn = popup.querySelector('.save-route-btn');
+  const existingExportBtn = popup.querySelector('.export-route-btn');
+  if (existingSaveBtn) existingSaveBtn.remove();
+  if (existingExportBtn) existingExportBtn.remove();
+
+  if (selectedRoute.length >= 2) {
+    const saveBtn = document.createElement("button");
+    saveBtn.textContent = "💾 Save to My Favorites";
+    saveBtn.className = "save-route-btn";
+    saveBtn.onclick = () => {
+      const existing = localStorage.getItem('savedRoutes');
+      const routes = existing ? JSON.parse(existing) : [];
+      routes.push([...selectedRoute]);
+      localStorage.setItem('savedRoutes', JSON.stringify(routes));
+      alert("Crawl saved to favorites!");
+    };
+    popup.appendChild(saveBtn);
+
+    const exportBtn = document.createElement("button");
+    exportBtn.textContent = "Export to Google Maps";
+    exportBtn.className = "export-route-btn";
+    exportBtn.onclick = () => {
+      const base = "https://www.google.com/maps/dir/";
+      const waypoints = selectedRoute.map(stop => `${stop.lat},${stop.lon}`).join('/');
+      const url = `${base}${waypoints}`;
+      window.open(url, "_blank");
+    };
+    popup.appendChild(exportBtn);
+  }
+}
+
+function renderMarkers(events, crawlMode = false) {
+  markerLayer.clearLayers();
+  // 🔹 Reset and rebuild the global marker cache each render
+  window.allMarkers = [];
+
+  const weekdayKeys = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+  const todayIndex = new Date().getDay();
+
+  events.forEach(ev => {
+    const rawPart = ev.dayParts?.[weekdayKeys[todayIndex]];
+    const isOpen = isLocationOpenNow(ev);
+    const markerColor = isOpen && rawPart && rawPart !== '-'
+      ? (dayPartColors[rawPart] || 'grey')
+      : 'grey';
+
+    const icon = new L.Icon({
+      iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${markerColor}.png`,
+      shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
+    });
+
+    // 🔹 Tag each marker with a stable venueId (used for route filtering)
+    const venueId = ev.id || ev.name;
+    const marker = L.marker([parseFloat(ev.lat), parseFloat(ev.lon)], { icon, venueId });
+    marker.ev = ev;
+
+    marker.bindPopup(`<strong>${ev.name}</strong><br>${(ev.vibe || '').split(',').map(v => v.trim()).join(', ')}`);
+    marker.on('click', () => {
+      map.setView(marker.getLatLng(), 16);
+      marker.openPopup();
+    });
+
+    if (!crawlMode && eventsToday.includes(ev)) {
+      marker.bindTooltip("🔴 Live Today!", { permanent: true }).addTo(map);
+    }
+
+    // 🔹 Keep an authoritative list of all markers
+    window.allMarkers.push(marker);
+  });
+
+  window.allMarkers.forEach(marker => {
+    const ev = marker.ev;
+    const latlng = marker.getLatLng();
+    const isOpen = isLocationOpenNow(ev);
+
+    if (crawlMode) {
+      // In crawl mode, just add the markers you passed in
+      marker.addTo(markerLayer);
+      return;
+    }
+
+    const thisVibes = (ev.vibe || '')
+      .split(',')
+      .map(v => v.trim().toLowerCase())
+      .filter(Boolean);
+
+    const similar = window.allMarkers
+      .filter(m => m !== marker && latlng.distanceTo(m.getLatLng()) <= 350)
+      .filter(m => {
+        const otherVibes = (m.ev.vibe || '')
+          .split(',')
+          .map(v => v.trim().toLowerCase())
+          .filter(Boolean);
+        return thisVibes.some(v => otherVibes.includes(v));
+      })
+      .slice(0, 3);
+
+    const similarList = similar.length
+      ? '<ul>' + similar.map(m => `<li>${m.ev.name}</li>`).join('') + '</ul>'
+      : '<em>No similar places nearby.</em>';
+
+    const popupContent = `
+      <div style="font-size:14px;line-height:1.4;">
+        <strong>${ev.name}</strong><br/>
+        <em>Vibe:</em> ${ev.vibe}<br/>
+        <em>Hours:</em> ${ev.hours?.[todayIndex] || 'N/A'}<br/>
+        <em>Status:</em> ${isOpen ? '<span style="color:green;">Open Now</span>' : '<span style="color:red;">Closed</span>'}<br/>
+        <a href="${ev.link}" target="_blank">More Info</a>
+        <hr/>
+        <strong>Could also be the move..:</strong>
+        ${similarList}
+        <br/><br/>
+        <button class="add-route-btn">Add to Route</button>
+        <button class="add-fav-btn">Add to Favorites</button>
+      </div>
+    `;
+
+    marker.bindPopup(popupContent).addTo(markerLayer);
+
+    marker.on('popupopen', () => {
+      setTimeout(() => {
+        const popup = marker._popup.getElement();
+
+        // Add to Route
+        const btn = popup.querySelector('.add-route-btn');
+        if (btn) {
+          console.log("✅ Add to Route button found for:", ev.name);
+          btn.onclick = () => {
+            console.log("🟢 Add to Route clicked for:", ev.name);
+            addToRoute(ev);
+          };
+        } else {
+          console.warn("❌ Add to Route button not found in popup");
+        }
+
+        // Add to Favorites
+        const favBtn = popup.querySelector('.add-fav-btn');
+        if (favBtn) {
+          console.log("✅ Add to Favorites button found for:", ev.name);
+          favBtn.onclick = () => {
+            console.log("⭐ Add to Favorites clicked for:", ev.name);
+            saveVenueToFavorites(ev);
+          };
+        } else {
+          console.warn("❌ Add to Favorites button not found in popup");
+        }
+      }, 50);
+    });
+  }); // ← missing brace fixed here
+
+  // ─── 🔒 Keep shared views filtered post-render (if ?route= is present) ───
+  try {
+    const params = new URLSearchParams(location.search);
+    const q = params.get('route');
+    if (q) {
+      const ids = q.split(',').map(s => s.trim()).filter(Boolean);
+      showOnlyRouteMarkers(map, window.allMarkers || [], ids);
+    }
+  } catch (e) {
+    console.warn('Post-render route filter failed:', e);
+  }
+
+  // ─── 🔔 Signal once that markers are fully rendered ───
+  window.dispatchEvent(new CustomEvent('markers:rendered'));
+}
+
+
+  // --- Bootstrap: apply route from URL after markers exist ---
+function getRouteIdsFromURL() {
+  try {
+    const params = new URLSearchParams(location.search);
+    const q = params.get('route');
+    return q ? q.split(',').map(s => s.trim()).filter(Boolean) : [];
+  } catch { return []; }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  const routeIds = getRouteIdsFromURL();
+  if (!routeIds.length) return;
+
+  // Apply immediately if markers already exist...
+  const tryApply = () => {
+    if ((window.allMarkers || []).length) {
+      applyRouteFromURL();                 // your existing function (now sets selectedRoute + enables clear)
+      window.removeEventListener('markers:rendered', tryApply);
+    }
+  };
+
+  // ...otherwise wait for renderMarkers to finish
+  window.addEventListener('markers:rendered', tryApply);
+  tryApply();
 });
+
+
+  function applyRouteFromURL(){
+  const params = new URLSearchParams(location.search);
+  const route = params.get('route');
+  if (!route) return;
+
+  const routeIds = route.split(',').map(s => s.trim()).filter(Boolean);
+
+  // Hide non-route markers immediately
+  showOnlyRouteMarkers(map, window.allMarkers || [], routeIds);
+
+  // Rebuild waypoints / route line if desired
+  const byId = new Map(globalEvents.map(ev => [ev.id || ev.name, ev]));
+  const matchedEvents = routeIds.map(id => byId.get(id)).filter(Boolean);
+
+  // Keep selectedRoute in sync
+  window.selectedRoute = matchedEvents;
+
+  const waypoints = matchedEvents.map(loc => 
+    L.latLng(parseFloat(loc.lat), parseFloat(loc.lon))
+  );
+
+  if (window.routeLayer) map.removeControl(window.routeLayer);
+  if (waypoints.length >= 2) {
+    window.routeLayer = L.Routing.control({
+      waypoints,
+      routeWhileDragging: false,
+      draggableWaypoints: false,
+      addWaypoints: false,
+      show: false
+    }).addTo(map);
+  }
+
+  // ✅ Enable Clear Route button since a route is now active
+  if (typeof setClearRouteButtonEnabled === 'function') {
+    setClearRouteButtonEnabled(true);
+  }
+}
+
+// =========================
+// Route from a Favorite
+// =========================
+
+// --- Config ---
+const STAGE_GROUPS = [
+  ["coffee","bakery"],                              // 1
+  ["fitness"],                                      // 2
+  ["market","breakfast","brunch"],                  // 3
+  ["park","bookstore","gallery"],                   // 4
+  ["lifestyle","random gem"],                       // 5
+  ["lunch"],                                        // 6
+  ["park","bookstore","gallery","activity"],        // 7
+  ["cocktail","random gem"],                        // 8
+  ["dinner"],                                       // 9
+  ["bar","cocktail","speakeasy","lounge"]           // 10
+];
+
+// distance caps (meters)
+const DIST_CAP_DEFAULT = 750;
+const DIST_CAP_MEAL    = 1500; // breakfast/brunch/lunch/dinner types
+
+// How long to linger and buffer between stops
+const DEFAULT_DURATION_HOURS = 1;
+const BUFFER_HOURS = 1;
+
+// --- Time helpers you already use elsewhere ---
+function _dayKey(d) { return ["sun","mon","tue","wed","thu","fri","sat"][d.getDay()]; }
+function _ranges(x){ if(!x) return []; return Array.isArray(x)?x:[x]; }
+function _intervalsForDate(d, hours){
+  const y=d.getFullYear(), m=d.getMonth(), day=d.getDate();
+  const zero = new Date(y,m,day); zero.setHours(0,0,0,0);
+  const at = h=> new Date(zero.getTime() + h*3600*1000);
+  const out=[];
+  _ranges(hours[_dayKey(d)]||[]).forEach(r=>out.push([at(r.open), at(r.close)]));
+  const yst = new Date(zero); yst.setDate(zero.getDate()-1);
+  _ranges(hours[_dayKey(yst)]||[]).forEach(r=>{
+    if(r.close>24){
+      const yz = new Date(yst); yz.setHours(0,0,0,0);
+      out.push([new Date(yz.getTime()+r.open*3600*1000), new Date(yz.getTime()+r.close*3600*1000)]);
+    }
+  });
+  return out;
+}
+function isOpenAt(loc, when){
+  const hours = loc.hoursNumeric || {};
+  return _intervalsForDate(when, hours).some(([o,c])=> when>=o && when<c);
+}
+
+// --- Geo helper ---
+function distanceMeters(aLat,aLon,bLat,bLon){
+  const R=6371000, toRad=d=>d*Math.PI/180;
+  const dLat = toRad(bLat-aLat), dLon = toRad(bLon-aLon);
+  const la1=toRad(aLat), la2=toRad(bLat);
+  const h = Math.sin(dLat/2)**2 + Math.cos(la1)*Math.cos(la2)*Math.sin(dLon/2)**2;
+  return 2*R*Math.asin(Math.sqrt(h));
+}
+
+// --- Vibes overlap helper ---
+function vibesArray(loc){
+  const v = (loc.vibe || '').split(',').map(s=>s.trim().toLowerCase()).filter(Boolean);
+  const t = (loc.tags || '').split(',').map(s=>s.trim().toLowerCase()).filter(Boolean);
+  return Array.from(new Set([...v, ...t]));
+}
+function vibeOverlapCount(a,b){
+  const A = new Set(vibesArray(a));
+  let c=0; vibesArray(b).forEach(x=>{ if(A.has(x)) c++;});
+  return c;
+}
+
+// --- Type normalization ---
+function hasType(loc, desired){
+  const types = Array.isArray(loc.type)
+    ? loc.type.map(t => t.toLowerCase())
+    : String(loc.type || '').split(',').map(s => s.trim().toLowerCase());
+  return types.some(t => desired.includes(t));
+}
+function isMealType(loc){
+  const meals = ["breakfast","brunch","lunch","dinner"];
+  const types = Array.isArray(loc.type)
+    ? loc.type.map(t => t.toLowerCase())
+    : String(loc.type || '').split(',').map(s => s.trim().toLowerCase());
+  return types.some(t => meals.includes(t));
+}
+
+// --- Daypart sanity ---
+function daypartAllowedForNow(loc, now){
+  const dp = (typeof loc.dayParts === 'object' && loc.dayParts !== null && !Array.isArray(loc.dayParts))
+    ? loc.dayParts[_dayKey(now)]
+    : null;
+  if (!dp || dp === '-' ) return true;
+
+  const hour = now.getHours() + now.getMinutes()/60;
+  const letter = String(dp).toUpperCase();
+
+  const windowByLetter = {
+    M:  [5, 12],
+    MD: [10, 15],
+    A:  [12, 17],
+    HH: [16, 19],
+    E:  [17, 24],
+    L:  [22, 28],
+  };
+  const w = windowByLetter[letter];
+  if (!w) return true;
+  const [start, end] = w;
+  if (end <= 24) return hour >= start && hour < end;
+  return (hour >= start && hour <= 24) || (hour < (end-24));
+}
+
+// --- Stage sequencing ---
+function sequencedStagesForNow(now){
+  const h = now.getHours() + now.getMinutes()/60;
+  let startIdx = 0;
+  if (h >= 10.5 && h < 13) startIdx = 2;
+  else if (h >= 13 && h < 16) startIdx = 4;
+  else if (h >= 16 && h < 19) startIdx = 7;
+  else if (h >= 19 && h < 22) startIdx = 8;
+  else if (h >= 22 || h < 3) startIdx = 9;
+  return STAGE_GROUPS.slice(startIdx).concat(STAGE_GROUPS.slice(0,startIdx));
+}
+
+// --- Core route generator ---
+function generateRouteFromFavorite(favorite, opts = {}) {
+  const now = opts.startTime || new Date();
+  const maxStops = opts.maxStops || 6;
+
+  const byId = new Map(globalEvents.map(ev => [ev.id || ev.name, ev]));
+  const start = byId.get(favorite.id || favorite.name) || favorite;
+
+  const route = [start];
+  let last = start;
+  let lastStart = new Date(now);
+  let lastDuration = Number(start.duration) || DEFAULT_DURATION_HOURS;
+
+  const stagePlan = sequencedStagesForNow(now);
+
+  const pool = globalEvents
+    .filter(ev => (ev.lat && ev.lon))
+    .map(ev => ({...ev, lat: parseFloat(ev.lat), lon: parseFloat(ev.lon)}))
+    .filter(ev => (ev.id || ev.name) !== (start.id || start.name));
+
+  for (let i = 0; i < stagePlan.length && route.length < maxStops; i++) {
+    const desiredTypes = stagePlan[i];
+    const arrival = new Date(lastStart.getTime() + (lastDuration + BUFFER_HOURS) * 3600 * 1000);
+
+    let candidates = pool.filter(ev => {
+      if (!hasType(ev, desiredTypes)) return false;
+
+      const cap = isMealType(ev) ? DIST_CAP_MEAL : DIST_CAP_DEFAULT;
+      const dist = distanceMeters(last.lat, last.lon, ev.lat, ev.lon);
+      if (dist > cap) return false;
+
+      if (!daypartAllowedForNow(ev, arrival)) return false;
+      if (!isOpenAt(ev, arrival)) return false;
+      if (vibeOverlapCount(ev, last) < 1) return false;
+
+      return true;
+    });
+
+    if (!candidates.length) continue;
+
+    candidates.forEach(ev => {
+      const dist = distanceMeters(last.lat, last.lon, ev.lat, ev.lon);
+      const overlap = vibeOverlapCount(ev, last);
+      ev.__score = (overlap * 1000) - dist;
+    });
+    candidates.sort((a,b)=> (b.__score - a.__score));
+
+    const next = candidates[0];
+    route.push(next);
+
+    last = next;
+    lastStart = arrival;
+    lastDuration = Number(next.duration) || DEFAULT_DURATION_HOURS;
+
+    const idx = pool.findIndex(p => (p.id||p.name) === (next.id||next.name));
+    if (idx >= 0) pool.splice(idx,1);
+  }
+
+  return route;
+}
+
+
+// Reuse-safe: only define if not already present
+if (typeof buildGoogleMapsDirUrl !== 'function') {
+  function buildGoogleMapsDirUrl(events){
+    const base = "https://www.google.com/maps/dir/";
+    const waypoints = (events || []).map(e => `${e.lat},${e.lon}`).join('/');
+    return `${base}${waypoints}`;
+  }
+}
+
+function showRouteSummaryPopup(events, title = 'Your Crawl'){
+  const items = (events || []).map((e, i) => {
+    const safeName = (e.name || `Stop ${i+1}`).replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const href = e.link || '#';
+    return `<li><a href="${href}" target="_blank" rel="noopener">${safeName}</a></li>`;
+  }).join('');
+
+  const html = `
+    <div style="font:14px/1.35 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; max-width:320px;">
+      <div style="font-weight:700; margin-bottom:6px;">${title}</div>
+      <ol style="padding-left:18px; margin:0 0 8px;">${items}</ol>
+      <button id="exportGmapsBtn" style="display:inline-block;padding:6px 10px;border:1px solid #ccc;background:#fff;border-radius:6px;cursor:pointer;">
+        Open in Google Maps
+      </button>
+    </div>
+  `;
+
+  // Fit bounds to route and anchor popup near center
+  let center = map.getCenter();
+  try {
+    const bounds = L.latLngBounds(events.map(e => L.latLng(parseFloat(e.lat), parseFloat(e.lon))));
+    if (bounds.isValid()) { map.fitBounds(bounds.pad(0.2)); center = bounds.getCenter(); }
+  } catch(_){}
+
+  L.popup({ maxWidth: 360 }).setLatLng(center).setContent(html).openOn(map);
+
+  // Wire export
+  setTimeout(() => {
+    const btn = document.getElementById('exportGmapsBtn');
+    if (btn) btn.onclick = () => window.open(buildGoogleMapsDirUrl(events), '_blank');
+  }, 0);
+}
+
+  
+// --- Render route + keep only route markers ---
+function renderRouteOnMapFromList(route){
+  if (!route || !route.length) return;
+  window.selectedRoute = route;
+
+  const ids = route.map(l => l.id || l.name);
+  showOnlyRouteMarkers(map, window.allMarkers || [], ids);
+
+  if (window.routeLayer) map.removeControl(window.routeLayer);
+  const waypoints = route.map(loc => L.latLng(parseFloat(loc.lat), parseFloat(loc.lon)));
+  if (waypoints.length >= 2) {
+    window.routeLayer = L.Routing.control({
+      waypoints,
+      routeWhileDragging: false,
+      draggableWaypoints: false,
+      addWaypoints: false,
+      show: false
+    }).addTo(map);
+    try {
+      const bounds = L.latLngBounds(waypoints);
+      if (bounds.isValid()) map.fitBounds(bounds.pad(0.2));
+    } catch(_){}
+  }
+
+  if (typeof setClearRouteButtonEnabled === 'function') setClearRouteButtonEnabled(true);
+
+  // update URL (?route=...) so it’s shareable
+  try {
+    const url = new URL(location.href);
+    url.searchParams.set('route', ids.join(','));
+    history.replaceState(null, '', url.toString());
+  } catch(_){}
+
+  // ✅ Show ordered, linked stop list + Google export
+  showRouteSummaryPopup(route, 'Route from Favorite');
+}
+
+// --- Public entry: start a crawl from a saved favorite by id or name ---
+function startCrawlFromFavorite(favIdOrName, options = {}) {
+  // fetch favorite from localStorage
+  const favs = (() => { try { return JSON.parse(localStorage.getItem('savedFavorites')||'[]'); } catch { return []; }})();
+  const fav = favs.find(f => (f.id || f.name) === favIdOrName);
+  if (!fav) { alert('Favorite not found.'); return; }
+
+  const route = generateRouteFromFavorite(fav, options);
+  if (!route || route.length < 1) { alert('Could not build a route from that favorite.'); return; }
+  renderRouteOnMapFromList(route);
+}
+
+
+// 🔹 Route filtering helpers (keep only markers that are part of the route)
+function showOnlyRouteMarkers(map, markers, routeIds) {
+  const routeSet = new Set(routeIds);
+  markerLayer.clearLayers(); // 🔑 reset the group to avoid ghosts
+
+  (markers || []).forEach(m => {
+    const onRoute = routeSet.has(m.options && m.options.venueId);
+    if (onRoute) {
+      markerLayer.addLayer(m); // 🔑 add back into the same group
+    }
+  });
+}
+
+// 🔹 Convenience: call this right after you set selectedRoute in generateCrawlRoute()
+function filterMapToRoute() {
+  try {
+    const routeIds = (selectedRoute || []).map(l => l.id || l.name);
+    showOnlyRouteMarkers(map, window.allMarkers || [], routeIds);
+  } catch (e) {
+    console.warn('Marker filtering failed:', e);
+  }
+}
+
+  // --- Ensure expected globals exist ---
+window.allMarkers   = window.allMarkers   || [];   // filled by renderMarkers()
+window.routeLayer   = window.routeLayer   || null; // L.Routing.control instance
+window.routeGroup   = window.routeGroup   || null; // optional LayerGroup for route-only pins
+window.selectedRoute= window.selectedRoute|| [];   // your in-memory route array
+
+// Bring all markers back into the visible layer group
+function restoreAllMarkers(map, markers) {
+  if (!window.markerLayer) {
+    console.warn('markerLayer not found; creating a new one');
+    window.markerLayer = L.layerGroup().addTo(map);
+  }
+  markerLayer.clearLayers();
+  (markers || []).forEach(m => markerLayer.addLayer(m));
+}
+
+// Full clear: remove route line/control, restore markers, reset state + URL
+// --- bring all markers back into the visible layer group (NEW) ---
+function restoreAllMarkers(map, markers) {
+  if (!window.markerLayer) {
+    console.warn('markerLayer not found; creating a new one');
+    window.markerLayer = L.layerGroup().addTo(map);
+  }
+  markerLayer.clearLayers();
+  (markers || []).forEach(m => markerLayer.addLayer(m));
+}
+
+function clearRoute(){
+  // 1) Remove the route line / control
+  if (window.routeLayer) {
+    try { map.removeControl(window.routeLayer); } catch(_) {}
+    window.routeLayer = null;
+  }
+
+  // 2) Restore ALL markers to the map (via markerLayer)
+  restoreAllMarkers(map, window.allMarkers || []);
+
+  // 3) If you used a dedicated route-only group, clear it
+  if (window.routeGroup) { try { window.routeGroup.clearLayers(); } catch(_) {} }
+
+  // 4) Reset in-memory route state
+  window.selectedRoute = [];
+
+  // 5) Strip ?route= from the URL so reloads don't re-filter the map
+  try {
+    const url = new URL(location.href);
+    if (url.searchParams.has('route')) {
+      url.searchParams.delete('route');
+      history.replaceState(null, '', url.toString());
+    }
+  } catch (e) {
+    console.warn('URL cleanup failed:', e);
+  }
+
+  // 6) (Optional) clear any UI summary
+  if (typeof showCrawlSummary === 'function') {
+    try { showCrawlSummary([]); } catch(_) {}
+  }
+
+  // 7) (Optional) disable the clear button until a new route is built
+  setClearRouteButtonEnabled(false);
+
+  console.log('🧹 Route cleared and markers restored');
+}
+
+// Utility: enable/disable the Clear Route button for good UX
+function setClearRouteButtonEnabled(enabled) {
+  const btn = document.getElementById('clearRouteBtn');
+  if (!btn) return;
+  btn.disabled = !enabled;
+  btn.style.opacity = enabled ? '1' : '0.6';
+  btn.style.cursor  = enabled ? 'pointer' : 'not-allowed';
+}
+
+// Wire the Clear Route button (robust to DOM timing) (UPDATED)
+(function wireClearRouteButton(){
+  const hook = () => {
+    const btn = document.getElementById('clearRouteBtn');
+    if (!btn) { console.warn('#clearRouteBtn not found in DOM'); return; }
+    btn.addEventListener('click', clearRoute);
+    // Start disabled until a route exists
+    setClearRouteButtonEnabled(!!(window.selectedRoute && window.selectedRoute.length));
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', hook);
+  } else {
+    hook();
+  }
+})();
+
+// Call this AFTER you generate a route to enable the button automatically.
+// Example: after `selectedRoute = [...crawlRoute]; showCrawlSummary(crawlRoute);`
+function onRouteGenerated() {
+  setClearRouteButtonEnabled(true);
+}
+
+  
+fetch('events.json')
+  .then(res => res.json())
+  .then(events => {
+    globalEvents = events;
+
+    const todayStr = new Date().toISOString().slice(0, 10);
+    eventsToday = globalEvents.filter(ev =>
+      ev.dateEvents?.some(e => e.date === todayStr)
+    );
+
+    console.log("📅 Events Today:", eventsToday);
+
+   const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.has('crawl')) {
+  try {
+    const crawl = JSON.parse(decodeURIComponent(urlParams.get('crawl')));
+    console.log("🔗 Loaded crawl from URL:", crawl);
+
+    renderMarkers(crawl, true); // ✅ pass crawlMode = true
+    selectedRoute = [...crawl];
+    drawRoute();
+    showCrawlSummary(crawl);
+
+    document.querySelector('.controls').style.display = 'none'; // ✅ Hide controls for clean viewer
+
+    return; // ⛔ Skip default render if crawl loaded
+  } catch (e) {
+    console.error("Invalid crawl link:", e);
+  }
+}
+
+    // fallback to default view
+    renderMarkers(events);
+  })
+  .catch(err => {
+    console.error('Error loading events:', err);
+    alert('Failed to load locations.');
+  });
+
+
+const savedFromStorage = localStorage.getItem('savedRoutes');
+if (savedFromStorage) {
+  savedRoutes = JSON.parse(savedFromStorage);
+}
+  
+document.getElementById('saveRouteBtn').addEventListener('click', () => {
+  console.log('🧭 selectedRoute at time of save:', selectedRoute); // ✅ moved inside event
+
+  if (selectedRoute.length < 2) {
+    alert('Add at least 2 locations to save a route.');
+    return;
+  }
+
+  savedRoutes.push([...selectedRoute]);
+  localStorage.setItem('savedRoutes', JSON.stringify(savedRoutes)); // ✅ persist to localStorage
+  console.log('🔐 Saved to localStorage:', savedRoutes);
+  alert('Route saved to favorites.');
+});
+
+document.getElementById('favoritesBtn').addEventListener('click', () => {
+  openFavoritesModal();
+});
+
+document.getElementById('favoritesBtn').addEventListener('click', () => {
+  openFavoritesModal();
+});
+
+  document.getElementById('vibeSearchInput').addEventListener('input', () => {
+  if (globalEvents.length > 0) {
+    filterMarkersByVibe();
+  }
+});
+  
+const neighborhoodCenters = {
+  "aventino": L.latLng(41.8850, 12.4810),
+  "centro storico": L.latLng(41.9028, 12.4534),
+  "esquilino": L.latLng(41.8949, 12.5075),
+  "flaminio": L.latLng(41.9290, 12.4700),
+  "garbatella": L.latLng(41.8760, 12.4790),
+  "monteverde": L.latLng(41.8830, 12.4640),
+  "monti": L.latLng(41.8954, 12.4930),
+  "parioli": L.latLng(41.9190, 12.4840),
+  "pigneto": L.latLng(41.8870, 12.5180),
+  "prati": L.latLng(41.9092, 12.4533),
+  "san lorenzo": L.latLng(41.9032, 12.5180),
+  "testaccio": L.latLng(41.8765, 12.4760),
+  "trastevere": L.latLng(41.8884, 12.4701)
+};
+
+
+  const crawlFlows = {
+  "al fresco all day": ["brunch", "garden", "patio", "cocktail", "dinner"],
+  "art & culture": ["gallery", "museum", "cocktail", "music", "dessert"],
+  "art to afterparty": ["gallery", "exhibit", "wine bar", "dinner", "club"],
+  "brunch & beyond": ["brunch", "market", "rooftop", "bar", "dessert"],
+  "cheap & cheerful": ["coffee", "market", "random gem", "gallery", "dinner", "bar"],
+  "chill hang": ["coffee", "bookstore", "random gem", "lifestyle", "bar", "dessert"],
+  "creative kickstart": ["coffee", "gallery", "random gem", "bookstore", "lunch"],
+  "date day": ["brunch", "park", "random gem", "lifestyle", "dinner", "dessert"],
+  "date night": ["dinner", "cocktail", "dessert"],
+  "foodie tour": ["market", "lunch", "cocktail", "dinner", "dessert"],
+  "friends night out": ["dinner", "bar", "bar", "club", "late-night"],
+  "gallery crawl": ["gallery", "gallery", "lunch", "wine bar", "music"],
+  "health nut": ["fitness", "juice bar", "spa", "garden"],
+  "hidden gems": ["random gem", "cafe", "restaurant", "speakeasy", "bar"],
+  "last call": ["bar", "club", "late-night", "speakeasy", "lounge", "after hours"],
+  "late start legends": ["brunch", "bar", "cocktail", "dinner", "speakeasy", "lounge"],
+  "luxe life": ["gallery", "dinner", "cocktail", "lounge"],
+  "midday recharge": ["coffee", "lunch", "park", "gallery"],
+  "mindful mornings": ["wellness", "coffee", "garden", "market", "spa"],
+  "music mile": ["live music", "bar", "dinner", "cocktail", "club"],
+  "neighborhood sampler": ["coffee", "random gem", "lunch", "gallery", "bar"],
+  "nightcap circuit": ["cocktail", "speakeasy", "lounge", "dessert"],
+  "pages to pours": ["bookstore", "coffee", "gallery", "wine bar", "lounge"],
+  "party time": ["bar", "dinner", "bar", "club", "late-night"],
+  "patio perfection": ["brunch", "rooftop", "cocktail", "dinner", "dessert"],
+  "post-work wind down": ["bar", "dinner", "cocktail", "lounge"],
+  "quiet escape": ["bookstore", "tea", "park", "random gem", "lounge"],
+  "rom-com main character": ["coffee", "gallery", "wine bar", "rooftop", "speakeasy"],
+  "rooftops & views": ["rooftop", "cocktail", "dinner", "lounge"],
+  "saturday surge": ["activity", "bar", "dinner", "bar", "club", "late-night"],
+  "self-care": ["fitness", "spa", "tea", "bookstore", "park"],
+  "solo explorer": ["coffee", "random gem", "bookstore", "market", "park", "rooftop"],
+  "sports day": ["fitness", "activity", "lunch", "bar", "dinner"],
+  "stretch, shop, sip": ["yoga", "lifestyle", "juice bar", "brunch", "dessert"],
+  "sunrise start": ["fitness", "bakery", "coffee", "market", "park"],
+  "sunset lovers": ["park", "rooftop", "dinner", "cocktail"],
+  "sunday reset": ["fitness", "market", "lifestyle", "tea", "dinner"],
+  "tech bro escape": ["cocktail", "rooftop", "dinner", "club", "late-night"],
+  "weekend warriors": ["bar", "speakeasy", "bar", "club", "late-night"],
+  "work session": ["coffee", "lunch", "coffee", "cocktail"]
+};
+
+  
+  const themeMap = {
+  "art & culture": ["gallery", "aesthetic", "museum", "art", "exhibit", "creative", "theater", "film", "architecture", "history", "design", "photography", "curated", "classical", "modern", "expression", "sculpture", "installation", "culture", "vintage", "inspiration", "refined"],
+  "brunch & beyond": ["brunch", "mimosa", "day party", "pancakes", "bistro", "patio", "sunny", "casual", "daytime", "weekend", "outdoor", "social"],
+  "cheap & cheerful": ["diner", "cheap", "budget", "street", "casual", "$", "bite", "fast", "local", "market", "takeout", "gallery", "food truck"],
+  "chill hang": ["lounge", "cozy", "relaxed", "intimate", "chill", "sofa", "vintage", "casual", "warm", "neighborhood", "laid-back", "friendly", "comfort", "easygoing", "snack", "small bite", "lowkey", "hangout", "easy", "slow", "conversation", "quiet"],
+  "creative kickstart": ["studio", "journal", "sketch", "gallery", "quiet", "inspiration", "café", "bookstore", "sunny", "vinyl", "art", "notebook", "design", "creative space", "makers"],
+  "date day": ["brunch", "park", "casual", "romantic", "patio", "stroll", "serendipity", "daytime", "garden", "outdoor", "café", "dessert", "flirty", "walkable", "flowers", "sunny", "shared-plates", "laughs", "views", "lighthearted", "sweet", "easygoing"],
+  "date night": ["romantic", "date spot", "cocktail", "jazz", "twilight", "vibe", "wine", "dim", "moody", "candlelit", "intimate", "charming", "slow-paced", "flirty", "cozy", "soft", "sweet", "elegant", "lush", "quiet", "dreamy", "gentle", "classic"],
+  "foodie tour": ["restaurant", "tasting", "chef", "bistro", "eats", "gastro", "brunch", "dining", "flavors", "street food", "multi-course", "local cuisine", "fresh", "artisan", "flavorful", "course", "tasting-menu", "bite-sized", "shared", "seasonal", "notable", "refined"],
+  "friends night out": ["loud", "shareable", "pitchers", "group dinner", "crowded", "bar", "dinner", "club", "dj", "party", "scene", "drinks", "late-night", "social", "vibrant", "group", "shots", "energy", "rowdy", "dance", "hype", "weekend", "pregame", "cheers", "lit"],
+  "gallery crawl": ["gallery", "exhibit", "art", "creative", "museum", "opening", "culture", "fine art", "contemporary", "showcase", "art walk", "curated", "aesthetic", "stylish", "visual", "inspired", "refined", "chic", "trendy", "modern", "buzz"],
+  "health nut": ["wellness", "yoga", "juice", "smoothie", "matcha", "organic", "spa", "bathhouse", "vegan", "yoga", "fitness", "light bite", "gym", "meditation", "fresh"],
+  "hidden gems": ["speakeasy", "hidden", "secret", "underground", "niche", "alt", "unmarked", "local", "offbeat", "exclusive", "rare", "quirky", "low-profile"],
+  "last call": ["late-night", "karaoke", "after hours", "lively", "spontaneous", "gritty", "unfiltered", "nocturnal", "dance", "dark", "shots", "underground", "loose", "unhinged", "boozy", "nightcap"],
+  "late start legends": ["brunch", "cocktails", "twilight", "pre-game", "vibe", "evening", "casual", "low key", "date", "nightlife", "urban", "chill"],
+  "luxe life": ["fine dining", "aesthetic", "exclusive", "high-end", "rooftop", "wine", "luxury", "private", "VIP", "premium", "gourmet", "opulent", "exclusive view"],
+  "midday recharge": ["lunch", "coffee", "café", "juice", "quick bite", "park", "sunlight", "relaxed", "low key", "grab-and-go", "outdoor", "break"],
+  "mindful mornings": ["yoga", "meditation", "spa", "sunlight", "tea", "calm", "minimal", "introspective", "garden", "journal", "wellness", "fresh air", "stretch"],
+  "neighborhood sampler": ["walkable", "local", "market", "coffee", "casual", "random gem", "community vibe", "shops", "restaurants", "street life", "hidden spot", "corner café"],
+  "nightcap circuit": ["speakeasy", "whiskey", "jazz", "cozy", "lounge", "low light", "late", "neat", "intimate", "bar", "cigar", "smooth"],
+  "party time": ["club", "dance", "beats", "late", "dj", "loud", "drinks", "bar", "crowded", "energy", "flashy", "after hours", "party", "scene", "friends night out", "saturday surge", "lit", "group", "rowdy", "weekend", "pregame", "vibe", "cheers", "social"],
+  "post-work wind down": ["happy hour", "bar", "tapas", "light bite", "craft beer", "after work", "relax", "casual", "patio", "drinks", "evening", "mingle", "unwind", "refresh", "lowkey", "snacks", "cooldown", "ambient", "hangout", "rounds", "winddown", "ease"],
+  "quiet escape": ["tea", "bookstore", "park", "quiet", "introspective", "relaxed", "cozy", "minimal", "serene", "slow", "niche", "retreat"],
+  "rom-com main character": ["twilight", "charming", "patio", "vintage", "wine", "candlelit", "walkable", "cozy", "date", "serendipity", "scenic", "whimsical"],
+  "rooftops & views": ["rooftop", "view", "skyline", "sunset", "elevated", "balcony", "overlook", "outdoor", "cocktail", "scenic", "glamorous", "night lights"],
+  "saturday surge": ["dance", "dj", "crowded", "club", "party", "high energy", "beats", "rooftop", "late", "scene", "vibrant", "after hours"],
+  "self-care": ["spa", "relax", "yoga", "meditation", "serenity", "retreat", "tea", "calm", "detox", "massage", "rejuvenate", "peace"],
+  "solo explorer": ["bookstore", "gallery", "quiet", "scenic", "café", "park", "rooftop", "garden", "introspective", "nook", "wander", "hidden spot", "photo walk"],
+  "sports day": ["active", "game", "match", "fitness", "team", "outdoor", "energy", "training", "stadium", "competition", "field", "spectator"],
+  "sunrise start": ["coffee", "matcha", "sunrise", "morning", "café", "bakery", "brunch", "acai", "patio", "quiet", "fresh", "early", "energizing", "routine", "mindful", "stretch", "wellness", "cozy", "warm", "comforting", "inviting", "brewed", "caffeine", "mellow", "focused", "calm", "local", "seasonal", "browse", "natural", "neighborhood", "green", "stroll", "breeze", "peaceful", "slow-morning", "outdoor"],
+  "sunset lovers": ["park", "view", "golden hour", "romantic", "cocktail", "outdoor", "patio", "date", "skyline", "twilight", "serene", "photogenic"],
+  "sunday reset": ["garden", "tea", "spa", "quiet", "book", "relax", "wellness", "reflection", "meditation", "sunlight", "fresh", "slow"],
+  "tech bro escape": ["steakhouse", "cocktail", "crypto", "rooftop", "sleek", "bourbon", "high-end", "modern", "rare", "network", "exclusive", "private"],
+  "weekend warriors": ["dive bar", "after hours", "shots", "karaoke", "late night", "chaotic", "party", "crowd", "open late", "wild", "rowdy", "social"],
+  "work session": ["cafe", "wifi", "coffee", "focus", "remote-friendly", "laptop", "casual", "quiet", "workspace", "daytime", "study", "productive", "neighborhood", "light music", "comfortable seating"],
+  "patio perfection": ["patio", "al fresco", "open-air", "sunny", "shade", "breezy", "terrace", "brunchy", "plants", "outdoor", "chill", "garden", "social", "view", "loungy", "relaxed"],
+  "art to afterparty": ["gallery", "creative", "art", "edgy", "expressive", "cocktail", "night", "music", "mood", "chic", "theater", "neon", "bold", "late", "styled", "scene"],
+  "pages to pours": ["bookstore", "quiet", "cozy", "literary", "analog", "warm", "vintage", "library", "indie", "wine", "reflective", "moody", "ink", "writerly", "poetic", "sips"],
+  "al fresco all day": ["sunny", "bloom", "green", "garden", "light", "fresh", "outdoor", "easy", "brunch", "picnic", "open-air", "dog-friendly", "mellow", "daytime", "leisure", "floral", "relaxing"],
+  "music mile": ["live", "sound", "vinyl", "stage", "dance", "band", "DJ", "retro", "acoustic", "loud", "rhythm", "bass", "eclectic", "energy", "jam", "neon", "beat"],
+  "stretch, shop, sip": ["yoga", "fit", "lifestyle", "luxe", "local", "boutique", "intentional", "wellness", "fresh", "feminine", "spa", "curated", "flow", "soft", "leisure", "balance"]
+};
+
+
+function matchesTheme(loc, theme) {
+  const keywords = themeMap[theme] || [];
+  const allTags = [
+    ...(loc.vibe || []),
+    ...(typeof loc.tags === 'string' ? loc.tags.split(',').map(t => t.trim().toLowerCase()) : [])
+  ];
+  return keywords.some(kw => allTags.includes(kw));
+}
+
+function getCurrentDayPart() {
+  const hour = new Date().getHours();
+  if (hour >= 6 && hour < 11) return ['M'];
+  if (hour >= 11 && hour < 14) return ['MD'];
+  if (hour >= 14 && hour < 16) return ['A'];
+  if (hour >= 16 && hour < 19) return ['HH'];
+  if (hour >= 19 && hour < 22) return ['E'];
+  return ['L']; // Late night or overnight
+}
+
+ // day key from Date object
+function _dayKey(d) {
+  return ["sun","mon","tue","wed","thu","fri","sat"][d.getDay()];
+}
+
+// normalize to array of {open, close} objects
+function _ranges(x) {
+  if (!x) return [];
+  return Array.isArray(x) ? x : [x];
+}
+
+// Get actual open/close Date objects for a given date
+function _intervalsForDate(d, hours) {
+  const y = d.getFullYear(), m = d.getMonth(), day = d.getDate();
+  const zero = new Date(y, m, day);
+  zero.setHours(0, 0, 0, 0);
+
+  const at = h => new Date(zero.getTime() + h * 3600 * 1000);
+
+  const out = [];
+  // today's ranges
+  (_ranges(hours[_dayKey(d)])).forEach(r => {
+    out.push([at(r.open), at(r.close)]);
+  });
+
+  // yesterday's late ranges (>24h close)
+  const yst = new Date(zero);
+  yst.setDate(zero.getDate() - 1);
+  (_ranges(hours[_dayKey(yst)])).forEach(r => {
+    if (r.close > 24) {
+      const yZero = new Date(yst);
+      yZero.setHours(0, 0, 0, 0);
+      out.push([
+        new Date(yZero.getTime() + r.open * 3600 * 1000),
+        new Date(yZero.getTime() + r.close * 3600 * 1000)
+      ]);
+    }
+  });
+
+  return out;
+}
+
+// Check if a location is open at a given datetime
+function isOpenAt(loc, when) {
+  const hours = loc.hoursNumeric || {};
+  return _intervalsForDate(when, hours).some(([o, c]) => when >= o && when < c);
+}
+
+  function showCrawlSummary(crawlRoute) {
+  const summaryDiv = document.getElementById("crawlSummary");
+  summaryDiv.innerHTML = ""; // Clear old content
+
+  const list = document.createElement("ol");
+  crawlRoute.forEach((stop, index) => {
+    const item = document.createElement("li");
+    const link = document.createElement("a");
+    link.href = stop.link || "#";
+    link.textContent = `Stop ${index + 1}: ${stop.name}`;
+    link.target = "_blank";
+    item.appendChild(link);
+    list.appendChild(item);
+  });
+
+  summaryDiv.appendChild(list);
+
+  const saveBtn = document.createElement("button");
+  saveBtn.textContent = "💾 Save to My Favorites";
+  saveBtn.onclick = () => {
+    if (crawlRoute.length < 2) {
+      alert('Add at least 2 stops to save a route.');
+      return;
+    }
+    const existing = localStorage.getItem('savedRoutes');
+    const routes = existing ? JSON.parse(existing) : [];
+    routes.push([...crawlRoute]);
+    localStorage.setItem('savedRoutes', JSON.stringify(routes));
+    alert("Crawl saved to favorites (local only for now)!");
+  };
+  summaryDiv.appendChild(saveBtn);
+
+  const exportBtn = document.createElement("button");
+  exportBtn.textContent = "Export to Google Maps";
+  exportBtn.onclick = () => {
+    const base = "https://www.google.com/maps/dir/";
+    const waypoints = crawlRoute.map(stop => `${stop.lat},${stop.lng}`).join('/');
+    const url = `${base}${waypoints}`;
+    window.open(url, "_blank");
+  };
+  summaryDiv.appendChild(exportBtn);
+
+  function copyShareableRouteLink(crawlRoute){
+  const ids = (crawlRoute || []).map(l => l.id || l.name).join(',');
+  const url = new URL(location.href);
+  url.searchParams.set('route', ids);   // short & robust
+  navigator.clipboard.writeText(url.toString()).then(() => {
+    alert('Route link copied!');
+  }).catch(err => console.warn('Copy failed:', err));
+}
+
+// Replace your existing shareBtn.onclick with this:
+const shareBtn = document.createElement("button");
+shareBtn.textContent = "Copy Crawl Link";
+shareBtn.onclick = () => {
+  copyShareableRouteLink(selectedRoute || []);
+};
+  summaryDiv.appendChild(shareBtn);
+
+  const closeBtn = document.createElement("button");
+  closeBtn.textContent = "Close";
+  closeBtn.onclick = () => {
+    summaryDiv.style.display = "none";
+  };
+  summaryDiv.appendChild(closeBtn);
+
+  summaryDiv.style.display = "block"; // Show it
+}
+  
+// Fixed generateCrawlRoute with real open-time validation and after-midnight handling
+function generateCrawlRoute() {
+  const todayStr = new Date().toISOString().slice(0, 10);
+  if (!globalEvents.length) {
+    alert("Locations not loaded yet. Please wait a moment.");
+    return;
+  }
+
+  const crawlStart = new Date();
+  const bufferHours = 1;
+
+  const neighborhood = document.getElementById('neighborhood-input').value.toLowerCase();
+  const priceFilter = document.getElementById('priceFilter').value.trim();
+  const durationSetting = document.getElementById('durationDropdown').value;
+  const neighborhoodCenter = neighborhoodCenters[neighborhood];
+
+  if (!neighborhoodCenter || isNaN(neighborhoodCenter.lat) || isNaN(neighborhoodCenter.lng)) {
+    alert("Invalid or missing neighborhood center.");
+    return;
+  }
+
+  let center = L.latLng(neighborhoodCenter.lat, neighborhoodCenter.lng);
+  const maxDuration = durationSetting === 'short' ? 2 : durationSetting === 'medium' ? 5 : 8;
+  const rawTheme = document.getElementById('themeDropdown').value;
+  const theme = rawTheme.trim().toLowerCase();
+  const themeKeywords = (themeMap[theme] || []).map(kw => kw.toLowerCase());
+
+  const priceTiers = ['$', '$$', '$$$', '$$$$'];
+  const selectedTierIndex = priceTiers.indexOf(priceFilter);
+  const baseDayParts = getCurrentDayPart();
+  const themeOverrides = {
+    "sunrise start": ["M"],
+    "mindful mornings": ["M", "MD"],
+    "creative kickstart": ["M", "MD"],
+    "midday recharge": ["MD", "A"],
+    "health nut": ["M", "MD", "A"],
+    "work session": ["M", "MD", "A"],
+    "brunch & beyond": ["MD", "A"],
+    "late start legends": ["MD", "A", "HH"],
+    "post-work wind down": ["HH", "E"],
+    "golden hour": ["HH"],
+    "foodie tour": ["A", "HH", "E"],
+    "chill hang": ["A", "HH", "E"],
+    "cheap & cheerful": ["A", "HH", "E"],
+    "date night": ["E"],
+    "rom-com main character": ["E"],
+    "nightcap circuit": ["E", "L"],
+    "party time": ["E", "L"],
+    "saturday surge": ["E", "L"],
+    "weekend warriors": ["L"],
+    "tech bro escape": ["E", "L"],
+    "self-care": ["M", "MD", "A"],
+    "art & culture": ["MD", "A", "E"],
+    "artsy & indie": ["A", "E"],
+    "solo explorer": ["M", "MD", "A"],
+    "rooftops & views": ["HH", "E"],
+    "hidden gems": ["E", "L"],
+    "sunday reset": ["M", "MD", "A"]
+  };
+  const currentDayParts = themeOverrides[theme] || baseDayParts;
+
+  const today = new Date();
+  const dayKey = today.toLocaleDateString('en-US', { weekday: 'short' }).toLowerCase();
+
+  const allLocations = globalEvents.map(ev => ({
+    ...ev,
+    lat: parseFloat(ev.lat),
+    lng: parseFloat(ev.lon),
+    vibe: (ev.vibe || '').split(',').map(v => v.trim().toLowerCase()),
+    tags: (ev.tags || '').split(',').map(t => t.trim().toLowerCase())
+  }));
+
+  function isOpenAt(loc, dateTime) {
+    const weekday = dateTime.toLocaleDateString('en-US', { weekday: 'short' }).toLowerCase();
+    const prevWeekday = new Date(dateTime.getTime() - 86400000).toLocaleDateString('en-US', { weekday: 'short' }).toLowerCase();
+    const timeDecimal = dateTime.getHours() + dateTime.getMinutes() / 60;
+
+    const todayHours = loc.hoursNumeric?.[weekday];
+    const prevHours = loc.hoursNumeric?.[prevWeekday];
+
+    // Check current day normally
+    if (todayHours && todayHours.open !== undefined && todayHours.close !== undefined) {
+      if (todayHours.close > todayHours.open) {
+        if (timeDecimal >= todayHours.open && timeDecimal <= todayHours.close) return true;
+      } else {
+        // after-midnight case (e.g. 22 to 26)
+        if (timeDecimal >= todayHours.open || timeDecimal <= (todayHours.close % 24)) return true;
+      }
+    }
+
+    // Check if current time falls into after-midnight window from previous day
+    if (prevHours && prevHours.close > 24 && timeDecimal <= (prevHours.close % 24)) {
+      return timeDecimal <= (prevHours.close % 24);
+    }
+
+    return false;
+  }
+
+  const openLocations = allLocations.filter(loc => {
+    const allKeywords = [...loc.vibe, ...loc.tags];
+    const matchesPrice = !priceFilter || (loc.price && priceTiers.indexOf(loc.price) <= selectedTierIndex);
+    const matchesTheme = !theme || themeKeywords.some(kw => allKeywords.includes(kw));
+    const isCurrentlyOpen = isOpenAt(loc, crawlStart);
+    return matchesPrice && matchesTheme && isCurrentlyOpen;
+  });
+
+  const validLocations = openLocations.filter(ev => ev.lat && ev.lon && !isNaN(ev.lat) && !isNaN(ev.lon));
+  validLocations.forEach(ev => {
+    const vibeMatches = ev.vibe.filter(v => themeKeywords.includes(v));
+    const tagMatches = ev.tags.filter(t => themeKeywords.includes(t));
+    const dist = center.distanceTo(L.latLng(ev.lat, ev.lon));
+    ev._score = (vibeMatches.length + tagMatches.length) / (dist + 1);
+    ev._score += ev.dateEvents?.some(e => e.date === todayStr) ? 1 : 0;
+  });
+
+  const sorted = validLocations.filter(ev => center.distanceTo(L.latLng(ev.lat, ev.lon)) <= 3000).sort((a, b) => b._score - a._score);
+  const crawlStages = crawlFlows[theme] || [];
+  const crawlRoute = [];
+  let timeSpent = 0;
+  let lastPoint = center;
+  let lastStopStartTime = new Date(crawlStart);
+  let lastStopDuration = 0;
+
+  let startingStageIndex = crawlStages.findIndex(stage => {
+    return sorted.some(loc => loc.type === stage && themeKeywords.some(kw => [...loc.vibe, ...loc.tags].includes(kw)));
+  });
+
+  if (startingStageIndex === -1) {
+    alert("No suitable starting point found for this theme.");
+    return;
+  }
+
+  for (let i = startingStageIndex; i < crawlStages.length; i++) {
+    const stage = crawlStages[i];
+    const stageCandidates = sorted.filter(loc => {
+      const vibeAndTags = [...(loc.vibe || []), ...(loc.tags || [])];
+      const typeArray = Array.isArray(loc.type) ? loc.type : String(loc.type).split(',').map(s => s.trim().toLowerCase());
+      const matchesType = typeArray.includes(stage.toLowerCase());
+      const matchesVibe = themeKeywords.some(kw => vibeAndTags.includes(kw));
+      const withinDistance = lastPoint.distanceTo(L.latLng(loc.lat, loc.lon)) <= 1500;
+      const fitsTime = timeSpent + (loc.duration || 1) <= maxDuration;
+
+      const arrivalTime = new Date(
+        lastStopStartTime.getTime()
+        + (lastStopDuration || (crawlRoute[crawlRoute.length - 1]?.duration || 1)) * 3600_000
+        + (crawlRoute.length > 0 ? bufferHours * 3600_000 : 0)
+      );
+
+      const passesOpenTimeCheck = isOpenAt(loc, arrivalTime);
+      return matchesType && matchesVibe && withinDistance && fitsTime && passesOpenTimeCheck;
+    });
+
+    if (!stageCandidates.length) continue;
+    const next = stageCandidates[0];
+    crawlRoute.push(next);
+    lastStopStartTime = new Date(
+      lastStopStartTime.getTime()
+      + (lastStopDuration || (crawlRoute[crawlRoute.length - 2]?.duration || 1)) * 3600_000
+      + bufferHours * 3600_000
+    );
+    lastStopDuration = next.duration || 1;
+    timeSpent += lastStopDuration;
+    lastPoint = L.latLng(next.lat, next.lon);
+    sorted.splice(sorted.indexOf(next), 1);
+  }
+
+  if (crawlRoute.length < 2) {
+    alert('Could not build a full crawl with available stops.');
+    return;
+  }
+
+  if (window.routeLayer) map.removeControl(window.routeLayer);
+  const waypoints = crawlRoute.map(loc => L.latLng(loc.lat, loc.lon));
+  window.routeLayer = L.Routing.control({
+    waypoints,
+    routeWhileDragging: false,
+    draggableWaypoints: false,
+    addWaypoints: false,
+    show: false
+  }).addTo(map);
+
+  selectedRoute = [...crawlRoute];
+  showCrawlSummary(crawlRoute);
+  filterMapToRoute();
+  setClearRouteButtonEnabled(selectedRoute.length >= 2);
+  try {
+    const routeIds = crawlRoute.map(l => l.id || l.name);
+    showOnlyRouteMarkers(map, window.allMarkers || [], routeIds);
+  } catch (e) {
+    console.warn('Marker filtering failed:', e);
+  }
+}
+
+
+
+   // ✅ Only trigger crawl logic on button click — no arguments needed
+document.getElementById('crawlNowBtn').addEventListener('click', generateCrawlRoute);
+
+  // Simple modal HTML injection (routes + single-place favorites)
+function openFavoritesModal() {
+  const routes = (() => {
+    try { return JSON.parse(localStorage.getItem('savedRoutes') || '[]'); } catch { return []; }
+  })();
+  const favs = (() => {
+    try { return JSON.parse(localStorage.getItem('savedFavorites') || '[]'); } catch { return []; }
+  })();
+
+  console.log('📦 Routes from localStorage:', routes);
+  console.log('⭐ Favorites from localStorage:', favs);
+
+  let html = `
+    <div id="modal" style="position:fixed;top:10%;left:50%;transform:translateX(-50%);background:white;padding:20px;z-index:2000;border:1px solid #ccc;max-height:80%;overflow:auto;box-shadow:0 0 10px rgba(0,0,0,0.3);border-radius:8px;min-width:320px;">
+      <h2 style="margin-top:0;">My Favorites</h2>
+
+      <h3 style="margin:12px 0 6px;">Saved Routes</h3>
+  `;
+
+  if (!routes.length) {
+    html += '<p style="margin:0 0 8px;"><em>No routes saved.</em></p>';
+  } else {
+    html += '<ul style="padding-left:18px;margin:0 0 8px;">';
+    routes.forEach((route, idx) => {
+      const title = route[0]?.name ? route[0].name : `Route #${idx + 1}`;
+      html += `
+        <li style="margin-bottom:10px;">
+          <strong>${title}</strong> <em>(${route.length} stops)</em>
+          <div style="margin-top:4px;display:flex;gap:6px;flex-wrap:wrap;">
+            <button data-idx="${idx}" class="copy-route">Copy Link</button>
+            <button data-idx="${idx}" class="load-route">Load</button>
+            <button data-idx="${idx}" class="export-route">Open in Google Maps</button>
+            <button data-idx="${idx}" class="remove-route">Remove</button>
+          </div>
+        </li>
+      `;
+    });
+    html += '</ul>';
+  }
+
+  html += `
+      <h3 style="margin:12px 0 6px;">Saved Places</h3>
+  `;
+
+  if (!favs.length) {
+  html += '<p style="margin:0 0 8px;"><em>No saved places yet.</em></p>';
+} else {
+  html += '<ul style="padding-left:18px;margin:0 0 8px;">';
+  favs.forEach((f, idx) => {
+    const safeName = (f.name || '').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const href = f.link || '#';
+    html += `
+      <li style="margin-bottom:10px;">
+        <a href="${href}" target="_blank" rel="noopener">${safeName}</a>
+        <div style="margin-top:4px;display:flex;gap:6px;flex-wrap:wrap;">
+          <button data-idx="${idx}" class="center-fav">Center on Map</button>
+          <button data-idx="${idx}" class="build-route-from-fav">Build Route From This</button>
+          <button data-idx="${idx}" class="remove-fav">Remove</button>
+        </div>
+      </li>
+    `;
+  });
+  html += '</ul>';
+}
+
+
+  html += `
+      <hr style="margin:12px 0;">
+      <div style="text-align:right;">
+        <button id="closeModal">Close</button>
+      </div>
+    </div>
+  `;
+
+  document.getElementById('modal')?.remove(); // ensure no duplicate modals
+  document.body.insertAdjacentHTML('beforeend', html);
+
+  // Close
+  document.getElementById('closeModal').onclick = () => {
+    document.getElementById('modal').remove();
+  };
+
+  // --- Wire ROUTE actions ---
+  // Copy shareable link (?route=ID,ID,...)
+  document.querySelectorAll('.copy-route').forEach(btn => {
+    btn.onclick = () => {
+      const idx = +btn.dataset.idx;
+      const route = routes[idx] || [];
+      const ids = route.map(l => l.id || l.name).join(',');
+      const url = new URL(location.href);
+      url.searchParams.set('route', ids);
+      navigator.clipboard.writeText(url.toString()).then(() => alert('Route link copied!'));
+    };
+  });
+
+  // Load on map (filter to route markers, draw line, enable clear)
+  document.querySelectorAll('.load-route').forEach(btn => {
+    btn.onclick = () => {
+      const idx = +btn.dataset.idx;
+      const route = routes[idx] || [];
+      if (!route.length) return;
+
+      window.selectedRoute = route;
+
+      // Filter markers to route only
+      const routeIds = route.map(l => l.id || l.name);
+      showOnlyRouteMarkers(map, window.allMarkers || [], routeIds);
+
+      // Build routing line
+      if (window.routeLayer) map.removeControl(window.routeLayer);
+      const waypoints = route.map(loc => L.latLng(parseFloat(loc.lat), parseFloat(loc.lon)));
+      if (waypoints.length >= 2) {
+        window.routeLayer = L.Routing.control({
+          waypoints,
+          routeWhileDragging: false,
+          draggableWaypoints: false,
+          addWaypoints: false,
+          show: false
+        }).addTo(map);
+      }
+
+      // Recenter and enable Clear
+      try {
+        const bounds = L.latLngBounds(waypoints);
+        if (bounds.isValid()) map.fitBounds(bounds.pad(0.2));
+      } catch(_) {}
+      if (typeof setClearRouteButtonEnabled === 'function') setClearRouteButtonEnabled(true);
+
+      // Update URL for shareability
+      try {
+        const url = new URL(location.href);
+        url.searchParams.set('route', routeIds.join(','));
+        history.replaceState(null, '', url.toString());
+      } catch(_) {}
+
+      document.getElementById('modal').remove();
+    };
+  });
+
+  // Export to Google Maps (fix: use lon, not lng)
+  document.querySelectorAll('.export-route').forEach(btn => {
+    btn.onclick = () => {
+      const idx = +btn.dataset.idx;
+      const route = routes[idx] || [];
+      const base = "https://www.google.com/maps/dir/";
+      const waypoints = route.map(loc => `${loc.lat},${loc.lon}`).join('/'); // ✅ lon
+      const url = `${base}${waypoints}`;
+      window.open(url, '_blank');
+    };
+  });
+
+  // Remove route
+  document.querySelectorAll('.remove-route').forEach(btn => {
+    btn.onclick = () => {
+      const idx = +btn.dataset.idx;
+      routes.splice(idx, 1);
+      localStorage.setItem('savedRoutes', JSON.stringify(routes));
+      openFavoritesModal(); // re-render modal
+    };
+  });
+
+ // --- Wire FAVORITE (single place) actions ---
+document.querySelectorAll('.center-fav').forEach(btn => {
+  btn.onclick = () => {
+    const idx = +btn.dataset.idx;
+    const f = favs[idx];
+    if (!f) return;
+    const lat = parseFloat(f.lat), lon = parseFloat(f.lon);
+    if (isFinite(lat) && isFinite(lon)) map.setView([lat, lon], 16);
+
+    // Try to open its existing marker popup if present
+    const m = (window.allMarkers || []).find(mk => (mk.options?.venueId === (f.id || f.name)));
+    if (m) m.openPopup();
+    // Keep modal open so user can act on others, or close if you prefer:
+    // document.getElementById('modal').remove();
+  };
+});
+
+// Build a route starting from this favorite
+document.querySelectorAll('.build-route-from-fav').forEach(btn => {
+  btn.onclick = () => {
+    const idx = +btn.dataset.idx;
+    const favs = JSON.parse(localStorage.getItem('savedFavorites') || '[]');
+    const f = favs[idx];
+    if (!f) return;
+
+    // Your engine entry point (must be defined globally)
+    startCrawlFromFavorite(f.id || f.name, { maxStops: 6, startTime: new Date() });
+
+    document.getElementById('modal')?.remove(); // optional: close modal
+  };
+});
+
+
+document.querySelectorAll('.remove-fav').forEach(btn => {
+  btn.onclick = () => {
+    const idx = +btn.dataset.idx;
+    favs.splice(idx, 1);
+    localStorage.setItem('savedFavorites', JSON.stringify(favs));
+    openFavoritesModal(); // re-render modal
+  };
+});
+}
+
+
+  
 </script>
+<div style="position: absolute; bottom: 3px; right: 0px; z-index: 1000; background: rgba(255,255,255,0.8); padding: 4px 8px; border-radius: 4px; font-size: 8px;">
+  © 2025 Roam. All rights reserved. The Roam App™ is a trademark of Roam Curated LLC.
+</div>
 </body>
 </html>
