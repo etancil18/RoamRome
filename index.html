@@ -368,6 +368,77 @@ function buildRouteShareUrl(routeArr) {
   url.searchParams.set('route', buildRouteIds(routeArr));
   return url.toString();
 }
+
+  // ✅ Add photo cover helper functions here (before renderMarkers)
+function slugifyName(name = '') {
+  return String(name)
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+// Build an ordered list of possible image URLs.
+// Adjust the paths to match your repo structure if different.
+function coverCandidates(ev) {
+  const s = slugifyName(ev.name || '');
+  const guesses = [
+    ev.cover || null,                                       // explicit
+    `img/venues/${s}/cover.jpg`,
+    `img/venues/${s}/cover.webp`,
+    `img/venues/${s}/cover.png`,
+    `img/venues/${s}.jpg`,
+    `img/venues/${s}.webp`,
+    `img/venues/${s}.png`
+  ].filter(Boolean);
+  // Dedupe while preserving order
+  return [...new Set(guesses)];
+}
+
+// Called by <img onerror> to try the next candidate, or remove the image
+function tryNextCover(imgEl) {
+  try {
+    const list = (imgEl.dataset.candidates || '').split('|').filter(Boolean);
+    let idx = parseInt(imgEl.dataset.idx || '0', 10) + 1;
+    if (idx < list.length) {
+      imgEl.dataset.idx = String(idx);
+      imgEl.src = list[idx];
+    } else {
+      // No candidates left — remove the image cleanly
+      const parent = imgEl.parentNode;
+      parent && parent.removeChild(imgEl);
+      // Optional: remove credit line if present just below
+      const credit = parent?.querySelector?.('.cover-credit');
+      if (credit) credit.remove();
+    }
+  } catch (_) {
+    // If anything goes sideways, remove the element
+    imgEl.parentNode && imgEl.parentNode.removeChild(imgEl);
+  }
+}
+
+// Returns the HTML for the image block with all candidates embedded.
+// You can pass ev.coverCredit / ev.coverAlt if you add them in JSON.
+function buildCoverImgHTML(ev) {
+  const candidates = coverCandidates(ev);
+  if (!candidates.length) return '';
+  const first = candidates[0];
+  const alt = (ev.coverAlt || ev.name || 'Cover').replace(/"/g, '&quot;');
+  const credit = ev.coverCredit ? 
+    `<div class="cover-credit" style="font-size:11px;color:#999;margin:-4px 0 6px;">${ev.coverCredit}</div>` : '';
+  return `
+    <img
+      src="${first}"
+      alt="${alt}"
+      loading="lazy"
+      style="width:100%;max-height:140px;object-fit:cover;border-radius:8px;margin:6px 0;"
+      data-candidates="${candidates.join('|')}"
+      data-idx="0"
+      onerror="tryNextCover(this)"
+    />
+    ${credit}
+  `;
+}
+
   
 // ─── FILTER MARKERS ────────────────────────────────────────────────────
 function filterMarkersByVibe() {
@@ -512,9 +583,7 @@ function renderMarkers(events, crawlMode = false) {
     const popupContent = `
   <div style="font-size:14px;line-height:1.4;">
     <strong>${ev.name}</strong><br/>
-    ${ev.cover ? `<img src="${ev.cover}" alt="${ev.coverAlt || ev.name}" loading="lazy"
-                   style="width:100%;max-height:140px;object-fit:cover;border-radius:8px;margin:6px 0;">` : ``}
-    ${ev.coverCredit ? `<div style="font-size:11px;color:#999;margin:-4px 0 6px;">${ev.coverCredit}</div>` : ``}
+    ${buildCoverImgHTML(ev)}
     <em>Vibe:</em> ${ev.vibe}<br/>
     <em>Hours:</em> ${ev.hours?.[todayIndex] || 'N/A'}<br/>
     <em>Status:</em> ${isOpen ? '<span style="color:green;">Open Now</span>' : '<span style="color:red;">Closed</span>'}<br/>
@@ -527,6 +596,7 @@ function renderMarkers(events, crawlMode = false) {
     <button class="add-fav-btn">Add to Favorites</button>
   </div>
 `;
+
 
 
     marker.bindPopup(popupContent).addTo(markerLayer);
