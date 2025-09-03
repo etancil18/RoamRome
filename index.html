@@ -510,20 +510,24 @@ function renderMarkers(events, crawlMode = false) {
       : '<em>No similar places nearby.</em>';
 
     const popupContent = `
-      <div style="font-size:14px;line-height:1.4;">
-        <strong>${ev.name}</strong><br/>
-        <em>Vibe:</em> ${ev.vibe}<br/>
-        <em>Hours:</em> ${ev.hours?.[todayIndex] || 'N/A'}<br/>
-        <em>Status:</em> ${isOpen ? '<span style="color:green;">Open Now</span>' : '<span style="color:red;">Closed</span>'}<br/>
-        <a href="${ev.link}" target="_blank">More Info</a>
-        <hr/>
-        <strong>Could also be the move..:</strong>
-        ${similarList}
-        <br/><br/>
-        <button class="add-route-btn">Add to Route</button>
-        <button class="add-fav-btn">Add to Favorites</button>
-      </div>
-    `;
+  <div style="font-size:14px;line-height:1.4;">
+    <strong>${ev.name}</strong><br/>
+    ${ev.cover ? `<img src="${ev.cover}" alt="${ev.coverAlt || ev.name}" loading="lazy"
+                   style="width:100%;max-height:140px;object-fit:cover;border-radius:8px;margin:6px 0;">` : ``}
+    ${ev.coverCredit ? `<div style="font-size:11px;color:#999;margin:-4px 0 6px;">${ev.coverCredit}</div>` : ``}
+    <em>Vibe:</em> ${ev.vibe}<br/>
+    <em>Hours:</em> ${ev.hours?.[todayIndex] || 'N/A'}<br/>
+    <em>Status:</em> ${isOpen ? '<span style="color:green;">Open Now</span>' : '<span style="color:red;">Closed</span>'}<br/>
+    <a href="${ev.link}" target="_blank" rel="noopener">More Info</a>
+    <hr/>
+    <strong>Could also be the move..:</strong>
+    ${similarList}
+    <br/><br/>
+    <button class="add-route-btn">Add to Route</button>
+    <button class="add-fav-btn">Add to Favorites</button>
+  </div>
+`;
+
 
     marker.bindPopup(popupContent).addTo(markerLayer);
 
