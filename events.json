@@ -6063,5 +6063,422 @@
     "tags": "italian",
     "price": "$",
     "duration": 0.5
-  }
+  },
+  {
+  "name": "Gatsby Cafè",
+  "vibe": "Retro, Cocktail, Vintage, Art déco, Velvet, Glamour, Social night, Jazz, Lively, Golden age",
+  "type": ["coffee", "cocktail", "music"],
+  "lat": 41.8938026,
+  "lon": 12.5038577,
+  "link": "https://www.instagram.com/gatsbycafe/",
+  "openNow": true,
+  "hours": [
+    "Sunday: 8:00 AM–12:00 AM",
+    "Monday: 8:00 AM–12:00 AM",
+    "Tuesday: 8:00 AM–12:00 AM",
+    "Wednesday: 8:00 AM–12:00 AM",
+    "Thursday: 8:00 AM–12:00 AM",
+    "Friday: 8:00 AM–2:00 AM",
+    "Saturday: 8:00 AM–2:00 AM"
+  ],
+  "dateEvents": [],
+  "hoursNumeric": {
+    "sun": { "open": 8, "close": 24 },
+    "mon": { "open": 8, "close": 24 },
+    "tue": { "open": 8, "close": 24 },
+    "wed": { "open": 8, "close": 24 },
+    "thu": { "open": 8, "close": 24 },
+    "fri": { "open": 8, "close": 26 },
+    "sat": { "open": 8, "close": 26 }
+  },
+  "dayParts": {
+    "sun": "HH",
+    "mon": "HH",
+    "tue": "HH",
+    "wed": "HH",
+    "thu": "HH",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Happy Hour, Late Night",
+  "energyRamp": 3,
+  "tags": "italian",
+  "price": "$",
+  "duration": 1.25
+},
+{
+  "name": "Tibur",
+  "vibe": "Alternative, Youthful, Bar, Indie, Underground, Nightlife, Casual, Music, Social, University vibe",
+  "type": ["random gem"],
+  "lat": 41.8973224,
+  "lon": 12.515008,
+  "link": "https://www.instagram.com/cinematibur/",
+  "openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: Closed",
+    "Thursday: Closed",
+    "Friday: Closed",
+    "Saturday: Closed"
+  ],
+  "dateEvents": [],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+  },
+  "dayParts": {
+    "sun": "-",
+    "mon": "-",
+    "tue": "-",
+    "wed": "-",
+    "thu": "-",
+    "fri": "-",
+    "sat": "-"
+  },
+  "timeCategory": "—",
+  "energyRamp": 2,
+  "tags": "italian",
+  "price": "$",
+  "duration": 2
+},
+{
+  "name": "Hollywood tutto sul Cinema",
+  "vibe": "Cinephile, Posters, Golden age, Film history, Collectors, Nostalgic, Memorabilia, Niche, Retro, Artistic",
+  "type": ["random gem"],
+  "lat": 41.8959254,
+  "lon": 12.4695293,
+  "link": "https://www.instagram.com/hollywoodroma/",
+  "openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 11:00 AM–7:30 PM",
+    "Tuesday: 11:00 AM–7:30 PM",
+    "Wednesday: 11:00 AM–7:30 PM",
+    "Thursday: 11:00 AM–7:30 PM",
+    "Friday: 11:00 AM–7:30 PM",
+    "Saturday: 10:00 AM–7:30 PM"
+  ],
+  "dateEvents": [],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": { "open": 11, "close": 19.5 },
+    "tue": { "open": 11, "close": 19.5 },
+    "wed": { "open": 11, "close": 19.5 },
+    "thu": { "open": 11, "close": 19.5 },
+    "fri": { "open": 11, "close": 19.5 },
+    "sat": { "open": 10, "close": 19.5 }
+  },
+  "dayParts": {
+    "sun": "-",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "italian",
+  "price": "$",
+  "duration": 0.75
+},
+{
+  "name": "Arco dei Banchi",
+  "vibe": "Historic, Stone, Narrow, Passage, Secret Rome, Medieval, Shadowed, Pathway, Whisper, Timeless walk",
+  "type": ["landmark"],
+  "lat": 41.90053,
+  "lon": 12.46658,
+  "link": "https://www.instagram.com/explore/search/keyword/?q=arco%20dei%20banchi&hl=en",
+  "openNow": true,
+  "hours": [
+    "Sunday: 12:00 AM–12:00 AM",
+    "Monday: 12:00 AM–12:00 AM",
+    "Tuesday: 12:00 AM–12:00 AM",
+    "Wednesday: 12:00 AM–12:00 AM",
+    "Thursday: 12:00 AM–12:00 AM",
+    "Friday: 12:00 AM–12:00 AM",
+    "Saturday: 12:00 AM–12:00 AM"
+  ],
+  "dateEvents": [],
+  "hoursNumeric": {
+    "sun": { "open": 0, "close": 24 },
+    "mon": { "open": 0, "close": 24 },
+    "tue": { "open": 0, "close": 24 },
+    "wed": { "open": 0, "close": 24 },
+    "thu": { "open": 0, "close": 24 },
+    "fri": { "open": 0, "close": 24 },
+    "sat": { "open": 0, "close": 24 }
+  },
+  "dayParts": { "sun": "L", "mon": "L", "tue": "L", "wed": "L", "thu": "L", "fri": "L", "sat": "L" },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "italian",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "Chiesa di San Francesco a Ripa",
+  "vibe": "Baroque, Spiritual, Bernini, Intimate, Sacred art, Trastevere, Pilgrimage, Peaceful, Historic, Meditative",
+  "type": ["landmark"],
+  "lat": 41.885166,
+  "lon": 12.4731468,
+  "link": "https://www.instagram.com/explore/search/keyword/?q=chiesa%20di%20san%20francesco%20a%20ripa&hl=en",
+  "openNow": true,
+  "hours": [
+    "Sunday: 7:00 AM–12:30 PM; 4:00 PM–7:30 PM",
+    "Monday: 7:00 AM–12:30 PM; 4:00 PM–7:30 PM",
+    "Tuesday: 7:00 AM–12:30 PM; 4:00 PM–7:30 PM",
+    "Wednesday: 7:00 AM–12:30 PM; 4:00 PM–7:30 PM",
+    "Thursday: 7:00 AM–12:30 PM; 4:00 PM–7:30 PM",
+    "Friday: 7:00 AM–12:30 PM; 4:00 PM–7:30 PM",
+    "Saturday: 7:00 AM–12:30 PM; 4:00 PM–7:30 PM"
+  ],
+  "dateEvents": [],
+  "hoursNumeric": {
+    "sun": [
+      { "open": 7, "close": 12.5 },
+      { "open": 16, "close": 19.5 }
+    ],
+    "mon": [
+      { "open": 7, "close": 12.5 },
+      { "open": 16, "close": 19.5 }
+    ],
+    "tue": [
+      { "open": 7, "close": 12.5 },
+      { "open": 16, "close": 19.5 }
+    ],
+    "wed": [
+      { "open": 7, "close": 12.5 },
+      { "open": 16, "close": 19.5 }
+    ],
+    "thu": [
+      { "open": 7, "close": 12.5 },
+      { "open": 16, "close": 19.5 }
+    ],
+    "fri": [
+      { "open": 7, "close": 12.5 },
+      { "open": 16, "close": 19.5 }
+    ],
+    "sat": [
+      { "open": 7, "close": 12.5 },
+      { "open": 16, "close": 19.5 }
+    ]
+  },
+  "dayParts": { "sun": "M", "mon": "M", "tue": "M", "wed": "M", "thu": "M", "fri": "M", "sat": "M" },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "italian",
+  "price": "$",
+  "duration": 0.66
+},
+{
+  "name": "Claustro de Santa María Sopra Minerva",
+  "vibe": "Cloister, Silent, Gothic, Columns, Spiritual calm, Shadows, Monastic, Contemplative, Hidden, Timeless",
+  "type": ["garden", "landmark"],
+  "lat": 41.8983871,
+  "lon": 12.4783076,
+  "link": "https://www.santamariasopraminerva.it/it/",
+  "openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 9:00 AM–1:00 PM",
+    "Tuesday: 9:00 AM–1:00 PM",
+    "Wednesday: 9:00 AM–1:00 PM",
+    "Thursday: 9:00 AM–1:00 PM",
+    "Friday: 9:00 AM–1:00 PM",
+    "Saturday: 9:00 AM–1:00 PM"
+  ],
+  "dateEvents": [],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": { "open": 9, "close": 13 },
+    "tue": { "open": 9, "close": 13 },
+    "wed": { "open": 9, "close": 13 },
+    "thu": { "open": 9, "close": 13 },
+    "fri": { "open": 9, "close": 13 },
+    "sat": { "open": 9, "close": 13 }
+  },
+  "dayParts": { "sun": "-", "mon": "M", "tue": "M", "wed": "M", "thu": "M", "fri": "M", "sat": "M" },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "italian",
+  "price": "$",
+  "duration": 1
+},
+{
+  "name": "Aventine keyhole",
+  "vibe": "Secret view, Dome frame, Romantic, Hidden, Iconic, Playful, Perspective, Sunset spot, Magic, Whispered",
+  "type": ["landmark"],
+  "lat": 41.8829087,
+  "lon": 12.4778461,
+  "link": "https://www.instagram.com/explore/search/keyword/?q=aventine%20keyhole&hl=en",
+  "openNow": true,
+  "hours": [
+    "Sunday: 12:00 AM–12:00 AM",
+    "Monday: 12:00 AM–12:00 AM",
+    "Tuesday: 12:00 AM–12:00 AM",
+    "Wednesday: 12:00 AM–12:00 AM",
+    "Thursday: 12:00 AM–12:00 AM",
+    "Friday: 12:00 AM–12:00 AM",
+    "Saturday: 12:00 AM–12:00 AM"
+  ],
+  "dateEvents": [],
+  "hoursNumeric": {
+    "sun": { "open": 0, "close": 24 },
+    "mon": { "open": 0, "close": 24 },
+    "tue": { "open": 0, "close": 24 },
+    "wed": { "open": 0, "close": 24 },
+    "thu": { "open": 0, "close": 24 },
+    "fri": { "open": 0, "close": 24 },
+    "sat": { "open": 0, "close": 24 }
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "italian",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "Bar Farnese",
+  "vibe": "Aperitivo, Piazza life, Social, Historic, Wine, Casual, Evening light, Buzzing, Outdoor tables, Roman lifestyle",
+  "type": ["coffee", "breakfast"],
+  "lat": 41.89615,
+  "lon": 12.47238,
+  "link": "https://www.instagram.com/explore/locations/793704207489047/bar-farnese-via-dei-baullari/?hl=en",
+  "openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: Closed",
+    "Thursday: Closed",
+    "Friday: Closed",
+    "Saturday: Closed"
+  ],
+  "dateEvents": [],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+  },
+  "dayParts": {
+    "sun": "-",
+    "mon": "-",
+    "tue": "-",
+    "wed": "-",
+    "thu": "-",
+    "fri": "-",
+    "sat": "-"
+  },
+  "timeCategory": "—",
+  "energyRamp": 2,
+  "tags": "italian",
+  "price": "$",
+  "duration": 1.5
+},
+{
+  "name": "Galleria Doria Pamphilj",
+  "vibe": "Baroque, Paintings, Palatial, Frescoes, Noble, Historic, Caravaggio, Ornate, Cultural, Grand",
+  "type": ["gallery"],
+  "lat": 41.8978235,
+  "lon": 12.4815609,
+  "link": "https://www.instagram.com/galleriadoriapamphilj/?hl=en",
+  "openNow": true,
+  "hours": [
+    "Sunday: 10:00 AM–8:00 PM",
+    "Monday: 9:00 AM–7:00 PM",
+    "Tuesday: 9:00 AM–7:00 PM",
+    "Wednesday: Closed",
+    "Thursday: 9:00 AM–7:00 PM",
+    "Friday: 10:00 AM–8:00 PM",
+    "Saturday: 10:00 AM–8:00 PM"
+  ],
+  "dateEvents": [],
+  "hoursNumeric": {
+    "sun": { "open": 10, "close": 20 },
+    "mon": { "open": 9, "close": 19 },
+    "tue": { "open": 9, "close": 19 },
+    "wed": null,
+    "thu": { "open": 9, "close": 19 },
+    "fri": { "open": 10, "close": 20 },
+    "sat": { "open": 10, "close": 20 }
+  },
+  "dayParts": {
+    "sun": "A",
+    "mon": "A",
+    "tue": "A",
+    "wed": "-",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 2,
+  "tags": "italian",
+  "price": "$",
+  "duration": 0.66
+},
+{
+  "name": "Essenza Wine Bar Trastevere",
+  "vibe": "Wine, Intimate, Romantic, Cozy, Bottles, Aperitivo, Small plates, Social, Soft light, Stylish",
+  "type": ["wine bar"],
+  "lat": 41.8917573,
+  "lon": 12.4678284,
+  "link": "https://www.instagram.com/essenzawinebar/",
+  "openNow": true,
+  "hours": [
+    "Sunday: 12:00 PM–12:00 AM",
+    "Monday: 12:00 PM–12:00 AM",
+    "Tuesday: 12:00 PM–12:00 AM",
+    "Wednesday: 12:00 PM–12:00 AM",
+    "Thursday: 12:00 PM–12:00 AM",
+    "Friday: 12:00 PM–2:00 AM",
+    "Saturday: 12:00 PM–2:00 AM"
+  ],
+  "dateEvents": [],
+  "hoursNumeric": {
+    "sun": { "open": 12, "close": 24 },
+    "mon": { "open": 12, "close": 24 },
+    "tue": { "open": 12, "close": 24 },
+    "wed": { "open": 12, "close": 24 },
+    "thu": { "open": 12, "close": 24 },
+    "fri": { "open": 12, "close": 26 },
+    "sat": { "open": 12, "close": 26 }
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 1.5,
+  "tags": "italian",
+  "price": "$$",
+  "duration": 1.5
+}
 ]
