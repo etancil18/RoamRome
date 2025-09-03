@@ -725,7 +725,7 @@
   "lat": 41.9088044,
   "lon": 12.4492637,
   "link": "https://www.instagram.com/beccoroma/?hl=en",
-  "cover": "",
+  "cover": "img/venues/BECCO.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -1001,7 +1001,7 @@
 "lat": 41.8665472,
 "lon": 12.47801496,
 "link": "https://www.instagram.com/museiincomuneroma/",
-"cover": "",
+"cover": "img/venues/Centrale Montemartini.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 9:00 AM–7:00 PM",
@@ -1055,7 +1055,7 @@
 "lat": 41.9140607,
 "lon": 12.4920302,
 "link": "https://www.instagram.com/galleriaborgheseufficiale/?hl=en",
-"cover": "",
+"cover": "img/venues/Galleria Borghese.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 9:00 AM–7:00 PM",
@@ -1101,7 +1101,7 @@
 "lat": 41.9046361,
 "lon": 12.4817736,
 "link": "https://www.instagram.com/chezmoirome/?hl=en",
-"cover": "",
+"cover": "img/venues/Chez Moi Rome.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 6:00 PM–2:00 AM",
@@ -1193,7 +1193,7 @@
 "lat": 41.899862,
 "lon": 12.472624,
 "link": "https://www.instagram.com/cartoleria.pantheon/",
-"cover": "",
+"cover": "img/venues/Cartoleria Pantheon dal 1910.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 10:30 AM–7:30 PM",
@@ -1285,7 +1285,7 @@
 "lat": 41.8978975,
 "lon": 12.4718193,
 "link": "https://www.instagram.com/altroquando_/",
-"cover": "",
+"cover": "img/venues/Altroquando.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 10:00 AM–12:00 AM",
@@ -1331,7 +1331,7 @@
 "lat": 41.9116367,
 "lon": 12.4877501,
 "link": "https://www.instagram.com/cinemadeipiccoli",
-"cover": "",
+"cover": "img/venues/Cinema dei Piccoli.jpg",
 "openNow": true,
 "hours": [
 "Sunday: Closed",
@@ -1377,7 +1377,7 @@
 "lat": 41.8851338,
 "lon": 12.48039,
 "link": "https://www.instagram.com/explore/search/keyword/?q=giardino%20degli%20aranci&hl=en",
-"cover": "",
+"cover": "img/venues/Giardino degli Aranci.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 7:00 AM–9:00 PM",
@@ -1469,7 +1469,7 @@
 "lat": 41.8979242,
 "lon": 12.4737997,
 "link": "https://www.instagram.com/explore/search/keyword/?q=Gran%20Caf%C3%A8%20Marcel&hl=en",
-"cover": "",
+"cover": "img/venues/Gran Cafè Marcel.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 11:00 AM–6:00 PM",
@@ -1515,7 +1515,7 @@
 "lat": 41.89553,
 "lon": 12.47123,
 "link": "https://www.instagram.com/anticalatteriacocktailbar/?hl=en",
-"cover": "",
+"cover": "img/venues/Antica Latteria.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 12:00 PM–12:00 AM",
@@ -1561,7 +1561,7 @@
 "lat": 41.8993181,
 "lon": 12.4704034,
 "link": "https://www.instagram.com/explore/locations/105988581496263/da-francesco-roma/?hl=en",
-"cover": "",
+"cover": "img/venues/Da Francesco.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 12:00 PM–4:00 PM; 7:00 PM–11:30 PM",
@@ -1607,7 +1607,7 @@
 "lat": 41.8946562,
 "lon": 12.4745854,
 "link": "https://www.instagram.com/anticofornoroscioli/?hl=en",
-"cover": "",
+"cover": "img/venues/Antico Forno Roscioli.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 7:30 AM–8:00 PM",
@@ -1699,7 +1699,7 @@
 "lat": 41.8999403,
 "lon": 12.4820553,
 "link": "https://www.instagram.com/explore/search/keyword/?q=galleria%20sciarra&hl=en",
-"cover": "",
+"cover": "img/venues/Galleria Sciarra.jpg",
 "openNow": true,
 "hours": [
 "Sunday: Closed",
@@ -1745,7 +1745,7 @@
 "lat": 41.8888422,
 "lon": 12.4642556,
 "link": "https://www.instagram.com/explore/search/keyword/?q=fontana%20dell%27acqua%20paola&hl=en",
-"cover": "",
+"cover": "img/venues/Fontana dell'Acqua Paola.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 12:00 AM–12:00 AM",
@@ -1837,7 +1837,7 @@
     "lat": 41.8954811,
     "lon": 12.4701357,
     "link": "https://www.instagram.com/caffeperu/",
-    "cover": "",
+    "cover": "img/venues/Caffè Perù.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -1975,7 +1975,7 @@
     "lat": 41.8885642,
     "lon": 12.4753182,
     "link": "https://www.instagram.com/biscottificioinnocenti/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Biscottificio Artigiano Innocenti.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -2021,7 +2021,7 @@
     "lat": 41.8955831,
     "lon": 12.4929962,
     "link": "https://www.instagram.com/antigallery_monti/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Antigallery.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 5:00 PM–2:00 AM",
@@ -2159,7 +2159,7 @@
     "lat": 41.8958055,
     "lon": 12.4942369,
     "link": "https://www.instagram.com/drop_monti",
-    "cover": "",
+    "cover": "img/venues/Drop.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -2251,7 +2251,7 @@
     "lat": 41.905707,
     "lon": 12.4842099,
     "link": "https://www.instagram.com/cielo_rooftoprome/",
-    "cover": "",
+    "cover": "img/venues/Cielo Rooftop.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 PM–12:00 AM",
@@ -2297,7 +2297,7 @@
     "lat": 41.9052844,
     "lon": 12.4834527,
     "link": "https://www.instagram.com/angies.roma/",
-    "cover": "",
+    "cover": "img/venues/Angie’s Restaurant.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 10:00 AM–12:00 AM",
@@ -2389,7 +2389,7 @@
     "lat": 41.88794,
     "lon": 12.47,
     "link": "https://www.instagram.com/ilmangiadischirecords/",
-    "cover": "",
+    "cover": "img/venues/Il Mangiadischi Roma.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 11:00 AM–7:30 PM",
@@ -2711,7 +2711,7 @@
     "lat": 41.8882873,
     "lon": 12.4708001,
     "link": "https://www.instagram.com/deliriumcafe_roma/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Delirium Café Roma.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 6:00 PM–2:00 AM",
@@ -2757,7 +2757,7 @@
     "lat": 41.890212,
     "lon": 12.4682894,
     "link": "https://www.instagram.com/maritozzaro/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Il Maritozzo Rosso.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 10:30 AM–4:30 PM; 6:30 PM–11:00 PM",
@@ -2928,7 +2928,7 @@
 "lat": 41.90578,
 "lon": 12.47318,
 "link": "https://www.instagram.com/concreto.roma/?hl=en",
-"cover": "",
+"cover": "img/venues/Concreto Cucina e Vino.jpg",
 "openNow": true,
 "hours": [
 "Sunday: Closed",
@@ -2974,7 +2974,7 @@
 "lat": 41.9027832,
 "lon": 12.4688933,
 "link": "https://www.instagram.com/bibliobar_roma/",
-"cover": "",
+"cover": "img/venues/Biblio Bar Roma.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 7:30 AM–1:30 AM",
@@ -3020,7 +3020,7 @@
 "lat": 41.8932562,
 "lon": 12.4756345,
 "link": "https://www.instagram.com/chapterroma/",
-"cover": "",
+"cover": "img/venues/Hey Baby Cocktail Bar.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 5:30 PM–1:00 AM",
@@ -3066,7 +3066,7 @@
 "lat": 41.8928122,
 "lon": 12.4786254,
 "link": "https://www.instagram.com/ilfantinoroma/",
-"cover": "",
+"cover": "img/venues/Il Fantino.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 12:00 PM–3:00 PM; 7:00 PM–11:00 PM",
@@ -3112,7 +3112,7 @@
 "lat": 41.8990996,
 "lon": 12.4708793,
 "link": "https://www.instagram.com/baguetteriadelfico_/",
-"cover": "",
+"cover": "img/venues/Baguetteria del Fico.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 11:00 AM–11:00 PM",
@@ -3158,7 +3158,7 @@
 "lat": 41.8982406,
 "lon": 12.4707581,
 "link": "https://www.instagram.com/chegelato_gelateria/?hl=en",
-"cover": "",
+"cover": "img/venues/Che Gelato Gelateria.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 12:00 PM–11:00 PM",
@@ -3388,7 +3388,7 @@
     "lat": 41.8964851,
     "lon": 12.4703497,
     "link": "https://www.instagram.com/argot.speakeasy/",
-    "cover": "",
+    "cover": "img/venues/Argot Speakeasy.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -3434,7 +3434,7 @@
     "lat": 41.8962918,
     "lon": 12.4705204,
     "link": "https://www.instagram.com/daforma_gallery/",
-    "cover": "",
+    "cover": "img/venues/Daforma.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 10:00 AM–2:00 AM",
@@ -3526,7 +3526,7 @@
     "lat": 41.89394,
     "lon": 12.47457,
     "link": "https://www.instagram.com/gallerialorcanoneill/?hl=am-et",
-    "cover": "",
+    "cover": "img/venues/Galleria Lorcan O'Neill Roma.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -3710,7 +3710,7 @@
     "lat": 41.89391885,
     "lon": 12.47222541,
     "link": "https://www.instagram.com/explore/search/keyword/?q=galleria%20prospettica%20del%20borromini&hl=en",
-    "cover": "",
+    "cover": "img/venues/Galleria prospettica del Borromini.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 8:30 AM–7:30 PM",
@@ -3848,7 +3848,7 @@
     "lat": 41.9182552,
     "lon": 12.4974956,
     "link": "https://www.instagram.com/elio__roma/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Elio.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 11:30 AM–3:00 PM; 5:00 PM–11:00 PM",
@@ -3915,7 +3915,7 @@
     "lat": 41.88799,
     "lon": 12.48348,
     "link": "https://www.instagram.com/fratellitrecca/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Fratelli Trecca - Circo massimo.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:30 PM–11:00 PM",
@@ -4007,7 +4007,7 @@
     "lat": 41.8615542,
     "lon": 12.4552832,
     "link": "https://www.instagram.com/aiki.pub/?hl=en",
-    "cover": "",
+    "cover": "img/venues/AIKI.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -4215,7 +4215,7 @@
     "lat": 41.8947794,
     "lon": 12.4736377,
     "link": "https://www.instagram.com/amerina_lapizzetta/",
-    "cover": "",
+    "cover": "img/venues/Amerina la Pizzetta.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 5:00 PM–11:00 PM",
@@ -4261,7 +4261,7 @@
     "lat": 41.909052,
     "lon": 12.448103,
     "link": "https://www.instagram.com/fischioroma/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Fischio.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 5:00 PM–1:30 AM",
@@ -4353,7 +4353,7 @@
     "lat": 41.9090625,
     "lon": 12.4689469,
     "link": "https://www.instagram.com/argot.prati/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Argot Prati.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 6:00 PM–2:00 AM",
@@ -4491,7 +4491,7 @@
     "lat": 41.88558,
     "lon": 12.51153,
     "link": "https://www.instagram.com/bitterinoroma/",
-    "cover": "",
+    "cover": "img/venues/Bitterino.jpeg",
 "openNow": true,
     "hours": [
       "Sunday: 6:00 PM–12:00 AM",
@@ -4675,7 +4675,7 @@
     "lat": 41.8779,
     "lon": 12.46132,
     "link": "https://www.instagram.com/barro_magazzinoalimentare/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Barro.png",
 "openNow": true,
     "hours": [
       "Sunday: 6:00 PM–11:00 PM",
@@ -4721,7 +4721,7 @@
     "lat": 41.8947676,
     "lon": 12.5021067,
     "link": "https://www.instagram.com/barallostatuto/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Bar allo Statuto.JPG",
 "openNow": true,
     "hours": [
       "Sunday: 8:00 AM–12:00 AM",
@@ -6217,7 +6217,7 @@
   "lat": 41.8938026,
   "lon": 12.5038577,
   "link": "https://www.instagram.com/gatsbycafe/",
-  "cover": "",
+  "cover": "img/venues/Gatsby Cafè.jpg",
 "openNow": true,
   "hours": [
     "Sunday: 8:00 AM–12:00 AM",
@@ -6303,7 +6303,7 @@
   "lat": 41.8959254,
   "lon": 12.4695293,
   "link": "https://www.instagram.com/hollywoodroma/",
-  "cover": "",
+  "cover": "img/venues/Hollywood tutto sul Cinema.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -6381,7 +6381,7 @@
   "lat": 41.885166,
   "lon": 12.4731468,
   "link": "https://www.instagram.com/explore/search/keyword/?q=chiesa%20di%20san%20francesco%20a%20ripa&hl=en",
-  "cover": "",
+  "cover": "img/venues/Chiesa di San Francesco a Ripa.jpg",
 "openNow": true,
   "hours": [
     "Sunday: 7:00 AM–12:30 PM; 4:00 PM–7:30 PM",
@@ -6437,7 +6437,7 @@
   "lat": 41.8983871,
   "lon": 12.4783076,
   "link": "https://www.santamariasopraminerva.it/it/",
-  "cover": "",
+  "cover": "img/venues/Claustro de Santa María Sopra Minerva.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -6472,7 +6472,7 @@
   "lat": 41.8829087,
   "lon": 12.4778461,
   "link": "https://www.instagram.com/explore/search/keyword/?q=aventine%20keyhole&hl=en",
-  "cover": "",
+  "cover": "img/venues/Aventine keyhole.webp",
 "openNow": true,
   "hours": [
     "Sunday: 12:00 AM–12:00 AM",
@@ -6515,7 +6515,7 @@
   "lat": 41.89615,
   "lon": 12.47238,
   "link": "https://www.instagram.com/explore/locations/793704207489047/bar-farnese-via-dei-baullari/?hl=en",
-  "cover": "",
+  "cover": "img/venues/Bar Farnese.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -6558,7 +6558,7 @@
   "lat": 41.8978235,
   "lon": 12.4815609,
   "link": "https://www.instagram.com/galleriadoriapamphilj/?hl=en",
-  "cover": "",
+  "cover": "img/venues/Galleria Doria Pamphilj.jpg",
 "openNow": true,
   "hours": [
     "Sunday: 10:00 AM–8:00 PM",
@@ -6601,7 +6601,7 @@
   "lat": 41.8917573,
   "lon": 12.4678284,
   "link": "https://www.instagram.com/essenzawinebar/",
-  "cover": "",
+  "cover": "img/venues/Essenza Wine Bar Trastevere.jpg",
 "openNow": true,
   "hours": [
     "Sunday: 12:00 PM–12:00 AM",
