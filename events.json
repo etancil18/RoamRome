@@ -6,7 +6,7 @@
 "lat": 41.90912,
 "lon": 12.44935,
 "link": "https://www.instagram.com/lacannoleriasiciliana/",
-"cover": "",
+"cover": "img/venues/La Cannoleria Siciliana.jpg",
 "openNow": true,
 "hours": ["Sunday: 7:00 AM–10:00 PM", "Monday: 7:00 AM–10:00 PM", "Tuesday: 7:00 AM–10:00 PM", "Wednesday: 7:00 AM–10:00 PM", "Thursday: 7:00 AM–10:00 PM", "Friday: 7:00 AM–12:00 AM", "Saturday: 7:00 AM–12:00 AM"],
 "dateEvents": [],
@@ -33,7 +33,7 @@
 "lat": 41.8992048,
 "lon": 12.4654951,
 "link": "https://www.instagram.com/caffeperu_/?hl=en",
-"cover": "",
+"cover": "img/venues/Snack Bar Caffè Perù.jpg",
 "openNow": true,
 "hours": ["Sunday: Closed", "Monday: 6:30 AM–9:30 PM", "Tuesday: 6:30 AM–9:30 PM", "Wednesday: 6:30 AM–9:30 PM", "Thursday: 6:30 AM–9:30 PM", "Friday: 6:30 AM–9:30 PM", "Saturday: 7:00 AM–10:00 PM"],
 "dateEvents": [],
@@ -60,7 +60,7 @@
 "lat": 41.9001023,
 "lon": 12.468582,
 "link": "https://www.instagram.com/explore/search/keyword/?q=Palazzo%20Orsini%20Taverna&hl=en",
-"cover": "img/venues/Fontana di Palazzo Taverna.jpg",
+"cover": "img/venues/Fontana di Palazzo Taverna(1).jpg",
 "openNow": true,
 "hours": ["Sunday: 12:00 AM–12:00 AM", "Monday: 12:00 AM–12:00 AM", "Tuesday: 12:00 AM–12:00 AM", "Wednesday: 12:00 AM–12:00 AM", "Thursday: 12:00 AM–12:00 AM", "Friday: 12:00 AM–12:00 AM", "Saturday: 12:00 AM–12:00 AM"],
 "dateEvents": [],
@@ -87,7 +87,7 @@
 "lat": 41.9008002,
 "lon": 12.4744636,
 "link": "https://www.instagram.com/explore/search/keyword/?q=Biblioteca%20Angelica&hl=en",
-"cover": "",
+"cover": "img/venues/Biblioteca Angelica.jpg",
 "openNow": true,
 "hours": ["Sunday: Closed", "Monday: 9:00 AM–1:30 PM", "Tuesday: 9:00 AM–1:30 PM", "Wednesday: 9:00 AM–1:30 PM", "Thursday: 9:00 AM–1:30 PM", "Friday: 9:00 AM–1:30 PM", "Saturday: Closed"],
 "dateEvents": [],
@@ -114,7 +114,7 @@
 "lat": 41.9009833,
 "lon": 12.4761503,
 "link": "https://www.instagram.com/clubderriere/?hl=en",
-"cover": "",
+"cover": "img/venues/Club Derrière.png",
 "openNow": true,
 "hours": ["Sunday: 10:00 PM–4:00 AM", "Monday: 10:00 PM–4:00 AM", "Tuesday: 10:00 PM–4:00 AM", "Wednesday: 10:00 PM–4:00 AM", "Thursday: 10:00 PM–4:00 AM", "Friday: 10:00 PM–4:00 AM", "Saturday: 10:00 PM–4:00 AM"],
 "dateEvents": [],
@@ -141,7 +141,7 @@
 "lat": 41.8967,
 "lon": 12.4758,
 "link": "https://www.instagram.com/galleria_del_laocoonte/?hl=en",
-"cover": "",
+"cover": "img/venues/Galleria Del Laocoonte.jpg",
 "openNow": true,
 "hours": ["Sunday: Closed", "Monday: Closed", "Tuesday: 11:00 AM–1:00 PM; 4:00 PM–7:00 PM", "Wednesday: 11:00 AM–1:00 PM; 4:00 PM–7:00 PM", "Thursday: 11:00 AM–1:00 PM; 4:00 PM–7:00 PM", "Friday: 11:00 AM–1:00 PM; 4:00 PM–7:00 PM", "Saturday: Closed"],
 "dateEvents": [],
@@ -168,7 +168,7 @@
 "lat": 41.89592,
 "lon": 12.5124,
 "link": "https://www.instagram.com/yogalabsanlorenzo/?hl=en",
-"cover": "",
+"cover": "img/venues/YogaLab San Lorenzo.jpg",
 "openNow": true,
 "hours": ["Sunday: Closed", "Monday: 8:30 AM–9:00 PM", "Tuesday: 8:30 AM–9:30 PM", "Wednesday: 8:30 AM–9:00 PM", "Thursday: 8:30 AM–9:30 PM", "Friday: 9:00 AM–8:30 PM", "Saturday: 9:30 AM–1:30 PM"],
 "dateEvents": [],
@@ -195,7 +195,7 @@
 "lat": 41.8951295,
 "lon": 12.5135526,
 "link": "https://www.instagram.com/ultrasuonirecordsroma/?hl=en",
-"cover": "",
+"cover": "img/venues/Ultrasuoni Roma.jpg",
 "openNow": true,
 "hours": ["Sunday: Closed", "Monday: 2:30 PM–7:30 PM", "Tuesday: 2:30 PM–7:30 PM", "Wednesday: 2:30 PM–7:30 PM", "Thursday: 2:30 PM–7:30 PM", "Friday: 2:30 PM–7:30 PM", "Saturday: Closed"],
 "dateEvents": [],
@@ -222,7 +222,7 @@
 "lat": 41.89518,
 "lon": 12.51347,
 "link": "https://www.facebook.com/CovoClub",
-"cover": "",
+"cover": "img/venues/unnamed.jpg",
 "openNow": true,
 "hours": ["Sunday: Closed", "Monday: Closed", "Tuesday: Closed", "Wednesday: Closed", "Thursday: Closed", "Friday: Closed", "Saturday: Closed"],
 "dateEvents": [],
@@ -249,7 +249,7 @@
 "lat": 41.8968902,
 "lon": 12.5137092,
 "link": "https://www.instagram.com/materia_gallery_rome/?hl=en",
-"cover": "",
+"cover": "img/venues/Matèria.jpg",
 "openNow": true,
 "hours": ["Sunday: Closed", "Monday: Closed", "Tuesday: Closed", "Wednesday: Closed", "Thursday: Closed", "Friday: Closed", "Saturday: Closed"],
 "dateEvents": [],
@@ -276,7 +276,7 @@
 "lat": 41.8873357,
 "lon": 12.5103563,
 "link": "https://www.instagram.com/materia.roma/?hl=en",
-"cover": "",
+"cover": "img/venues/Materia Cafe.jpg",
 "openNow": true,
 "hours": ["Sunday: Closed", "Monday: Closed", "Tuesday: Closed", "Wednesday: Closed", "Thursday: Closed", "Friday: Closed", "Saturday: Closed"],
 "dateEvents": [],
@@ -303,7 +303,7 @@
 "lat": 41.9308989,
 "lon": 12.5098236,
 "link": "https://www.instagram.com/rolandoanselmigalerie/?hl=en",
-"cover": "",
+"cover": "img/venues/Galerie Rolando Anselmi.jpg",
 "openNow": true,
 "hours": ["Sunday: Closed", "Monday: Closed", "Tuesday: Closed", "Wednesday: 3:00 PM–7:00 PM", "Thursday: 3:00 PM–7:00 PM", "Friday: 3:00 PM–7:00 PM", "Saturday: 3:00 PM–7:00 PM"],
 "dateEvents": [],
@@ -330,7 +330,7 @@
 "lat": 41.88767,
 "lon": 12.46976,
 "link": "https://www.instagram.com/varsi_artlab/?hl=en",
-"cover": "",
+"cover": "img/venues/Varsi Art&Lab.jpg",
 "openNow": true,
 "hours": ["Sunday: 2:00 PM–8:00 PM", "Monday: Closed", "Tuesday: 12:00 PM–8:00 PM", "Wednesday: 12:00 PM–8:00 PM", "Thursday: 12:00 PM–8:00 PM", "Friday: 12:00 PM–8:00 PM", "Saturday: 12:00 PM–8:00 PM"],
 "dateEvents": [],
@@ -357,7 +357,7 @@
   "lat": 41.9033963,
   "lon": 12.4856484,
   "link": "https://www.instagram.com/gagosian/",
-  "cover": "",
+  "cover": "img/venues/Gagosian.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -403,7 +403,7 @@
   "lat": 41.89455,
   "lon": 12.48883,
   "link": "https://www.instagram.com/exgalleria/?hl=en",
-  "cover": "",
+  "cover": "img/venues/Ex Galleria.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -449,7 +449,7 @@
   "lat": 41.8879287,
   "lon": 12.4784456,
   "link": "https://www.instagram.com/t293_gallery/",
-  "cover": "",
+  "cover": "img/venues/T293.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -495,7 +495,7 @@
   "lat": 41.8964619,
   "lon": 12.515242,
   "link": "https://www.instagram.com/monitorgallery",
-  "cover": "",
+  "cover": "img/venues/Galleria Monitor.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -541,7 +541,7 @@
   "lat": 41.9087235,
   "lon": 12.4779851,
   "link": "https://www.instagram.com/mucciacciagalleryproject/",
-  "cover": "",
+  "cover": "img/venues/Mucciaccia Gallery.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -587,7 +587,7 @@
   "lat": 41.88495,
   "lon": 12.45572,
   "link": "https://www.instagram.com/tennis_team_pamphili",
-  "cover": "",
+  "cover": "img/venues/A.S.D. Tennis Team Pamphili.jpg",
 "openNow": true,
   "hours": [
     "Sunday: 8:00 AM–7:00 PM",
@@ -633,7 +633,7 @@
   "lat": 41.9055012,
   "lon": 12.4613366,
   "link": "https://sorpasso.info/home-page/",
-  "cover": "",
+  "cover": "img/venues/Il Sorpasso.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -679,7 +679,7 @@
   "lat": 41.90043,
   "lon": 12.46713,
   "link": "https://www.instagram.com/ciao.roma",
-  "cover": "",
+  "cover": "img/venues/ciao.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
@@ -863,7 +863,7 @@
     "lat": 41.8880847,
     "lon": 12.4778554,
     "link": "https://www.instagram.com/daenzoal29/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Trattoria Da Enzo al 29.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -1147,7 +1147,7 @@
 "lat": 41.93179,
 "lon": 12.45542,
 "link": "https://www.instagram.com/explore/locations/1048109545322046/stadio-olimpico-roma/?hl=en",
-"cover": "",
+"cover": "img/venues/Stadio Olimpico.jpg",
 "openNow": true,
 "hours": [
 "Sunday: Closed",
@@ -1239,7 +1239,7 @@
 "lat": 41.8874759,
 "lon": 12.4663586,
 "link": "https://www.instagram.com/ombrerossetrastevere/",
-"cover": "",
+"cover": "img/venues/Ombre Rosse.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 5:30 PM–1:00 AM",
@@ -1423,7 +1423,7 @@
 "lat": 41.8964077,
 "lon": 12.4988295,
 "link": "https://www.instagram.com/explore/search/keyword/?q=santa%20prassede&hl=en",
-"cover": "",
+"cover": "img/venues/Santa Prassede.jpg",
 "openNow": true,
 "hours": [
 "Sunday: 10:00 AM–12:00 PM; 4:00 PM–6:00 PM",
@@ -1791,7 +1791,7 @@
     "lat": 41.90861655,
     "lon": 12.4795284,
     "link": "https://www.instagram.com/explore/search/keyword/?q=via%20margutta&hl=en",
-    "cover": "",
+    "cover": "img/venues/Via Margutta.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 AM–12:00 AM",
@@ -1883,7 +1883,7 @@
     "lat": 41.8934119,
     "lon": 12.4983917,
     "link": "https://www.instagram.com/thesanctuaryecoretreat/",
-    "cover": "",
+    "cover": "img/venues/The Sanctuary Eco Retreat.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 11:00 AM–12:00 AM",
@@ -1929,7 +1929,7 @@
     "lat": 41.8861135,
     "lon": 12.4682298,
     "link": "https://www.instagram.com/somo.restaurant.roma/",
-    "cover": "",
+    "cover": "img/venues/Somo.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 7:00 PM–11:00 PM",
@@ -2067,7 +2067,7 @@
     "lat": 41.8719466,
     "lon": 12.4701729,
     "link": "https://www.instagram.com/stadlin.club/",
-    "cover": "",
+    "cover": "img/venues/Städlin.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 10:00 AM–2:00 AM",
@@ -2113,7 +2113,7 @@
     "lat": 41.90972,
     "lon": 12.47746,
     "link": "https://www.instagram.com/terrazzanainer/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Terrazza Nainer.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 4:00 PM–12:00 AM",
@@ -2205,7 +2205,7 @@
     "lat": 41.9008303,
     "lon": 12.4762727,
     "link": "https://www.instagram.com/nodoroma/?hl=en",
-    "cover": "",
+    "cover": "img/venues/NODO.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -2343,7 +2343,7 @@
     "lat": 41.8884797,
     "lon": 12.4710276,
     "link": "https://www.instagram.com/soundsfamiliar__/",
-    "cover": "",
+    "cover": "img/venues/Sounds Familiar.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 PM–7:00 PM",
@@ -2435,7 +2435,7 @@
     "lat": 41.90877,
     "lon": 12.47608,
     "link": "https://www.instagram.com/starshoproma",
-    "cover": "",
+    "cover": "img/venues/Star Shop Roma.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 11:00 AM–8:00 PM",
@@ -2481,7 +2481,7 @@
     "lat": 41.85522,
     "lon": 12.48211,
     "link": "https://www.instagram.com/san_paolo_district/",
-    "cover": "",
+    "cover": "img/venues/San Paolo District.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 8:00 AM–2:00 PM",
@@ -2527,7 +2527,7 @@
     "lat": 41.85522,
     "lon": 12.48211,
     "link": "https://www.instagram.com/vintage_market_roma/",
-    "cover": "",
+    "cover": "img/venues/Vintage Market Roma.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -2573,7 +2573,7 @@
     "lat": 41.8837487,
     "lon": 12.4738326,
     "link": "https://www.instagram.com/portaporteseroma",
-    "cover": "",
+    "cover": "img/venues/Porta Portese Market.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 6:45 AM–2:30 PM",
@@ -2619,7 +2619,7 @@
     "lat": 41.8776845,
     "lon": 12.4738455,
     "link": "https://www.instagram.com/mercatoditestaccio/",
-    "cover": "",
+    "cover": "img/venues/Testaccio Market.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -2665,7 +2665,7 @@
     "lat": 41.90213,
     "lon": 12.47557,
     "link": "https://www.instagram.com/thegincorner/?hl=en",
-    "cover": "",
+    "cover": "img/venues/The Gin Corner.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 6:00 PM–12:00 AM",
@@ -2821,7 +2821,7 @@
     "lat": 41.8907294,
     "lon": 12.4670563,
     "link": "https://www.instagram.com/mattonatoroma__/",
-    "cover": "",
+    "cover": "img/venues/Matto Nato Trastevere.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 PM–6:00 PM; 11:00 PM–12:00 AM",
@@ -3204,7 +3204,7 @@
     "lat": 41.898152,
     "lon": 12.467538,
     "link": "https://www.instagram.com/trattoria_polese/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Trattoria Polese.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 PM–11:30 PM",
@@ -3296,7 +3296,7 @@
     "lat": 41.8974708,
     "lon": 12.467903,
     "link": "https://www.instagram.com/supplizioroma/",
-    "cover": "",
+    "cover": "img/venues/Supplizio.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -3342,7 +3342,7 @@
     "lat": 41.89692432,
     "lon": 12.46751477,
     "link": "https://www.instagram.com/explore/search/keyword/?q=via%20giulia",
-    "cover": "",
+    "cover": "img/venues/Via Giulia.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 AM–12:00 AM",
@@ -3572,7 +3572,7 @@
     "lat": 41.8935723,
     "lon": 12.4744376,
     "link": "https://www.instagram.com/explore/search/keyword/?q=open%20baladin%20rome&hl=am-et",
-    "cover": "",
+    "cover": "img/venues/Open Baladin.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 PM–1:00 AM",
@@ -3618,7 +3618,7 @@
     "lat": 41.89349,
     "lon": 12.47481,
     "link": "https://www.instagram.com/unosunove/",
-    "cover": "",
+    "cover": "img/venues/Unosunove.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -3664,7 +3664,7 @@
     "lat": 41.892961,
     "lon": 12.4718222,
     "link": "https://www.instagram.com/anticobarpasticceriamariani/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Old Bar Pasticceria Mariani.JPG",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -3802,7 +3802,7 @@
     "lat": 41.89695,
     "lon": 12.47037,
     "link": "https://www.instagram.com/vinoeviniliroma/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Vino e vinili Roma.JPG",
 "openNow": true,
     "hours": [
       "Sunday: 2:30 PM–11:30 PM",
@@ -3961,7 +3961,7 @@
     "lat": 41.90882,
     "lon": 12.4972,
     "link": "https://www.instagram.com/yezi.rome/?hl=en",
-    "cover": "",
+    "cover": "img/venues/YEZI Rome.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 7:00 AM–11:00 PM",
@@ -4056,7 +4056,7 @@
     "lat": 41.8951815,
     "lon": 12.4755548,
     "link": "https://www.instagram.com/spaziosette_libreria/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Spazio Sette Libreria.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 10:30 AM–8:00 PM",
@@ -4102,7 +4102,7 @@
     "lat": 41.8917821,
     "lon": 12.4702261,
     "link": "https://www.instagram.com/explore/search/keyword/?q=piazza%20trilussa",
-    "cover": "",
+    "cover": "img/venues/Piazza Trilussa.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 AM–12:00 AM",
@@ -4148,7 +4148,7 @@
     "lat": 41.894096,
     "lon": 12.472305,
     "link": "https://www.instagram.com/rosina_cucina_di_casa/",
-    "cover": "",
+    "cover": "img/venues/Rosina Cucina di Casa.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 PM–3:00 PM; 6:00 PM–11:00 PM",
@@ -4399,7 +4399,7 @@
     "lat": 41.8786388,
     "lon": 12.4684471,
     "link": "https://www.instagram.com/tuktuk_thaibar/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Tuk Tuk Thai Bar.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 PM–3:30 PM",
@@ -4445,7 +4445,7 @@
     "lat": 41.88335,
     "lon": 12.53844,
     "link": "https://www.instagram.com/tantecarecosearoma/?hl=en",
-    "cover": "",
+    "cover": "img/venues/tante care cose.jpg",
 "openNow": true,
     "hours": [
       "Sunday: Closed",
@@ -4537,7 +4537,7 @@
     "lat": 41.90921,
     "lon": 12.52194,
     "link": "https://www.instagram.com/mrchan_superchinesefood/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Mr. Chan.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 11:00 AM–3:00 PM; 6:00 PM–12:00 AM",
@@ -4583,7 +4583,7 @@
     "lat": 41.84101,
     "lon": 12.60918,
     "link": "https://www.instagram.com/pizzeria.stravinskij/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Stravinskij.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 4:30 PM–11:30 PM",
@@ -4629,7 +4629,7 @@
     "lat": 41.86276,
     "lon": 12.48505,
     "link": "https://www.instagram.com/smilebaroma/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Smile Bar.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 6:00 PM–1:00 AM",
@@ -5989,7 +5989,7 @@
     "lat": 41.899206,
     "lon": 12.5192716,
     "link": "https://www.instagram.com/nena.mercatocucina/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Nena Mercato&Cucina.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:30 PM–3:00 PM; 7:30 PM–12:00 AM",
@@ -6027,7 +6027,7 @@
     "lat": 41.9022694,
     "lon": 12.4748277,
     "link": "https://www.instagram.com/alfredoallascrofa/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Alfredo alla Scrofa Restaurant.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:30 PM–3:00 PM; 6:30 PM–11:00 PM",
@@ -6065,7 +6065,7 @@
     "lat": 41.9050178,
     "lon": 12.4607505,
     "link": "https://www.instagram.com/edicolaerno/?hl=en",
-    "cover": "",
+    "cover": "img/venues/Erno - Edicola.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 11:00 AM–8:00 PM",
@@ -6103,7 +6103,7 @@
     "lat": 41.8793603,
     "lon": 12.4970897,
     "link": "https://www.instagram.com/theflatbymacan/?hl=en",
-    "cover": "",
+    "cover": "img/venues/The Flat by Macan.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 12:00 PM–2:00 AM",
@@ -6141,7 +6141,7 @@
     "lat": 41.8959277,
     "lon": 12.4815269,
     "link": "https://www.instagram.com/explore/search/keyword/?q=Giardini%20di%20Palazzo%20Venezia&hl=en",
-    "cover": "",
+    "cover": "img/venues/Giardini di Palazzo Venezia.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 9:30 AM–6:30 PM",
@@ -6179,7 +6179,7 @@
     "lat": 41.8903179,
     "lon": 12.4868748,
     "link": "https://www.instagram.com/explore/search/keyword/?q=orti%20farnesiani%20sul%20palatino",
-    "cover": "",
+    "cover": "img/venues/Giardini Palatini.jpg",
 "openNow": true,
     "hours": [
       "Sunday: 9:00 AM–7:15 PM",
@@ -6260,7 +6260,7 @@
   "lat": 41.8973224,
   "lon": 12.515008,
   "link": "https://www.instagram.com/cinematibur/",
-  "cover": "",
+  "cover": "img/venues/Tibur.jpg",
 "openNow": true,
   "hours": [
     "Sunday: Closed",
