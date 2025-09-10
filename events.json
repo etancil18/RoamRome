@@ -6636,5 +6636,5343 @@
   "tags": "italian",
   "price": "$$",
   "duration": 1.5
+},
+{
+  "name": "Mudec",
+  "vibe": "Contemporary, Global, Colorful, Inspiring, Modern art, Cultural fusion, Reflective, Curated, Light‑filled, Mindful",
+  "type": ["gallery", "museum"],
+  "lat": 45.4520455,
+  "lon": 9.1613185,
+  "link": "https://www.instagram.com/mudec_official/?hl=en",
+  "cover": "img/venues/Mudec.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 10:30 AM–7:30 PM",
+    "Monday: 2:30 PM–7:30 PM",
+    "Tuesday: 10:30 AM–7:30 PM",
+    "Wednesday: 10:30 AM–7:30 PM",
+    "Thursday: 10:30 AM–10:30 PM",
+    "Friday: 10:30 AM–7:30 PM",
+    "Saturday: 10:30 AM–7:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 10.5, "close": 19.5 },
+    "mon": { "open": 14.5, "close": 19.5 },
+    "tue": { "open": 10.5, "close": 19.5 },
+    "wed": { "open": 10.5, "close": 19.5 },
+    "thu": { "open": 10.5, "close": 22.5 },
+    "fri": { "open": 10.5, "close": 19.5 },
+    "sat": { "open": 10.5, "close": 19.5 }
+  },
+  "dayParts": {
+    "sun": "A",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "E",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon, Evening",
+  "energyRamp": 3,
+  "tags": "Global, Bold, Modern, Cultural, Inspiring",
+  "price": "$",
+  "duration": 2
+},
+{
+  "name": "Casa museo Boschi di Stefano",
+  "vibe": "Vintage, Intimate, Artistic, Retro, Hidden gem, Quiet escape, Collectors’ spirit, Milanese heritage, Timeless, Curiosity",
+  "type": ["gallery"],
+  "lat": 45.4790348,
+  "lon": 9.2117518,
+  "link": "https://www.instagram.com/casaboschidistefano/?hl=en",
+  "cover": "img/venues/Casa museo Boschi di Stefano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 10:00 AM–5:30 PM",
+    "Monday: Closed",
+    "Tuesday: 10:00 AM–5:30 PM",
+    "Wednesday: 10:00 AM–5:30 PM",
+    "Thursday: 10:00 AM–5:30 PM",
+    "Friday: 10:00 AM–5:30 PM",
+    "Saturday: 10:00 AM–5:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 10, "close": 17.5 },
+    "mon": null,
+    "tue": { "open": 10, "close": 17.5 },
+    "wed": { "open": 10, "close": 17.5 },
+    "thu": { "open": 10, "close": 17.5 },
+    "fri": { "open": 10, "close": 17.5 },
+    "sat": { "open": 10, "close": 17.5 }
+  },
+  "dayParts": {
+    "sun": "A",
+    "mon": "–",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Retro, Hidden, Artistic, Vintage, Quiet",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Pirelli Hangar Bicocca",
+  "vibe": "Industrial, Monumental, Immersive, Experimental, Bold, Avant‑garde, Vast space, Night wander, Sculptural, Minimal",
+  "type": ["gallery", "museum"],
+  "lat": 45.5209859,
+  "lon": 9.21927,
+  "link": "https://www.instagram.com/pirelli_hangarbicocca/?hl=en",
+  "cover": "img/venues/Pirelli Hangar Bicocca.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: Closed",
+    "Thursday: Closed",
+    "Friday: Closed",
+    "Saturday: Closed"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "–",
+    "fri": "–",
+    "sat": "–"
+  },
+  "timeCategory": "",
+  "energyRamp": 3,
+  "tags": "Vast, Stark, Monumental, Industrial, Immersive",
+  "price": "$",
+  "duration": 2
+},
+{
+  "name": "Arco della Pace",
+  "vibe": "Majestic, Sunset, Stroll, Romantic, Timeless, Historic, Meeting point, Marble, Open air, Serene",
+  "type": ["landmark"],
+  "lat": 45.4756927,
+  "lon": 9.1724514,
+  "link": "https://en.wikipedia.org/wiki/Porta_Sempione",
+  "cover": "img/venues/Arco della Pace.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 AM–12:00 AM",
+    "Monday: 12:00 AM–12:00 AM",
+    "Tuesday: 12:00 AM–12:00 AM",
+    "Wednesday: 12:00 AM–12:00 AM",
+    "Thursday: 12:00 AM–12:00 AM",
+    "Friday: 12:00 AM–12:00 AM",
+    "Saturday: 12:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 0, "close": 24 },
+    "mon": { "open": 0, "close": 24 },
+    "tue": { "open": 0, "close": 24 },
+    "wed": { "open": 0, "close": 24 },
+    "thu": { "open": 0, "close": 24 },
+    "fri": { "open": 0, "close": 24 },
+    "sat": { "open": 0, "close": 24 }
+  },
+  "dayParts": {
+    "sun": "MD",
+    "mon": "MD",
+    "tue": "MD",
+    "wed": "MD",
+    "thu": "MD",
+    "fri": "MD",
+    "sat": "MD"
+  },
+  "timeCategory": "Midday",
+  "energyRamp": 3,
+  "tags": "Regal, Sunset, Historic, Open, Stroll",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "Da Zero",
+  "vibe": "Pizza, Casual, Southern roots, Lively, Authentic, Basil, Aperitivo stop, Everyday, Comfort, Neapolitan",
+  "type": ["lunch", "dinner"],
+  "lat": 45.4643766,
+  "lon": 9.1793199,
+  "link": "https://www.instagram.com/_da_zero/",
+  "cover": "img/venues/Da Zero.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:30 PM–3:00 PM; 7:30 PM–10:30 PM",
+    "Monday: 12:30 PM–2:30 PM; 7:30 PM–10:30 PM",
+    "Tuesday: 12:30 PM–2:30 PM; 7:30 PM–10:30 PM",
+    "Wednesday: 12:30 PM–2:30 PM; 7:30 PM–10:30 PM",
+    "Thursday: 12:30 PM–2:30 PM; 7:30 PM–10:30 PM",
+    "Friday: 12:30 PM–2:30 PM; 7:30 PM–11:00 PM",
+    "Saturday: 12:30 PM–3:00 PM; 7:30 PM–11:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 12.5, "close": 15 },
+    "mon": { "open": 12.5, "close": 14.5 },
+    "tue": { "open": 12.5, "close": 14.5 },
+    "wed": { "open": 12.5, "close": 14.5 },
+    "thu": { "open": 12.5, "close": 14.5 },
+    "fri": { "open": 12.5, "close": 23 },
+    "sat": { "open": 12.5, "close": 23 }
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Pizza, Casual, Southern, Fresh, Comfort",
+  "price": "$",
+  "duration": 1.5
+},
+{
+  "name": "Felix Navigli",
+  "vibe": "Cocktails, Intimate, Elegant, Date night, Craft, Golden light, Chic, Conversations, Savor, Stylish",
+  "type": ["coffee", "cocktail"],
+  "lat": 45.4514591,
+  "lon": 9.174231,
+  "link": "https://www.instagram.com/felix.navigli/?hl=en",
+  "cover": "img/venues/Felix Navigli.png",
+	"openNow": true,
+  "hours": [
+    "Sunday: 8:00 AM–2:00 AM",
+    "Monday: 8:00 AM–2:00 AM",
+    "Tuesday: 8:00 AM–2:00 AM",
+    "Wednesday: 8:00 AM–2:00 AM",
+    "Thursday: 8:00 AM–2:00 AM",
+    "Friday: 8:00 AM–2:00 AM",
+    "Saturday: 8:00 AM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 8, "close": 26 },
+    "mon": { "open": 8, "close": 26 },
+    "tue": { "open": 8, "close": 26 },
+    "wed": { "open": 8, "close": 26 },
+    "thu": { "open": 8, "close": 26 },
+    "fri": { "open": 8, "close": 26 },
+    "sat": { "open": 8, "close": 26 }
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Cocktails, Chic, Stylish, Elegant, Date",
+  "price": "$",
+  "duration": 1.25
+},
+{
+  "name": "Cantine Isola dal 1896",
+  "vibe": "Wine, Tradition, Historic, Rustic, Milanese soul, Warmth, Bottles everywhere, Evening linger, Local gem, Heritage",
+  "type": ["wine bar"],
+  "lat": 45.481491,
+  "lon": 9.176233,
+  "link": "https://www.instagram.com/cantine_isola/?hl=en",
+  "cover": "img/venues/Cantine Isola dal 1896.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 9:30 AM–10:00 PM",
+    "Monday: 9:30 AM–10:00 PM",
+    "Tuesday: 9:30 AM–10:00 PM",
+    "Wednesday: 9:30 AM–10:00 PM",
+    "Thursday: 9:30 AM–10:00 PM",
+    "Friday: 9:30 AM–10:00 PM",
+    "Saturday: 9:30 AM–10:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 9.5, "close": 22 },
+    "mon": { "open": 9.5, "close": 22 },
+    "tue": { "open": 9.5, "close": 22 },
+    "wed": { "open": 9.5, "close": 22 },
+    "thu": { "open": 9.5, "close": 22 },
+    "fri": { "open": 9.5, "close": 22 },
+    "sat": { "open": 9.5, "close": 22 }
+  },
+  "dayParts": {
+    "sun": "HH",
+    "mon": "HH",
+    "tue": "HH",
+    "wed": "HH",
+    "thu": "HH",
+    "fri": "HH",
+    "sat": "HH"
+  },
+  "timeCategory": "Happy Hour",
+  "energyRamp": 3,
+  "tags": "Wine, Rustic, Heritage, Warm, Local",
+  "price": "$",
+  "duration": 1.5
+},
+{
+  "name": "Antica Trattoria della Pesa",
+  "vibe": "Trattoria, Milanese cuisine, Old‑world, Cozy, Wooden tables, Risotto, Heritage, Candlelit, Slow dining, Tradition",
+  "type": ["lunch", "dinner"],
+  "lat": 45.4817879,
+  "lon": 9.1840786,
+  "link": "https://www.instagram.com/anticatrattoriadellapesa_/",
+  "cover": "img/venues/Antica Trattoria della Pesa.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 12:30 PM–2:30 PM; 7:00 PM–11:00 PM",
+    "Tuesday: 12:30 PM–2:30 PM; 7:00 PM–11:00 PM",
+    "Wednesday: 12:30 PM–2:30 PM; 7:00 PM–11:00 PM",
+    "Thursday: 12:30 PM–2:30 PM; 7:00 PM–11:00 PM",
+    "Friday: 12:30 PM–2:30 PM; 7:00 PM–11:00 PM",
+    "Saturday: 12:30 PM–2:30 PM; 7:00 PM–11:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": { "open": 12.5, "close": 14.5 },
+    "tue": { "open": 12.5, "close": 14.5 },
+    "wed": { "open": 12.5, "close": 14.5 },
+    "thu": { "open": 12.5, "close": 14.5 },
+    "fri": { "open": 12.5, "close": 14.5 },
+    "sat": { "open": 12.5, "close": 14.5 }
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Traditional, Cozy, Wooden, Milanese, Hearty",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "Tite",
+  "vibe": "Aperitivo, Playful, Chic, Social, Small plates, Lively, Trendy, Gathering, Drinks, Friendly",
+  "type": ["dinner"],
+  "lat": 45.4751382,
+  "lon": 9.1593726,
+  "link": "https://www.instagram.com/titemilano/?hl=en",
+  "cover": "img/venues/Tite.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 6:30 PM–11:30 PM",
+    "Wednesday: 6:30 PM–11:30 PM",
+    "Thursday: 6:30 PM–11:30 PM",
+    "Friday: 6:30 PM–11:30 PM",
+    "Saturday: 6:30 PM–11:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": null,
+    "tue": { "open": 18.5, "close": 23.5 },
+    "wed": { "open": 18.5, "close": 23.5 },
+    "thu": { "open": 18.5, "close": 23.5 },
+    "fri": { "open": 18.5, "close": 23.5 },
+    "sat": { "open": 18.5, "close": 23.5 }
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Social, Playful, Aperitivo, Trendy, Gather",
+  "price": "$$",
+  "duration": 2
+},
+{
+  "name": "Feat.Barona",
+  "vibe": "Street food, Urban, Graffiti, Social hub, Young crowd, Casual, Global bites, Outdoor hang, Vibrant, Energy",
+  "type": ["cocktail"],
+  "lat": 45.4404391,
+  "lon": 9.155703,
+  "link": "https://www.instagram.com/feat.barona/?hl=en",
+  "cover": "img/venues/Feat.Barona",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 6:30 PM–11:30 PM",
+    "Wednesday: 6:30 PM–11:30 PM",
+    "Thursday: Closed",
+    "Friday: 6:30 PM–12:00 AM",
+    "Saturday: 6:30 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": null,
+    "tue": { "open": 18.5, "close": 23.5 },
+    "wed": { "open": 18.5, "close": 23.5 },
+    "thu": null,
+    "fri": { "open": 18.5, "close": 24 },
+    "sat": { "open": 18.5, "close": 24 }
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "E",
+    "wed": "E",
+    "thu": "–",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Street, Youthful, Urban, Graffiti, Vibrant",
+  "price": "$",
+  "duration": 1.5
+},
+{
+  "name": "Canaglia",
+  "vibe": "Hidden, Cozy, Mixology, Retro charm, Intimate, Conversations, Date spot, Dim light, Craft cocktails, Urban edge",
+  "type": ["bar"],
+  "lat": 45.4441351,
+  "lon": 9.2140136,
+  "link": "https://www.instagram.com/canaglia.milano/?hl=en",
+  "cover": "img/venues/Canaglia.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 6:00 PM–1:00 AM",
+    "Tuesday: 6:00 PM–1:00 AM",
+    "Wednesday: 6:00 PM–1:00 AM",
+    "Thursday: 6:00 PM–1:00 AM",
+    "Friday: 6:00 PM–1:00 AM",
+    "Saturday: 6:00 PM–1:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": { "open": 18, "close": 25 },
+    "tue": { "open": 18, "close": 25 },
+    "wed": { "open": 18, "close": 25 },
+    "thu": { "open": 18, "close": 25 },
+    "fri": { "open": 18, "close": 25 },
+    "sat": { "open": 18, "close": 25 }
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Hidden, Retro, Intimate, Craft, Night",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Colonne di San Lorenzo",
+  "vibe": "Ancient, Nightlife, Aperitivo, Youthful, Street hang, Open air, Historic, Lively, Midnight, Meeting spot",
+  "type": ["landmark"],
+  "lat": 45.4545987,
+  "lon": 9.1806163,
+  "link": "https://en.wikipedia.org/wiki/Colonne_di_San_Lorenzo",
+  "cover": "img/venues/Colonne di San Lorenzo.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 AM–12:00 AM",
+    "Monday: 12:00 AM–12:00 AM",
+    "Tuesday: 12:00 AM–12:00 AM",
+    "Wednesday: 12:00 AM–12:00 AM",
+    "Thursday: 12:00 AM–12:00 AM",
+    "Friday: 12:00 AM–12:00 AM",
+    "Saturday: 12:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 0, "close": 24 },
+    "mon": { "open": 0, "close": 24 },
+    "tue": { "open": 0, "close": 24 },
+    "wed": { "open": 0, "close": 24 },
+    "thu": { "open": 0, "close": 24 },
+    "fri": { "open": 0, "close": 24 },
+    "sat": { "open": 0, "close": 24 }
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "M",
+    "tue": "M",
+    "wed": "M",
+    "thu": "M",
+    "fri": "M",
+    "sat": "M"
+  },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "Ancient, Youthful, Nightlife, Open, Buzz",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "Cortile della Legnaia",
+  "vibe": "Rustic, Intimate, Romantic, Secret, Courtyard, Candlelight, Cozy dinner, Escape, Warmth, Hidden gem",
+  "type": ["landmark"],
+  "lat": 45.459141,
+  "lon": 9.1940436,
+  "link": "https://www.instagram.com/explore/search/keyword/?q=Cortile%20della%20Legnaia&hl=en",
+  "cover": "img/venues/Cortile della Legnaia.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 AM–12:00 AM",
+    "Monday: 12:00 AM–12:00 AM",
+    "Tuesday: 12:00 AM–12:00 AM",
+    "Wednesday: 12:00 AM–12:00 AM",
+    "Thursday: 12:00 AM–12:00 AM",
+    "Friday: 12:00 AM–12:00 AM",
+    "Saturday: 12:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 0, "close": 24 },
+    "mon": { "open": 0, "close": 24 },
+    "tue": { "open": 0, "close": 24 },
+    "wed": { "open": 0, "close": 24 },
+    "thu": { "open": 0, "close": 24 },
+    "fri": { "open": 0, "close": 24 },
+    "sat": { "open": 0, "close": 24 }
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "M",
+    "tue": "M",
+    "wed": "M",
+    "thu": "M",
+    "fri": "M",
+    "sat": "M"
+  },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "Courtyard, Romantic, Secret, Rustic, Candlelit",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "Statue of King Victor Emmanuel II",
+  "vibe": "Monumental, Historic, Proud, Iconic, Central, Marble, National symbol, Stately, Open plaza, Timeless",
+  "type": ["landmark"],
+  "lat": 45.4642149,
+  "lon": 9.1892659,
+  "link": "https://en.wikipedia.org/wiki/Monument_to_Victor_Emmanuel_II",
+  "cover": "img/venues/Statue of King Victor Emmanuel II.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 AM–12:00 AM",
+    "Monday: 12:00 AM–12:00 AM",
+    "Tuesday: 12:00 AM–12:00 AM",
+    "Wednesday: 12:00 AM–12:00 AM",
+    "Thursday: 12:00 AM–12:00 AM",
+    "Friday: 12:00 AM–12:00 AM",
+    "Saturday: 12:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 0, "close": 24 },
+    "mon": { "open": 0, "close": 24 },
+    "tue": { "open": 0, "close": 24 },
+    "wed": { "open": 0, "close": 24 },
+    "thu": { "open": 0, "close": 24 },
+    "fri": { "open": 0, "close": 24 },
+    "sat": { "open": 0, "close": 24 }
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "M",
+    "tue": "M",
+    "wed": "M",
+    "thu": "M",
+    "fri": "M",
+    "sat": "M"
+  },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "Monumental, Proud, Marble, Iconic, Historic",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "Via Abramo Lincoln",
+  "vibe": "Colorful, Unexpected, Quiet, Charming, Rainbow houses, Hidden stroll, Photogenic, Playful, Secret corner, Daylight walk",
+  "type": ["landmark"],
+  "lat": 45.465118,
+  "lon": 9.2089983,
+  "link": "https://www.instagram.com/explore/search/keyword/?q=Via%20Abramo%20Lincoln&hl=en",
+  "cover": "img/venues/Via Abramo Lincoln.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 AM–12:00 AM",
+    "Monday: 12:00 AM–12:00 AM",
+    "Tuesday: 12:00 AM–12:00 AM",
+    "Wednesday: 12:00 AM–12:00 AM",
+    "Thursday: 12:00 AM–12:00 AM",
+    "Friday: 12:00 AM–12:00 AM",
+    "Saturday: 12:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 0, "close": 24 },
+    "mon": { "open": 0, "close": 24 },
+    "tue": { "open": 0, "close": 24 },
+    "wed": { "open": 0, "close": 24 },
+    "thu": { "open": 0, "close": 24 },
+    "fri": { "open": 0, "close": 24 },
+    "sat": { "open": 0, "close": 24 }
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "M",
+    "tue": "M",
+    "wed": "M",
+    "thu": "M",
+    "fri": "M",
+    "sat": "M"
+  },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "Colorful, Playful, Quiet, Rainbow, Charming",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "Photo Optics Cavour Srl - Leica Boutique Milan",
+  "vibe": "Photography, Precision, Minimal, Sleek, Modern design, Collectors, Inspiration, Tools of vision, Boutique, Focus",
+  "type": ["lifestyle"],
+  "lat": 45.4724774,
+  "lon": 9.1942138,
+  "link": "https://www.instagram.com/fotocavour/?hl=en",
+  "cover": "img/venues/Photo Optics Cavour Srl.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 3:00 PM–7:00 PM",
+    "Tuesday: 10:00 AM–1:30 PM; 3:00 PM–7:00 PM",
+    "Wednesday: 10:00 AM–1:30 PM; 3:00 PM–7:00 PM",
+    "Thursday: 10:00 AM–1:30 PM; 3:00 PM–7:00 PM",
+    "Friday: 10:00 AM–1:30 PM; 3:00 PM–7:00 PM",
+    "Saturday: 10:00 AM–1:30 PM; 3:00 PM–7:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": { "open": 15, "close": 19 },
+    "tue": { "open": 10, "close": 19 },
+    "wed": { "open": 10, "close": 19 },
+    "thu": { "open": 10, "close": 19 },
+    "fri": { "open": 10, "close": 19 },
+    "sat": { "open": 10, "close": 19 }
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Photography, Minimal, Sleek, Boutique, Precision",
+  "price": "$$$",
+  "duration": 0.66
+},
+{
+  "name": "Triennale di Milano",
+  "vibe": "Design, Innovation, Creative, Inspiring, Curated, Light-filled, Architecture, Contemporary, Cultural hub, Exploration",
+  "type": ["gallery", "museum"],
+  "lat": 45.4721477,
+  "lon": 9.1734894,
+  "link": "https://www.instagram.com/triennalemilano/?hl=en",
+  "cover": "img/venues/Triennale di Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 10:30 AM–11:30 PM",
+    "Monday: Closed",
+    "Tuesday: 10:30 AM–11:30 PM",
+    "Wednesday: 10:30 AM–11:30 PM",
+    "Thursday: 10:30 AM–11:30 PM",
+    "Friday: 10:30 AM–11:30 PM",
+    "Saturday: 10:30 AM–11:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 10.5, "close": 23.5 },
+    "mon": null,
+    "tue": { "open": 10.5, "close": 23.5 },
+    "wed": { "open": 10.5, "close": 23.5 },
+    "thu": { "open": 10.5, "close": 23.5 },
+    "fri": { "open": 10.5, "close": 23.5 },
+    "sat": { "open": 10.5, "close": 23.5 }
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "–",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Design, Creative, Contemporary, Inspiring, Curated",
+  "price": "$",
+  "duration": 2
+},
+{
+  "name": "SECCI",
+  "vibe": "Contemporary, Intimate, Minimalist, Experimental, Art lovers, White cube, Milanese scene, Emerging, Curated, Bold",
+  "type": ["gallery"],
+  "lat": 45.4600827,
+  "lon": 9.1862427,
+  "link": "https://www.instagram.com/secci_gallery/?hl=en",
+  "cover": "img/venues/SECCI.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 10:00 AM–1:00 PM; 2:00 PM–6:00 PM",
+    "Wednesday: 10:00 AM–1:00 PM; 2:00 PM–6:00 PM",
+    "Thursday: 10:00 AM–1:00 PM; 2:00 PM–6:00 PM",
+    "Friday: 10:00 AM–1:00 PM; 2:00 PM–6:00 PM",
+    "Saturday: 10:00 AM–1:00 PM; 2:00 PM–6:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": null,
+    "tue": { "open": 10, "close": 18 },
+    "wed": { "open": 10, "close": 18 },
+    "thu": { "open": 10, "close": 18 },
+    "fri": { "open": 10, "close": 18 },
+    "sat": { "open": 10, "close": 18 }
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Contemporary, Minimal, Emerging, Bold, Intimate",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Nilufar Depot",
+  "vibe": "Design, Retro-futuristic, Collectible, Curated, Vibrant, Architectural, Treasure trove, Avant-garde, Statement, Timeless pieces",
+  "type": ["gallery"],
+  "lat": 45.4952852,
+  "lon": 9.1749756,
+  "link": "https://www.instagram.com/nilufargallery/",
+  "cover": "img/venues/Nilufar Depot.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 10:00 AM–1:00 PM; 2:00 PM–7:00 PM",
+    "Tuesday: 10:00 AM–1:00 PM; 2:00 PM–7:00 PM",
+    "Wednesday: 10:00 AM–1:00 PM; 2:00 PM–7:00 PM",
+    "Thursday: 10:00 AM–1:00 PM; 2:00 PM–7:00 PM",
+    "Friday: 10:00 AM–1:00 PM; 2:00 PM–7:00 PM",
+    "Saturday: 10:00 AM–1:00 PM; 2:00 PM–7:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": { "open": 10, "close": 19 },
+    "tue": { "open": 10, "close": 19 },
+    "wed": { "open": 10, "close": 19 },
+    "thu": { "open": 10, "close": 19 },
+    "fri": { "open": 10, "close": 19 },
+    "sat": { "open": 10, "close": 19 }
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Design, Eclectic, Collectible, Vibrant, Retro",
+  "price": "$",
+  "duration": 1.5
+},
+{
+  "name": "Museo del Novecento",
+  "vibe": "Modern, Cubist, Iconic, Artistic journey, Panoramic, Futurism, Italian masters, Elegant, Cultural, Reflective",
+  "type": ["gallery", "museum"],
+  "lat": 45.463408,
+  "lon": 9.1901686,
+  "link": "https://www.instagram.com/museodel900/?hl=en",
+  "cover": "img/venues/Museo del Novecento.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 10:00 AM–7:30 PM",
+    "Monday: Closed",
+    "Tuesday: 10:00 AM–7:30 PM",
+    "Wednesday: 10:00 AM–7:30 PM",
+    "Thursday: 10:00 AM–10:30 PM",
+    "Friday: 10:00 AM–7:30 PM",
+    "Saturday: 10:00 AM–7:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": { "open": 10, "close": 19.5 },
+    "mon": null,
+    "tue": { "open": 10, "close": 19.5 },
+    "wed": { "open": 10, "close": 19.5 },
+    "thu": { "open": 10, "close": 22.5 },
+    "fri": { "open": 10, "close": 19.5 },
+    "sat": { "open": 10, "close": 19.5 }
+  },
+  "dayParts": {
+    "sun": "A",
+    "mon": "–",
+    "tue": "A",
+    "wed": "A",
+    "thu": "E",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon, Evening",
+  "energyRamp": 3,
+  "tags": "Futurist, Abstract, Modernist, Iconic, Urban",
+  "price": "$",
+  "duration": 2
+},
+{
+  "name": "Galleria Christian Stein",
+  "vibe": "Avant-garde, Conceptual, Intimate, Experimental, White walls, Minimalist, Global scene, Refined, Quiet focus, Curated",
+  "type": ["gallery"],
+  "lat": 45.4671191,
+  "lon": 9.2010637,
+  "link": "https://www.instagram.com/explore/locations/1786080015010454/galleria-christian-stein/?hl=en",
+  "cover": "img/venues/Galleria Christian Stein.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 10:00 AM–7:00 PM",
+    "Tuesday: 10:00 AM–7:00 PM",
+    "Wednesday: 10:00 AM–7:00 PM",
+    "Thursday: 10:00 AM–7:00 PM",
+    "Friday: 10:00 AM–7:00 PM",
+    "Saturday: 10:00 AM–1:00 PM; 3:00 PM–7:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": { "open": 10, "close": 19 },
+    "tue": { "open": 10, "close": 19 },
+    "wed": { "open": 10, "close": 19 },
+    "thu": { "open": 10, "close": 19 },
+    "fri": { "open": 10, "close": 19 },
+    "sat": { "open": 10, "close": 19 }
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Conceptual, Minimal, Global, Refined, Quiet",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Gió Marconi",
+  "vibe": "Contemporary, Conceptual, Curated, International, Minimal, Avant-garde, White walls, Creative hub, Bold, Milanese scene",
+  "type": ["gallery"],
+  "lat": 45.4776948,
+  "lon": 9.2062302,
+  "link": "https://www.instagram.com/giomarconigallery/?hl=en",
+  "cover": "img/venues/Gió Marconi.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: Closed",
+    "Thursday: Closed",
+    "Friday: Closed",
+    "Saturday: Closed"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "–",
+    "fri": "–",
+    "sat": "–"
+  },
+  "timeCategory": "",
+  "energyRamp": 3,
+  "tags": "Contemporary, Bold, Avant-garde, Milanese, Sleek",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Galleria Raffaella Cortese",
+  "vibe": "Feminist voices, Intimate, Thoughtful, Curated, Global, Contemporary, Intellectual, Minimalist, Quiet focus, Refined",
+  "type": ["gallery"],
+  "lat": 45.4785886,
+  "lon": 9.215891,
+  "link": "https://www.instagram.com/galleriaraffaellacortese/?hl=en",
+  "cover": "img/venues/Galleria Raffaella Cortese.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 10:00 AM–1:00 PM; 2:30 PM–7:00 PM",
+    "Wednesday: 10:00 AM–1:00 PM; 2:30 PM–7:00 PM",
+    "Thursday: 10:00 AM–1:00 PM; 2:30 PM–7:00 PM",
+    "Friday: 10:00 AM–1:00 PM; 2:30 PM–7:00 PM",
+    "Saturday: 10:00 AM–1:00 PM; 2:30 PM–7:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [{ "open": 10, "close": 13 }, { "open": 14.5, "close": 19 }],
+    "wed": [{ "open": 10, "close": 13 }, { "open": 14.5, "close": 19 }],
+    "thu": [{ "open": 10, "close": 13 }, { "open": 14.5, "close": 19 }],
+    "fri": [{ "open": 10, "close": 13 }, { "open": 14.5, "close": 19 }],
+    "sat": [{ "open": 10, "close": 13 }, { "open": 14.5, "close": 19 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Feminine, Narrative, Thoughtful, Global, Subtle",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Galleria Massimo De Carlo",
+  "vibe": "International, Prestigious, Avant-garde, Cutting-edge, Global names, Sleek, Vibrant, Collector’s choice, Contemporary, Milanese hub",
+  "type": ["gallery"],
+  "lat": 45.4826465,
+  "lon": 9.2234338,
+  "link": "https://www.instagram.com/massimodecarlogallery/?hl=en",
+  "cover": "img/venues/Galleria Massimo De Carlo.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 11:00 AM–6:30 PM",
+    "Wednesday: 11:00 AM–6:30 PM",
+    "Thursday: 11:00 AM–6:30 PM",
+    "Friday: 11:00 AM–6:30 PM",
+    "Saturday: 11:00 AM–6:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": null,
+    "tue": { "open": 11, "close": 18.5 },
+    "wed": { "open": 11, "close": 18.5 },
+    "thu": { "open": 11, "close": 18.5 },
+    "fri": { "open": 11, "close": 18.5 },
+    "sat": { "open": 11, "close": 18.5 }
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Prestigious, Cutting-edge, International, Vibrant, Curated",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Cardi Gallery",
+  "vibe": "Post-war, Historic, Italian masters, Modern, Refined, Bold, Cultural heritage, Minimalist, Collectible, Curated",
+  "type": ["gallery"],
+  "lat": 45.4773514,
+  "lon": 9.1924131,
+  "link": "https://www.instagram.com/cardigallery/?hl=en",
+  "cover": "img/venues/Cardi Gallery.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 10:00 AM–6:30 PM",
+    "Tuesday: 10:00 AM–6:30 PM",
+    "Wednesday: 10:00 AM–6:30 PM",
+    "Thursday: 10:00 AM–6:30 PM",
+    "Friday: 10:00 AM–6:30 PM",
+    "Saturday: 11:00 AM–6:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": null,
+    "mon": { "open": 10, "close": 18.5 },
+    "tue": { "open": 10, "close": 18.5 },
+    "wed": { "open": 10, "close": 18.5 },
+    "thu": { "open": 10, "close": 18.5 },
+    "fri": { "open": 10, "close": 18.5 },
+    "sat": { "open": 11, "close": 18 }
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Postwar, Historic, Italian, Collectible, Heritage",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "DimoreGallery",
+  "vibe": "Eclectic, Retro, Design, Maximalist, Colorful, Immersive, Artistic interiors, Curated, Timeless, Milanese charm",
+  "type": ["gallery"],
+  "lat": 45.4748786,
+  "lon": 9.1868951,
+  "link": "https://www.instagram.com/dimorestudio/?hl=en",
+  "cover": "img/venues/DimoreGallery.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: -",
+    "Monday: -",
+    "Tuesday: -",
+    "Wednesday: -",
+    "Thursday: -",
+    "Friday: -",
+    "Saturday: -"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [],
+    "fri": [],
+    "sat": []
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "–",
+    "fri": "–",
+    "sat": "–"
+  },
+  "timeCategory": "",
+  "energyRamp": 3,
+  "tags": "Eclectic, Interior, Decorative, Retro, Colorful",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Fragile",
+  "vibe": "Vintage, Decorative arts, Collectors’ gem, Design lovers, Curated, Chic, Retro-glam, Refined, Timeless, Objects of desire",
+  "type": ["gallery"],
+  "lat": 45.45488,
+  "lon": 9.21599,
+  "link": "https://www.instagram.com/fragile_milano/?hl=en",
+  "cover": "img/venues/Fragile.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: -",
+    "Monday: -",
+    "Tuesday: -",
+    "Wednesday: -",
+    "Thursday: -",
+    "Friday: -",
+    "Saturday: -"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [],
+    "fri": [],
+    "sat": []
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "–",
+    "fri": "–",
+    "sat": "–"
+  },
+  "timeCategory": "",
+  "energyRamp": 3,
+  "tags": "Vintage, Chic, Collectors, Design, Elegant",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Basilica of Sant'Ambrogio",
+  "vibe": "Romanesque, Sacred, Timeless, Spiritual, Quiet, Medieval, History, Serenity, Devotional, Ancient",
+  "type": ["landmark"],
+  "lat": 45.4623364,
+  "lon": 9.1763635,
+  "link": "https://en.wikipedia.org/wiki/Basilica_of_Sant%27Ambrogio",
+  "cover": "img/venues/Basilica of Sant'Ambrogio.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 3:00 PM–5:00 PM",
+    "Monday: 9:30 AM–12:30 PM; 2:30 PM–6:00 PM",
+    "Tuesday: 9:30 AM–12:30 PM; 2:30 PM–6:00 PM",
+    "Wednesday: 9:30 AM–12:30 PM; 2:30 PM–6:00 PM",
+    "Thursday: 9:30 AM–12:30 PM; 2:30 PM–6:00 PM",
+    "Friday: 9:30 AM–12:30 PM; 2:30 PM–6:00 PM",
+    "Saturday: 9:30 AM–12:30 PM; 2:30 PM–6:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 15, "close": 17 }],
+    "mon": [{ "open": 9.5, "close": 12.5 }, { "open": 14.5, "close": 18 }],
+    "tue": [{ "open": 9.5, "close": 12.5 }, { "open": 14.5, "close": 18 }],
+    "wed": [{ "open": 9.5, "close": 12.5 }, { "open": 14.5, "close": 18 }],
+    "thu": [{ "open": 9.5, "close": 12.5 }, { "open": 14.5, "close": 18 }],
+    "fri": [{ "open": 9.5, "close": 12.5 }, { "open": 14.5, "close": 18 }],
+    "sat": [{ "open": 9.5, "close": 12.5 }, { "open": 14.5, "close": 18 }]
+  },
+  "dayParts": {
+    "sun": "HH",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon, Happy Hour",
+  "energyRamp": 3,
+  "tags": "Romanesque, Sacred, Medieval, Pilgrimage, Devotional",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "Leonardo's Last Supper Museum",
+  "vibe": "Masterpiece, Renaissance, Awe, Timeless, Sacred, Spiritual, Artistic heritage, Contemplative, Iconic, Reflective",
+  "type": ["landmark"],
+  "lat": 45.4661853,
+  "lon": 9.1706005,
+  "link": "https://en.wikipedia.org/wiki/The_Last_Supper_(Leonardo)",
+  "cover": "img/venues/Leonardo's Last Supper Museum.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 8:15 AM–6:45 PM",
+    "Monday: Closed",
+    "Tuesday: 8:15 AM–6:45 PM",
+    "Wednesday: 8:15 AM–6:45 PM",
+    "Thursday: 8:15 AM–6:45 PM",
+    "Friday: 8:15 AM–6:45 PM",
+    "Saturday: 8:15 AM–6:45 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 8.25, "close": 18.75 }],
+    "mon": [],
+    "tue": [{ "open": 8.25, "close": 18.75 }],
+    "wed": [{ "open": 8.25, "close": 18.75 }],
+    "thu": [{ "open": 8.25, "close": 18.75 }],
+    "fri": [{ "open": 8.25, "close": 18.75 }],
+    "sat": [{ "open": 8.25, "close": 18.75 }]
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "–",
+    "tue": "M",
+    "wed": "M",
+    "thu": "M",
+    "fri": "M",
+    "sat": "M"
+  },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "Masterpiece, Renaissance, Timeless, Sacred, Reflective",
+  "price": "$",
+  "duration": 0.66
+},
+{
+  "name": "BAM - Biblioteca degli Alberi Milano",
+  "vibe": "Green, Urban park, Contemporary, Mindful mornings, Skyline views, Stroll, Community, Open air, Relax, Modern nature",
+  "type": ["park"],
+  "lat": 45.4857844,
+  "lon": 9.192789,
+  "link": "https://www.instagram.com/bam.milano/?hl=en",
+  "cover": "img/venues/Biblioteca degli Alberi Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 AM–12:00 AM",
+    "Monday: 12:00 AM–12:00 AM",
+    "Tuesday: 12:00 AM–12:00 AM",
+    "Wednesday: 12:00 AM–12:00 AM",
+    "Thursday: 12:00 AM–12:00 AM",
+    "Friday: 12:00 AM–12:00 AM",
+    "Saturday: 12:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 0, "close": 24 }],
+    "mon": [{ "open": 0, "close": 24 }],
+    "tue": [{ "open": 0, "close": 24 }],
+    "wed": [{ "open": 0, "close": 24 }],
+    "thu": [{ "open": 0, "close": 24 }],
+    "fri": [{ "open": 0, "close": 24 }],
+    "sat": [{ "open": 0, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "M",
+    "tue": "M",
+    "wed": "M",
+    "thu": "M",
+    "fri": "M",
+    "sat": "M"
+  },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "Park, Contemporary, Skyline, Green, Urban",
+  "price": "$",
+  "duration": 1
+},
+{
+  "name": "Giardino della Villa Belgiojoso Bonaparte",
+  "vibe": "Romantic, Green, Hidden, Quiet, Timeless, Historic, Escape, Gentle stroll, Noble charm, Secret garden",
+  "type": ["garden"],
+  "lat": 45.4725327,
+  "lon": 9.199676,
+  "link": "https://www.instagram.com/explore/search/keyword/?q=Giardino%20della%20Villa%20Belgiojoso%20Bonaparte&hl=en",
+  "cover": "img/venues/Giardino della Villa Belgiojoso Bonaparte.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 10:00 AM–5:30 PM",
+    "Monday: Closed",
+    "Tuesday: 10:00 AM–5:30 PM",
+    "Wednesday: 10:00 AM–5:30 PM",
+    "Thursday: 10:00 AM–5:30 PM",
+    "Friday: 10:00 AM–5:30 PM",
+    "Saturday: 10:00 AM–5:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 10, "close": 17.5 }],
+    "mon": [],
+    "tue": [{ "open": 10, "close": 17.5 }],
+    "wed": [{ "open": 10, "close": 17.5 }],
+    "thu": [{ "open": 10, "close": 17.5 }],
+    "fri": [{ "open": 10, "close": 17.5 }],
+    "sat": [{ "open": 10, "close": 17.5 }]
+  },
+  "dayParts": {
+    "sun": "A",
+    "mon": "–",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Romantic, Noble, Historic, Quiet, Stroll",
+  "price": "$",
+  "duration": 0.75
+},
+{
+  "name": "Giardino Aristide Calderini",
+  "vibe": "Local, Small, Cozy, Everyday, Family-friendly, Green, Relax, Neighborhood, Casual, Quiet",
+  "type": ["garden"],
+  "lat": 45.4646984,
+  "lon": 9.177689,
+  "link": "https://www.instagram.com/explore/search/keyword/?q=Giardino%20Aristide%20Calderini&hl=en",
+  "cover": "img/venues/Giardino Aristide Calderini.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 AM–12:00 AM",
+    "Monday: 12:00 AM–12:00 AM",
+    "Tuesday: 12:00 AM–12:00 AM",
+    "Wednesday: 12:00 AM–12:00 AM",
+    "Thursday: 12:00 AM–12:00 AM",
+    "Friday: 12:00 AM–12:00 AM",
+    "Saturday: 12:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 0, "close": 24 }],
+    "mon": [{ "open": 0, "close": 24 }],
+    "tue": [{ "open": 0, "close": 24 }],
+    "wed": [{ "open": 0, "close": 24 }],
+    "thu": [{ "open": 0, "close": 24 }],
+    "fri": [{ "open": 0, "close": 24 }],
+    "sat": [{ "open": 0, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "A",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Local, Family, Relaxed, Cozy, Everyday",
+  "price": "$",
+  "duration": 0.75
+},
+{
+  "name": "MILANO MANIFESTI",
+  "vibe": "Urban art, Posters, Cultural, Contemporary, Street, Graphic, Milanese scene, Visual, Youthful, Trendy",
+  "type": ["random gem"],
+  "lat": 45.4924321,
+  "lon": 9.1888657,
+  "link": "https://www.instagram.com/milanomanifesti/?hl=en",
+  "cover": "img/venues/MILANO MANIFESTI.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 10:00 AM–8:00 PM",
+    "Wednesday: 10:00 AM–8:00 PM",
+    "Thursday: 10:00 AM–8:00 PM",
+    "Friday: 10:00 AM–8:00 PM",
+    "Saturday: 10:00 AM–8:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [{ "open": 10, "close": 20 }],
+    "wed": [{ "open": 10, "close": 20 }],
+    "thu": [{ "open": 10, "close": 20 }],
+    "fri": [{ "open": 10, "close": 20 }],
+    "sat": [{ "open": 10, "close": 20 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Posters, Street, Visual, Graphic, Urban",
+  "price": "$$",
+  "duration": 0.66
+},
+{
+  "name": "Chiosco Ravizza",
+  "vibe": "Aperitivo, Open air, Neighborhood, Lively, Social, Easygoing, Informal, Drinks, Relax, Milanese spirit",
+  "type": ["bar"],
+  "lat": 45.4463444,
+  "lon": 9.1922824,
+  "link": "https://www.instagram.com/chioscoravizza/?hl=en",
+  "cover": "img/venues/Chiosco Ravizza.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:00 PM–10:00 PM",
+    "Monday: Closed",
+    "Tuesday: 6:00 PM–12:00 AM",
+    "Wednesday: 6:00 PM–12:00 AM",
+    "Thursday: 6:00 PM–12:00 AM",
+    "Friday: 6:00 PM–12:00 AM",
+    "Saturday: 6:00 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18, "close": 22 }],
+    "mon": [],
+    "tue": [{ "open": 18, "close": 24 }],
+    "wed": [{ "open": 18, "close": 24 }],
+    "thu": [{ "open": 18, "close": 24 }],
+    "fri": [{ "open": 18, "close": 24 }],
+    "sat": [{ "open": 18, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "–",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Aperitivo, Casual, Open-air, Friendly, Local",
+  "price": "$",
+  "duration": 1.5
+},
+{
+  "name": "Coffee Pot Milano",
+  "vibe": "Tacos, Cocktails, Fusion, Lively, Social, Young crowd, International, Street vibe, Casual, Fun",
+  "type": ["cocktail", "dinner"],
+  "lat": 45.4882669,
+  "lon": 9.1875919,
+  "link": "https://www.instagram.com/explore/locations/191850004011495/coffee-pot-milano/",
+  "cover": "img/venues/Coffee Pot Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: -",
+    "Monday: -",
+    "Tuesday: -",
+    "Wednesday: -",
+    "Thursday: -",
+    "Friday: -",
+    "Saturday: -"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [],
+    "fri": [],
+    "sat": []
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "–",
+    "fri": "–",
+    "sat": "–"
+  },
+  "timeCategory": "",
+  "energyRamp": 3,
+  "tags": "Fusion, Street, Cocktails, Global, Young",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "LARG_O Bar Milano",
+  "vibe": "Mixology, Contemporary, Stylish, Intimate, Dim light, Chic, Cocktails, Trendy, Urban, Evening linger",
+  "type": ["bar", "lunch"],
+  "lat": 45.45865,
+  "lon": 9.21601,
+  "link": "https://www.instagram.com/larg__o/?hl=en",
+  "cover": "img/venues/LARG_O Bar Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 3:00 PM–12:15 AM",
+    "Monday: 5:30 PM–12:15 AM",
+    "Tuesday: 5:30 PM–12:15 AM",
+    "Wednesday: 5:30 PM–12:15 AM",
+    "Thursday: 5:30 PM–12:15 AM",
+    "Friday: 5:30 PM–2:00 AM",
+    "Saturday: 3:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 15, "close": 24.25 }],
+    "mon": [{ "open": 17.5, "close": 24.25 }],
+    "tue": [{ "open": 17.5, "close": 24.25 }],
+    "wed": [{ "open": 17.5, "close": 24.25 }],
+    "thu": [{ "open": 17.5, "close": 24.25 }],
+    "fri": [{ "open": 17.5, "close": 26 }],
+    "sat": [{ "open": 15, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Stylish, Modern, Cocktails, Sleek, Night",
+  "price": "$",
+  "duration": 1.5
+},
+{
+  "name": "ERIS",
+  "vibe": "Experimental, Underground, Alternative, Music, Dark, Young crowd, Counterculture, Social, Energy, Edgy",
+  "type": ["bakery", "coffee", "wine bar"],
+  "lat": 45.4738778,
+  "lon": 9.2150638,
+  "link": "https://www.instagram.com/eris_milano/?hl=en",
+  "cover": "img/venues/ERIS.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 9:00 AM–10:00 PM",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: 8:00 AM–11:30 PM",
+    "Thursday: 8:00 AM–11:30 PM",
+    "Friday: 8:00 AM–11:30 PM",
+    "Saturday: 9:00 AM–11:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 9, "close": 22 }],
+    "mon": [],
+    "tue": [],
+    "wed": [{ "open": 8, "close": 23.5 }],
+    "thu": [{ "open": 8, "close": 23.5 }],
+    "fri": [{ "open": 8, "close": 23.5 }],
+    "sat": [{ "open": 9, "close": 23.5 }]
+  },
+  "dayParts": {
+    "sun": "HH",
+    "mon": "–",
+    "tue": "–",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Happy Hour, Evening",
+  "energyRamp": 3,
+  "tags": "Alternative, Underground, Music, Edgy, Dark",
+  "price": "$",
+  "duration": 1.5
+},
+{
+  "name": "Flow Milano",
+  "vibe": "Lounge, Cocktails, Music, Sleek, Trendy, Dance, Social, Late night, Chic, Energy",
+  "type": ["breakfast", "lunch", "dinner"],
+  "lat": 45.4631538,
+  "lon": 9.1827196,
+  "link": "https://www.instagram.com/flowbarmilano/?hl=en",
+  "cover": "img/venues/Flow Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 9:00 AM–1:00 AM",
+    "Monday: 8:00 AM–1:00 AM",
+    "Tuesday: 8:00 AM–1:00 AM",
+    "Wednesday: 8:00 AM–1:00 AM",
+    "Thursday: 8:00 AM–1:00 AM",
+    "Friday: 8:00 AM–2:00 AM",
+    "Saturday: 9:00 AM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 9, "close": 25 }],
+    "mon": [{ "open": 8, "close": 25 }],
+    "tue": [{ "open": 8, "close": 25 }],
+    "wed": [{ "open": 8, "close": 25 }],
+    "thu": [{ "open": 8, "close": 25 }],
+    "fri": [{ "open": 8, "close": 26 }],
+    "sat": [{ "open": 9, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Lounge, Dance, Trendy, Sleek, Party",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "WOLF milano",
+  "vibe": "Brunch, Comfort, Social, Casual, International, Cozy, Young crowd, Plates & coffee, Weekend, Urban",
+  "type": ["cocktail"],
+  "lat": 45.4776732,
+  "lon": 9.1767466,
+  "link": "https://www.instagram.com/wolf_milano/?hl=en",
+  "cover": "img/venues/WOLF milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:00 PM–2:00 AM",
+    "Monday: 6:00 PM–2:00 AM",
+    "Tuesday: 6:00 PM–2:00 AM",
+    "Wednesday: 6:00 PM–2:00 AM",
+    "Thursday: 6:00 PM–2:00 AM",
+    "Friday: 6:00 PM–2:00 AM",
+    "Saturday: 6:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18, "close": 26 }],
+    "mon": [{ "open": 18, "close": 26 }],
+    "tue": [{ "open": 18, "close": 26 }],
+    "wed": [{ "open": 18, "close": 26 }],
+    "thu": [{ "open": 18, "close": 26 }],
+    "fri": [{ "open": 18, "close": 26 }],
+    "sat": [{ "open": 18, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Brunch, Plates, Cozy, Weekend, Social",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "NODO BAR",
+  "vibe": "Natural wine, Minimalist, Cozy, Local, Social, Intimate, Warm, Small plates, Refined, Evenings",
+  "type": ["coffee", "cocktail"],
+  "lat": 45.4911995,
+  "lon": 9.2213541,
+  "link": "https://www.instagram.com/nodobar/",
+  "cover": "img/venues/NODO BAR.png",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 8:00 AM–4:00 PM",
+    "Tuesday: 8:00 AM–12:00 AM",
+    "Wednesday: 8:00 AM–12:00 AM",
+    "Thursday: 8:00 AM–12:00 AM",
+    "Friday: 6:00 PM–2:00 AM",
+    "Saturday: 6:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 8, "close": 16 }],
+    "tue": [{ "open": 8, "close": 24 }],
+    "wed": [{ "open": 8, "close": 24 }],
+    "thu": [{ "open": 8, "close": 24 }],
+    "fri": [{ "open": 18, "close": 26 }],
+    "sat": [{ "open": 18, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "A",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Afternoon, Late Night",
+  "energyRamp": 3,
+  "tags": "Wine, Natural, Minimal, Bottles, Intimate",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "bolo'bolo bar",
+  "vibe": "Community, Alternative, Social hub, Inclusive, Relaxed, Local, Informal, Cultural, Youthful, Casual",
+  "type": ["cocktail"],
+  "lat": 45.4839356,
+  "lon": 9.1812765,
+  "link": "https://www.instagram.com/bolobolobar/",
+  "cover": "img/venues/bolo'bolo bar.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 5:30 PM–1:00 AM",
+    "Tuesday: 5:30 PM–1:00 AM",
+    "Wednesday: 5:30 PM–1:00 AM",
+    "Thursday: 5:30 PM–1:00 AM",
+    "Friday: 5:30 PM–1:00 AM",
+    "Saturday: 5:30 PM–1:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 17.5, "close": 25 }],
+    "tue": [{ "open": 17.5, "close": 25 }],
+    "wed": [{ "open": 17.5, "close": 25 }],
+    "thu": [{ "open": 17.5, "close": 25 }],
+    "fri": [{ "open": 17.5, "close": 25 }],
+    "sat": [{ "open": 17.5, "close": 25 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Community, Inclusive, Cultural, Alternative, Social",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Da Orient",
+  "vibe": "Asian cuisine, Elegant, Refined, Aromatic, Flavorful, Cozy, Exotic, Evening dining, Subtle, Warm",
+  "type": ["cocktail", "lifestyle"],
+  "lat": 45.4808342,
+  "lon": 9.181111,
+  "link": "https://www.instagram.com/daorient/",
+  "cover": "img/venues/Da Orient.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 3:00 PM–10:00 PM",
+    "Monday: 3:00 PM–11:00 PM",
+    "Tuesday: 3:00 PM–11:00 PM",
+    "Wednesday: 3:00 PM–11:00 PM",
+    "Thursday: 3:00 PM–11:00 PM",
+    "Friday: 3:00 PM–11:00 PM",
+    "Saturday: 3:00 PM–11:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 15, "close": 22 }],
+    "mon": [{ "open": 15, "close": 23 }],
+    "tue": [{ "open": 15, "close": 23 }],
+    "wed": [{ "open": 15, "close": 23 }],
+    "thu": [{ "open": 15, "close": 23 }],
+    "fri": [{ "open": 15, "close": 23 }],
+    "sat": [{ "open": 15, "close": 23 }]
+  },
+  "dayParts": {
+    "sun": "HH",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Happy Hour, Evening",
+  "energyRamp": 3,
+  "tags": "Asian, Exotic, Flavors, Elegant, Warm",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Futura Listening Bar",
+  "vibe": "Vinyl, Music, Cozy, Intimate, Retro, Cocktails, Dim light, Social, Creative, Night linger",
+  "type": ["cocktail"],
+  "lat": 45.4540397,
+  "lon": 9.1739632,
+  "link": "https://www.instagram.com/futura.listeningbar/",
+  "cover": "img/venues/Futura Listening Bar.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 5:00 PM–1:00 AM",
+    "Monday: 5:00 PM–1:00 AM",
+    "Tuesday: 5:00 PM–1:00 AM",
+    "Wednesday: 5:00 PM–1:00 AM",
+    "Thursday: 5:00 PM–1:30 AM",
+    "Friday: 5:00 PM–2:00 AM",
+    "Saturday: 5:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 17, "close": 25 }],
+    "mon": [{ "open": 17, "close": 25 }],
+    "tue": [{ "open": 17, "close": 25 }],
+    "wed": [{ "open": 17, "close": 25 }],
+    "thu": [{ "open": 17, "close": 25.5 }],
+    "fri": [{ "open": 17, "close": 26 }],
+    "sat": [{ "open": 17, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Vinyl, Retro, Music, Cozy, Night",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "Bar Arca Milano",
+  "vibe": "Hidden, Aperitivo, Local, Neighborhood, Casual, Warm, Friendly, Relax, Informal, Everyday",
+  "type": ["cocktail", "gallery", "club", "lifestyle"],
+  "lat": 45.440858,
+  "lon": 9.1692032,
+  "link": "https://www.instagram.com/arca__milano/?hl=en",
+  "cover": "img/venues/Bar Arca Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 8:00 AM–4:00 PM",
+    "Tuesday: 8:00 AM–4:00 PM",
+    "Wednesday: 8:00 AM–4:00 PM",
+    "Thursday: 8:00 AM–4:00 PM",
+    "Friday: Closed",
+    "Saturday: Closed"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 8, "close": 16 }],
+    "tue": [{ "open": 8, "close": 16 }],
+    "wed": [{ "open": 8, "close": 16 }],
+    "thu": [{ "open": 8, "close": 16 }],
+    "fri": [],
+    "sat": []
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "–",
+    "sat": "–"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Neighborhood, Casual, Drinks, Friendly, Aperitivo",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "Pinacoteca di Brera",
+  "vibe": "Masterpieces, Historic, Italian art, Renaissance, Timeless, Reflective, Elegant, Cultural, Awe, Iconic",
+  "type": ["gallery", "museum"],
+  "lat": 45.4722421,
+  "lon": 9.1884071,
+  "link": "https://www.instagram.com/pinacotecabrera/?hl=en",
+  "cover": "img/venues/Pinacoteca di Brera.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 8:30 AM–6:00 PM",
+    "Monday: Closed",
+    "Tuesday: 8:30 AM–6:00 PM",
+    "Wednesday: 8:30 AM–6:00 PM",
+    "Thursday: 8:30 AM–6:00 PM",
+    "Friday: 8:30 AM–6:00 PM",
+    "Saturday: 8:30 AM–6:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 8.5, "close": 18 }],
+    "mon": [],
+    "tue": [{ "open": 8.5, "close": 18 }],
+    "wed": [{ "open": 8.5, "close": 18 }],
+    "thu": [{ "open": 8.5, "close": 18 }],
+    "fri": [{ "open": 8.5, "close": 18 }],
+    "sat": [{ "open": 8.5, "close": 18 }]
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "–",
+    "tue": "M",
+    "wed": "M",
+    "thu": "M",
+    "fri": "M",
+    "sat": "M"
+  },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "Renaissance, Italian, Classic, Masters, Heritage",
+  "price": "$",
+  "duration": 2
+},
+{
+  "name": "Santuario di San Bernardino alle Ossa",
+  "vibe": "Sacred, Baroque, Bones, Awe, Spiritual, Macabre, Contemplative, Ancient, Intriguing, Quiet",
+  "type": ["landmark"],
+  "lat": 45.4624166,
+  "lon": 9.1955412,
+  "link": "https://en.wikipedia.org/wiki/San_Bernardino_alle_Ossa",
+  "cover": "img/venues/Santuario di San Bernardino alle Ossa.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 9:30 AM–12:00 PM",
+    "Monday: 8:00 AM–6:00 PM",
+    "Tuesday: 8:00 AM–6:00 PM",
+    "Wednesday: 8:00 AM–6:00 PM",
+    "Thursday: 8:00 AM–6:00 PM",
+    "Friday: 8:00 AM–6:00 PM",
+    "Saturday: 9:30 AM–6:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 9.5, "close": 12 }],
+    "mon": [{ "open": 8, "close": 18 }],
+    "tue": [{ "open": 8, "close": 18 }],
+    "wed": [{ "open": 8, "close": 18 }],
+    "thu": [{ "open": 8, "close": 18 }],
+    "fri": [{ "open": 8, "close": 18 }],
+    "sat": [{ "open": 9.5, "close": 18 }]
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Morning, Afternoon",
+  "energyRamp": 3,
+  "tags": "Bones, Baroque, Sacred, Macabre, Intriguing",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "Saloon of The Artists",
+  "vibe": "Eclectic, Bohemian, Artistic, Social hub, Vintage, Informal, Conversations, Creative, Lively, Quirky",
+  "type": ["bar"],
+  "lat": 45.4819652,
+  "lon": 9.1772746,
+  "link": "https://www.tripadvisor.com/Attraction_Review-g187849-d3404413-Reviews-Saloon_of_the_Artists-Milan_Lombardy.html",
+  "cover": "img/venues/Saloon of The Artists.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: -",
+    "Monday: -",
+    "Tuesday: -",
+    "Wednesday: -",
+    "Thursday: -",
+    "Friday: -",
+    "Saturday: -"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [],
+    "fri": [],
+    "sat": []
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "–",
+    "fri": "–",
+    "sat": "–"
+  },
+  "timeCategory": "",
+  "energyRamp": 3,
+  "tags": "Bohemian, Eclectic, Creative, Informal, Social",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Fabbrica del Vapore",
+  "vibe": "Industrial, Contemporary, Events, Creative hub, Experimental, Young crowd, Vast space, Cultural, Urban, Vibrant",
+  "type": ["gallery"],
+  "lat": 45.4839945,
+  "lon": 9.1753796,
+  "link": "https://www.instagram.com/fabbricadelvapore/?hl=en",
+  "cover": "img/venues/Fabbrica del Vapore.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 8:00 AM–7:30 PM",
+    "Monday: 8:00 AM–7:30 PM",
+    "Tuesday: 8:00 AM–7:30 PM",
+    "Wednesday: 8:00 AM–7:30 PM",
+    "Thursday: 8:00 AM–7:30 PM",
+    "Friday: 8:00 AM–7:30 PM",
+    "Saturday: 8:00 AM–7:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 8, "close": 19.5 }],
+    "mon": [{ "open": 8, "close": 19.5 }],
+    "tue": [{ "open": 8, "close": 19.5 }],
+    "wed": [{ "open": 8, "close": 19.5 }],
+    "thu": [{ "open": 8, "close": 19.5 }],
+    "fri": [{ "open": 8, "close": 19.5 }],
+    "sat": [{ "open": 8, "close": 19.5 }]
+  },
+  "dayParts": {
+    "sun": "A",
+    "mon": "A",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Industrial, Vast, Creative, Youthful, Cultural",
+  "price": "$",
+  "duration": 2.5
+},
+{
+  "name": "Porta Nuova Pilates",
+  "vibe": "Mindful, Wellness, Contemporary, Minimal, Urban, Fitness, Light-filled, Gentle, Focused, Balance",
+  "type": ["yoga", "fitness"],
+  "lat": 45.4786268,
+  "lon": 9.1896493,
+  "link": "http://www.portanuovapilates.it/",
+  "cover": "img/venues/Porta Nuova Pilates.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 8:00 AM–9:00 PM",
+    "Tuesday: 8:00 AM–9:00 PM",
+    "Wednesday: 8:00 AM–9:00 PM",
+    "Thursday: 8:00 AM–9:00 PM",
+    "Friday: 8:00 AM–9:00 PM",
+    "Saturday: 9:00 AM–2:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 8, "close": 21 }],
+    "tue": [{ "open": 8, "close": 21 }],
+    "wed": [{ "open": 8, "close": 21 }],
+    "thu": [{ "open": 8, "close": 21 }],
+    "fri": [{ "open": 8, "close": 21 }],
+    "sat": [{ "open": 9, "close": 14 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "HH",
+    "tue": "HH",
+    "wed": "HH",
+    "thu": "HH",
+    "fri": "HH",
+    "sat": "MD"
+  },
+  "timeCategory": "Midday, Happy Hour",
+  "energyRamp": 3,
+  "tags": "Wellness, Balance, Modern, Gentle, Focus",
+  "price": "$",
+  "duration": 1.25
+},
+{
+  "name": "Humana Vintage",
+  "vibe": "Retro, Fashion, Affordable, Eclectic, Youthful, Urban, Colorful, Everyday, Playful, Treasure hunt",
+  "type": ["lifestyle"],
+  "lat": 45.4532406,
+  "lon": 9.1712943,
+  "link": "https://www.instagram.com/humanavintageitalia/?hl=en",
+  "cover": "img/venues/Humana Vintage.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 11:00 AM–8:00 PM",
+    "Monday: 10:00 AM–8:00 PM",
+    "Tuesday: 10:00 AM–8:00 PM",
+    "Wednesday: 10:00 AM–8:00 PM",
+    "Thursday: 10:00 AM–8:00 PM",
+    "Friday: 10:00 AM–8:00 PM",
+    "Saturday: 10:00 AM–8:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 11, "close": 20 }],
+    "mon": [{ "open": 10, "close": 20 }],
+    "tue": [{ "open": 10, "close": 20 }],
+    "wed": [{ "open": 10, "close": 20 }],
+    "thu": [{ "open": 10, "close": 20 }],
+    "fri": [{ "open": 10, "close": 20 }],
+    "sat": [{ "open": 10, "close": 20 }]
+  },
+  "dayParts": {
+    "sun": "HH",
+    "mon": "HH",
+    "tue": "HH",
+    "wed": "HH",
+    "thu": "HH",
+    "fri": "HH",
+    "sat": "HH"
+  },
+  "timeCategory": "Happy Hour",
+  "energyRamp": 3,
+  "tags": "Retro, Colorful, Affordable, Youthful, Finds",
+  "price": "$",
+  "duration": 0.66
+},
+{
+  "name": "BASE Milano",
+  "vibe": "Creative hub, Design, Events, Social, Contemporary, Cultural, Young crowd, Workshops, Vibrant, Inspiring",
+  "type": ["gallery"],
+  "lat": 45.4524224,
+  "lon": 9.1642322,
+  "link": "https://www.instagram.com/base_milano/?hl=en",
+  "cover": "img/venues/BASE Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 10:00 AM–12:00 AM",
+    "Monday: 9:00 AM–12:00 AM",
+    "Tuesday: 9:00 AM–12:00 AM",
+    "Wednesday: 9:00 AM–12:00 AM",
+    "Thursday: 9:00 AM–12:00 AM",
+    "Friday: 9:00 AM–12:00 AM",
+    "Saturday: 10:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 10, "close": 24 }],
+    "mon": [{ "open": 9, "close": 24 }],
+    "tue": [{ "open": 9, "close": 24 }],
+    "wed": [{ "open": 9, "close": 24 }],
+    "thu": [{ "open": 9, "close": 24 }],
+    "fri": [{ "open": 9, "close": 24 }],
+    "sat": [{ "open": 10, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Cultural, Events, Creative, Hub, Vibrant",
+  "price": "$",
+  "duration": 2
+},
+{
+  "name": "Bazar del Naviglio Grande",
+  "vibe": "Vintage, Market, Treasure hunt, Eclectic, Lively, Retro finds, Canal stroll, Local, Weekend, Hidden gems",
+  "type": ["market"],
+  "lat": 45.4516082,
+  "lon": 9.1747707,
+  "link": "https://www.instagram.com/explore/search/keyword/?q=naviglio%20grande%20market&hl=en",
+  "cover": "img/venues/Bazar del Naviglio Grande.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: -",
+    "Monday: -",
+    "Tuesday: -",
+    "Wednesday: -",
+    "Thursday: -",
+    "Friday: -",
+    "Saturday: -"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [],
+    "fri": [],
+    "sat": []
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "–",
+    "fri": "–",
+    "sat": "–"
+  },
+  "timeCategory": "",
+  "energyRamp": 3,
+  "tags": "Market, Vintage, Finds, Eclectic, Lively",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Cantina Urbana Winery",
+  "vibe": "Urban winery, Wine, Tastings, Milanese innovation, Cozy, Warm, Social, Bottles, Evenings, Heritage reimagined",
+  "type": ["wine bar"],
+  "lat": 45.4412635,
+  "lon": 9.1758254,
+  "link": "https://www.instagram.com/cantinaurbana.milano/",
+  "cover": "img/venues/Cantina Urbana Winery.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:30 PM–10:00 PM",
+    "Monday: 4:00 PM–12:00 AM",
+    "Tuesday: 4:00 PM–12:00 AM",
+    "Wednesday: 4:00 PM–12:00 AM",
+    "Thursday: 4:00 PM–12:00 AM",
+    "Friday: 12:30 PM–12:00 AM",
+    "Saturday: 12:30 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 12.5, "close": 22 }],
+    "mon": [{ "open": 16, "close": 24 }],
+    "tue": [{ "open": 16, "close": 24 }],
+    "wed": [{ "open": 16, "close": 24 }],
+    "thu": [{ "open": 16, "close": 24 }],
+    "fri": [{ "open": 12.5, "close": 24 }],
+    "sat": [{ "open": 12.5, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "HH",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Happy Hour, Evening",
+  "energyRamp": 3,
+  "tags": "Urban, Wine, Tastings, Bottled, Cozy",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Shiua Milano",
+  "vibe": "Wine, Mindful, Contemporary, Calm, Light-filled, Escape, Balance, Gentle",
+  "type": ["wine bar"],
+  "lat": 45.4529503,
+  "lon": 9.1566075,
+  "link": "https://www.instagram.com/shiuamilano/",
+  "cover": "img/venues/Shiua Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 6:00 PM–12:00 AM",
+    "Wednesday: 6:00 PM–12:00 AM",
+    "Thursday: 6:00 PM–12:00 AM",
+    "Friday: 6:00 PM–12:00 AM",
+    "Saturday: 6:00 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [{ "open": 18, "close": 24 }],
+    "wed": [{ "open": 18, "close": 24 }],
+    "thu": [{ "open": 18, "close": 24 }],
+    "fri": [{ "open": 18, "close": 24 }],
+    "sat": [{ "open": 18, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Yoga, Calm, Breath, Flow, Mindful",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Atempo Bistrot",
+  "vibe": "Contemporary dining, Cozy, Seasonal, Elegant, Creative plates, Slow food, Warm, Candlelit, Refined, Intimate",
+  "type": ["lunch", "dinner"],
+  "lat": 45.47216,
+  "lon": 9.21014,
+  "link": "https://www.instagram.com/atempo_bistrot/",
+  "cover": "img/venues/Atempo Bistrot.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 6:00 PM–12:00 AM",
+    "Tuesday: 10:00 AM–3:00 PM; 6:00 PM–12:00 AM",
+    "Wednesday: 10:00 AM–3:00 PM; 6:00 PM–12:00 AM",
+    "Thursday: 10:00 AM–3:00 PM; 6:00 PM–12:00 AM",
+    "Friday: 10:00 AM–3:00 PM; 6:00 PM–12:00 AM",
+    "Saturday: 10:00 AM–3:00 PM; 6:00 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 18, "close": 24 }],
+    "tue": [{ "open": 10, "close": 15 }, { "open": 18, "close": 24 }],
+    "wed": [{ "open": 10, "close": 15 }, { "open": 18, "close": 24 }],
+    "thu": [{ "open": 10, "close": 15 }, { "open": 18, "close": 24 }],
+    "fri": [{ "open": 10, "close": 15 }, { "open": 18, "close": 24 }],
+    "sat": [{ "open": 10, "close": 15 }, { "open": 18, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Seasonal, Cozy, Plates, Elegant, Refined",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "Norah was drunk",
+  "vibe": "Cocktails, Playful, Trendy, Lively, Dim light, Mixology, Social, Young crowd, Energy, Evening linger",
+  "type": ["cocktail"],
+  "lat": 45.4861983,
+  "lon": 9.2331839,
+  "link": "https://www.instagram.com/norah_milano/",
+  "cover": "img/venues/Norah was drunk.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:00 PM–12:00 AM",
+    "Monday: 7:00 PM–2:00 AM",
+    "Tuesday: 7:00 PM–2:00 AM",
+    "Wednesday: 7:00 PM–2:00 AM",
+    "Thursday: 7:00 PM–2:00 AM",
+    "Friday: 7:00 PM–2:00 AM",
+    "Saturday: 7:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18, "close": 24 }],
+    "mon": [{ "open": 19, "close": 26 }],
+    "tue": [{ "open": 19, "close": 26 }],
+    "wed": [{ "open": 19, "close": 26 }],
+    "thu": [{ "open": 19, "close": 26 }],
+    "fri": [{ "open": 19, "close": 26 }],
+    "sat": [{ "open": 19, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Playful, Cocktails, Night, Stylish, Social",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Lostè Café",
+  "vibe": "Specialty coffee, Minimal, Bright, Slow mornings, Cozy, Pastries, Local, Casual, Neighborhood, Creative",
+  "type": ["breakfast", "bakery", "coffee"],
+  "lat": 45.4670146,
+  "lon": 9.2088411,
+  "link": "https://www.instagram.com/lostecafemilano/",
+  "cover": "img/venues/Loste Café.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 8:00 AM–3:00 PM",
+    "Monday: 8:00 AM–3:00 PM",
+    "Tuesday: 8:00 AM–3:00 PM",
+    "Wednesday: 8:00 AM–3:00 PM",
+    "Thursday: 8:00 AM–3:00 PM",
+    "Friday: 8:00 AM–3:00 PM",
+    "Saturday: 8:00 AM–3:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 8, "close": 15 }],
+    "mon": [{ "open": 8, "close": 15 }],
+    "tue": [{ "open": 8, "close": 15 }],
+    "wed": [{ "open": 8, "close": 15 }],
+    "thu": [{ "open": 8, "close": 15 }],
+    "fri": [{ "open": 8, "close": 15 }],
+    "sat": [{ "open": 8, "close": 15 }]
+  },
+  "dayParts": {
+    "sun": "MD",
+    "mon": "MD",
+    "tue": "MD",
+    "wed": "MD",
+    "thu": "MD",
+    "fri": "MD",
+    "sat": "MD"
+  },
+  "timeCategory": "Midday",
+  "energyRamp": 3,
+  "tags": "Coffee, Pastry, Bright, Minimal, Morning",
+  "price": "$",
+  "duration": 1
+},
+{
+  "name": "Ultramarino",
+  "vibe": "Iberian, Tapas, Wine, Social, Lively, Flavorful, Warm, Shared plates, Evening, Cozy",
+  "type": ["wine bar"],
+  "lat": 45.474263,
+  "lon": 9.2093144,
+  "link": "https://www.instagram.com/ultramarino.bar/?hl=en",
+  "cover": "img/venues/Ultramarino.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 6:00 PM–12:00 AM",
+    "Tuesday: 6:00 PM–12:00 AM",
+    "Wednesday: 6:00 PM–12:00 AM",
+    "Thursday: 6:00 PM–12:00 AM",
+    "Friday: 6:00 PM–12:00 AM",
+    "Saturday: 4:30 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 18, "close": 24 }],
+    "tue": [{ "open": 18, "close": 24 }],
+    "wed": [{ "open": 18, "close": 24 }],
+    "thu": [{ "open": 18, "close": 24 }],
+    "fri": [{ "open": 18, "close": 24 }],
+    "sat": [{ "open": 16.5, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Tapas, Iberian, Warm, Shared, Wine",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Iter",
+  "vibe": "Cocktails, Travel-inspired, Playful, Global, Creative, Mixology, Cozy, Young crowd, Intimate, Stylish",
+  "type": ["cocktail"],
+  "lat": 45.4511838,
+  "lon": 9.17444,
+  "link": "https://www.instagram.com/iter_milano/?hl=en",
+  "cover": "img/venues/Iter.JPG",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 PM–12:00 AM",
+    "Monday: 12:00 PM–12:00 AM",
+    "Tuesday: 12:00 PM–12:00 AM",
+    "Wednesday: 12:00 PM–12:00 AM",
+    "Thursday: 12:00 PM–12:00 AM",
+    "Friday: 12:00 PM–1:30 AM",
+    "Saturday: 12:00 PM–1:30 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 12, "close": 24 }],
+    "mon": [{ "open": 12, "close": 24 }],
+    "tue": [{ "open": 12, "close": 24 }],
+    "wed": [{ "open": 12, "close": 24 }],
+    "thu": [{ "open": 12, "close": 24 }],
+    "fri": [{ "open": 12, "close": 25.5 }],
+    "sat": [{ "open": 12, "close": 25.5 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Travel, Global, Creative, Cocktails, Lively",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Ristorante Erba Brusca",
+  "vibe": "Farm-to-table, Seasonal, Green, Elegant, Cozy, Riverside, Refined, Slow dining, Nature, Escape",
+  "type": ["dinner", "lunch"],
+  "lat": 45.4229791,
+  "lon": 9.1674491,
+  "link": "https://www.instagram.com/erbabrusca/?hl=en",
+  "cover": "img/venues/Ristorante Erba Brusca.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00–3:30 PM; 7:30–11:00 PM",
+    "Monday: 7:30–11:00 PM",
+    "Tuesday: 7:30–11:30 PM",
+    "Wednesday: 7:30–11:00 PM",
+    "Thursday: 7:30–11:00 PM",
+    "Friday: 7:30–11:00 PM",
+    "Saturday: 12:30 PM–3:00 PM; 7:30–11:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 12, "close": 15.5 }, { "open": 19.5, "close": 23 }],
+    "mon": [{ "open": 19.5, "close": 23 }],
+    "tue": [{ "open": 19.5, "close": 23.5 }],
+    "wed": [{ "open": 19.5, "close": 23 }],
+    "thu": [{ "open": 19.5, "close": 23 }],
+    "fri": [{ "open": 19.5, "close": 23 }],
+    "sat": [{ "open": 12.5, "close": 15 }, { "open": 19.5, "close": 23 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Garden, Green, Seasonal, Escape, Slow",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "Minerale - Bar e Cantina",
+  "vibe": "Natural wine, Minimal, Intimate, Refined, Cozy, Bottles, Social, Contemporary, Candlelit, Warm",
+  "type": ["wine bar", "cocktail"],
+  "lat": 45.4565925,
+  "lon": 9.1765619,
+  "link": "https://www.instagram.com/minerale_milano/?hl=en",
+  "cover": "img/venues/Minerale - Bar e Cantina.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 6:00 PM–12:00 AM",
+    "Wednesday: 6:00 PM–12:00 AM",
+    "Thursday: 6:00 PM–12:30 AM",
+    "Friday: 6:00 PM–1:00 AM",
+    "Saturday: 6:00 PM–1:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [{ "open": 18, "close": 24 }],
+    "wed": [{ "open": 18, "close": 24 }],
+    "thu": [{ "open": 18, "close": 24.5 }],
+    "fri": [{ "open": 18, "close": 25 }],
+    "sat": [{ "open": 18, "close": 25 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Natural, Bottles, Minimal, Intimate, Refined",
+  "price": "$",
+  "duration": 1.66
+},
+{
+  "name": "Sandì",
+  "vibe": "Aperitivo, Casual, Local, Neighborhood, Warm, Informal, Drinks, Friendly, Relax, Everyday",
+  "type": ["lunch", "dinner"],
+  "lat": 45.4753101,
+  "lon": 9.2161169,
+  "link": "https://www.instagram.com/sandi_ristorante/?hl=en",
+  "cover": "img/venues/Sandì.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:30 PM–3:00 PM",
+    "Monday: 12:30 PM–3:00 PM",
+    "Tuesday: Closed",
+    "Wednesday: Closed",
+    "Thursday: 12:30 PM–3:00 PM",
+    "Friday: 12:30 PM–3:00 PM; 7:00 PM–10:00 PM",
+    "Saturday: 12:30 PM–3:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 12.5, "close": 15 }],
+    "mon": [{ "open": 12.5, "close": 15 }],
+    "tue": [],
+    "wed": [],
+    "thu": [{ "open": 12.5, "close": 15 }],
+    "fri": [{ "open": 12.5, "close": 15 }, { "open": 19, "close": 22 }],
+    "sat": [{ "open": 12.5, "close": 15 }]
+  },
+  "dayParts": {
+    "sun": "MD",
+    "mon": "MD",
+    "tue": "–",
+    "wed": "–",
+    "thu": "MD",
+    "fri": "E",
+    "sat": "MD"
+  },
+  "timeCategory": "Midday, Evening",
+  "energyRamp": 3,
+  "tags": "Aperitivo, Friendly, Casual, Local, Relax",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "LOM Dopolavoro",
+  "vibe": "Cultural hub, Events, Green, Social, Creative, Community, Hidden, Contemporary, Relax, Gathering",
+  "type": ["cocktail", "patio"],
+  "lat": 45.4886147,
+  "lon": 9.1734902,
+  "link": "https://www.instagram.com/lomdopolavoro/?hl=en",
+  "cover": "img/venues/Lom Dopolavoro.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:30 PM–3:30 PM; 6:30 PM–12:00 AM",
+    "Monday: 6:30 PM–2:00 AM",
+    "Tuesday: 6:30 PM–12:00 AM",
+    "Wednesday: 6:30 PM–12:00 AM",
+    "Thursday: 6:30 PM–12:00 AM",
+    "Friday: 6:30 PM–2:00 AM",
+    "Saturday: 6:30 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 12.5, "close": 15.5 }, { "open": 18.5, "close": 24 }],
+    "mon": [{ "open": 18.5, "close": 26 }],
+    "tue": [{ "open": 18.5, "close": 24 }],
+    "wed": [{ "open": 18.5, "close": 24 }],
+    "thu": [{ "open": 18.5, "close": 24 }],
+    "fri": [{ "open": 18.5, "close": 26 }],
+    "sat": [{ "open": 18.5, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "MD",
+    "mon": "L",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Midday, Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Cultural, Events, Hidden, Gathering, Creative",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "Bar Paradiso",
+  "vibe": "Aperitivo, Retro charm, Local, Informal, Cozy, Friendly, Everyday, Warm, Neighborhood, Relax",
+  "type": ["wine bar"],
+  "lat": 45.4522858,
+  "lon": 9.2088479,
+  "link": "https://www.instagram.com/barparadisomilano/?hl=en",
+  "cover": "img/venues/Bar Paradiso.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 6:00 PM–12:00 AM",
+    "Tuesday: 6:00 PM–12:00 AM",
+    "Wednesday: 6:00 PM–12:00 AM",
+    "Thursday: 6:00 PM–12:00 AM",
+    "Friday: 6:00 PM–12:00 AM",
+    "Saturday: 6:00 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 18, "close": 24 }],
+    "tue": [{ "open": 18, "close": 24 }],
+    "wed": [{ "open": 18, "close": 24 }],
+    "thu": [{ "open": 18, "close": 24 }],
+    "fri": [{ "open": 18, "close": 24 }],
+    "sat": [{ "open": 18, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Retro, Local, Everyday, Drinks, Neighborhood",
+  "price": "$$",
+  "duration": 1.33
+},
+{
+  "name": "Left House Wines",
+  "vibe": "Wine, Tastings, Bottles, Warm, Refined, Cozy, Social, Intimate, Evenings, Natural touch",
+  "type": ["wine bar"],
+  "lat": 45.4635833,
+  "lon": 9.2118562,
+  "link": "https://www.instagram.com/lefthouse_wines/?hl=en",
+  "cover": "img/venues/Left House Wines.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:00 PM–11:30 PM",
+    "Monday: 6:00 PM–11:30 PM",
+    "Tuesday: 6:00 PM–11:30 PM",
+    "Wednesday: 6:00 PM–11:30 PM",
+    "Thursday: 6:00 PM–11:30 PM",
+    "Friday: 6:00 PM–11:30 PM",
+    "Saturday: 6:00 PM–11:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18, "close": 23.5 }],
+    "mon": [{ "open": 18, "close": 23.5 }],
+    "tue": [{ "open": 18, "close": 23.5 }],
+    "wed": [{ "open": 18, "close": 23.5 }],
+    "thu": [{ "open": 18, "close": 23.5 }],
+    "fri": [{ "open": 18, "close": 23.5 }],
+    "sat": [{ "open": 18, "close": 23.5 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Wine, Tastings, Bottles, Social, Evenings",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Sidewalk Kitchens",
+  "vibe": "Street food, Global bites, Casual, Young crowd, Urban, Lively, Social, Shared tables, Energy, Everyday",
+  "type": ["breakfast", "lunch", "dinner"],
+  "lat": 45.4635833,
+  "lon": 9.2118562,
+  "link": "https://www.instagram.com/sidewalk_kitchens/?hl=en",
+  "cover": "img/venues/Sidewalk Kitchens.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 9:30 AM–5:00 PM; 6:00 PM–11:30 PM",
+    "Monday: 12:30 PM–3:00 PM; 6:00 PM–11:30 PM",
+    "Tuesday: 9:00 AM–5:00 PM; 6:00 PM–11:30 PM",
+    "Wednesday: 9:00 AM–5:00 PM; 6:00 PM–11:30 PM",
+    "Thursday: 9:00 AM–5:00 PM; 6:00 PM–11:30 PM",
+    "Friday: 9:00 AM–5:00 PM; 6:00 PM–11:30 PM",
+    "Saturday: 9:30 AM–5:00 PM; 6:00 PM–11:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 9.5, "close": 17 }, { "open": 18, "close": 23.5 }],
+    "mon": [{ "open": 12.5, "close": 15 }, { "open": 18, "close": 23.5 }],
+    "tue": [{ "open": 9, "close": 17 }, { "open": 18, "close": 23.5 }],
+    "wed": [{ "open": 9, "close": 17 }, { "open": 18, "close": 23.5 }],
+    "thu": [{ "open": 9, "close": 17 }, { "open": 18, "close": 23.5 }],
+    "fri": [{ "open": 9, "close": 17 }, { "open": 18, "close": 23.5 }],
+    "sat": [{ "open": 9.5, "close": 17 }, { "open": 18, "close": 23.5 }]
+  },
+  "dayParts": {
+    "sun": "A",
+    "mon": "MD",
+    "tue": "A",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon, Midday",
+  "energyRamp": 3,
+  "tags": "Street, Food, Global, Casual, Young",
+  "price": "$",
+  "duration": 1.25
+},
+{
+  "name": "Bicchierino bar",
+  "vibe": "Tiny, Cozy, Aperitivo, Hidden, Friendly, Local, Intimate, Warm, Informal, Evening linger",
+  "type": ["wine bar"],
+  "lat": 45.4506351,
+  "lon": 9.1490303,
+  "link": "https://www.instagram.com/bicchierinobar/?hl=en",
+  "cover": "img/venues/Bicchierino bar.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 6:00 PM–12:00 AM",
+    "Wednesday: 6:00 PM–12:00 AM",
+    "Thursday: 6:00 PM–12:00 AM",
+    "Friday: 6:00 PM–12:00 AM",
+    "Saturday: 6:00 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [{ "open": 18, "close": 24 }],
+    "wed": [{ "open": 18, "close": 24 }],
+    "thu": [{ "open": 18, "close": 24 }],
+    "fri": [{ "open": 18, "close": 24 }],
+    "sat": [{ "open": 18, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Tiny, Cozy, Hidden, Warm, Drinks",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Enoteca La Botte Fatale",
+  "vibe": "Wine, Cozy, Bottles, Heritage, Local, Warm, Rustic, Tastings, Evening linger, Intimate",
+  "type": ["wine bar"],
+  "lat": 45.4919447,
+  "lon": 9.2226548,
+  "link": "https://www.instagram.com/enoteca.labotte/?hl=en",
+  "cover": "img/venues/Enoteca La Botte Fatale.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 5:00 PM–11:00 PM",
+    "Tuesday: 10:00 AM–11:00 PM",
+    "Wednesday: 10:00 AM–11:00 PM",
+    "Thursday: 10:00 AM–11:00 PM",
+    "Friday: 10:00 AM–11:00 PM",
+    "Saturday: Closed"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 17, "close": 23 }],
+    "tue": [{ "open": 10, "close": 23 }],
+    "wed": [{ "open": 10, "close": 23 }],
+    "thu": [{ "open": 10, "close": 23 }],
+    "fri": [{ "open": 10, "close": 23 }],
+    "sat": []
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "HH",
+    "tue": "HH",
+    "wed": "HH",
+    "thu": "HH",
+    "fri": "HH",
+    "sat": "–"
+  },
+  "timeCategory": "Happy Hour",
+  "energyRamp": 3,
+  "tags": "Rustic, Wine, Heritage, Bottles, Local",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Associazione Salumi e Vini Naturali",
+  "vibe": "Natural wine, Salumi, Rustic, Social, Authentic, Shared plates, Local spirit, Informal, Flavorful, Heritage",
+  "type": ["wine bar"],
+  "lat": 45.4736776,
+  "lon": 9.1834143,
+  "link": "https://www.instagram.com/a____svn/?hl=en",
+  "cover": "img/venues/Associazione Salumi e Vini Naturali.png",
+	"openNow": true,
+  "hours": [
+    "Sunday: 5:00 PM–11:00 PM",
+    "Monday: 6:00 PM–12:00 AM",
+    "Tuesday: 6:00 PM–12:00 AM",
+    "Wednesday: 6:00 PM–12:00 AM",
+    "Thursday: 6:00 PM–12:00 AM",
+    "Friday: 6:00 PM–12:00 AM",
+    "Saturday: 6:00 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 17, "close": 23 }],
+    "mon": [{ "open": 18, "close": 24 }],
+    "tue": [{ "open": 18, "close": 24 }],
+    "wed": [{ "open": 18, "close": 24 }],
+    "thu": [{ "open": 18, "close": 24 }],
+    "fri": [{ "open": 18, "close": 24 }],
+    "sat": [{ "open": 18, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "HH",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Happy Hour, Evening",
+  "energyRamp": 3,
+  "tags": "Salumi, Rustic, Wine, Shared, Authentic",
+  "price": "$$$",
+  "duration": 1.75
+},
+{
+  "name": "e/n enoteca naturale",
+  "vibe": "Natural wine, Minimal, Contemporary, Intimate, Warm, Organic, Social, Tastings, Cozy, Refined",
+  "type": ["wine bar"],
+  "lat": 45.4535645,
+  "lon": 9.1816985,
+  "link": "https://www.instagram.com/enotecanaturale/?hl=en",
+  "cover": "img/venues/e-n enoteca naturale.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:00 PM–11:30 PM",
+    "Monday: 6:00 PM–11:30 PM",
+    "Tuesday: 6:00 PM–11:30 PM",
+    "Wednesday: 6:00 PM–11:30 PM",
+    "Thursday: 6:00 PM–11:30 PM",
+    "Friday: 6:00 PM–11:30 PM",
+    "Saturday: 6:00 PM–11:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18, "close": 23.5 }],
+    "mon": [{ "open": 18, "close": 23.5 }],
+    "tue": [{ "open": 18, "close": 23.5 }],
+    "wed": [{ "open": 18, "close": 23.5 }],
+    "thu": [{ "open": 18, "close": 23.5 }],
+    "fri": [{ "open": 18, "close": 23.5 }],
+    "sat": [{ "open": 18, "close": 23.5 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Natural, Organic, Wine, Minimal, Cozy",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "MOGO",
+  "vibe": "Korean bites, Casual, Street food, Lively, Young crowd, Flavorful, Social, Informal, Urban, Everyday",
+  "type": ["dinner", "cocktail", "lifestyle"],
+  "lat": 45.4938161,
+  "lon": 9.1803073,
+  "link": "https://www.instagram.com/mogo.hifi/?hl=en",
+  "cover": "img/venues/MOGO.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 PM–10:00 PM",
+    "Monday: Closed",
+    "Tuesday: 6:00 PM–12:00 AM",
+    "Wednesday: 6:00 PM–1:00 AM",
+    "Thursday: 6:00 PM–1:00 AM",
+    "Friday: 6:00 PM–2:00 AM",
+    "Saturday: 6:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 12, "close": 22 }],
+    "mon": [],
+    "tue": [{ "open": 18, "close": 24 }],
+    "wed": [{ "open": 18, "close": 25 }],
+    "thu": [{ "open": 18, "close": 25 }],
+    "fri": [{ "open": 18, "close": 26 }],
+    "sat": [{ "open": 18, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "HH",
+    "mon": "–",
+    "tue": "E",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Happy Hour, Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Korean, Street, Casual, Flavors, Urban",
+  "price": "$$",
+  "duration": 2
+},
+{
+  "name": "Dexter",
+  "vibe": "Cocktails, Dim light, Intimate, Retro, Mixology, Chic, Evening linger, Cozy, Stylish, Hidden",
+  "type": ["cocktail", "lifestyle"],
+  "lat": 45.4873488,
+  "lon": 9.1869631,
+  "link": "https://www.instagram.com/dextersoundbites/?hl=en",
+  "cover": "img/venues/Dexter.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 6:00 PM–12:00 AM",
+    "Tuesday: 6:30 PM–12:00 AM",
+    "Wednesday: 6:30 PM–12:00 AM",
+    "Thursday: 6:30 PM–12:00 AM",
+    "Friday: 6:30 PM–12:00 AM",
+    "Saturday: Closed"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 18, "close": 24 }],
+    "tue": [{ "open": 18.5, "close": 24 }],
+    "wed": [{ "open": 18.5, "close": 24 }],
+    "thu": [{ "open": 18.5, "close": 24 }],
+    "fri": [{ "open": 18.5, "close": 24 }],
+    "sat": []
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "–"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Cocktails, Retro, Intimate, Hidden, Sleek",
+  "price": "$$",
+  "duration": 2
+},
+{
+  "name": "RONIN 浪人`",
+  "vibe": "Japanese, Izakaya, Cocktails, Dim light, Intimate, Urban edge, Global, Evening dining, Lively, Refined",
+  "type": ["dinner"],
+  "lat": 45.4787997,
+  "lon": 9.1751858,
+  "link": "https://www.instagram.com/house.of.ronin/",
+  "cover": "img/venues/RONIN.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 6:30 PM–1:00 AM",
+    "Tuesday: 6:30 PM–1:00 AM",
+    "Wednesday: 6:30 PM–1:00 AM",
+    "Thursday: 6:30 PM–1:00 AM",
+    "Friday: 6:30 PM–2:00 AM",
+    "Saturday: 6:30 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 18.5, "close": 25 }],
+    "tue": [{ "open": 18.5, "close": 25 }],
+    "wed": [{ "open": 18.5, "close": 25 }],
+    "thu": [{ "open": 18.5, "close": 25 }],
+    "fri": [{ "open": 18.5, "close": 26 }],
+    "sat": [{ "open": 18.5, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Japanese, Izakaya, Drinks, Dim, Global",
+  "price": "$$$$",
+  "duration": 2.5
+},
+{
+  "name": "Bene Bene Bar",
+  "vibe": "Aperitivo, Local, Casual, Everyday, Friendly, Warm, Social, Informal, Neighborhood, Relax",
+  "type": ["cocktail"],
+  "lat": 45.4795321,
+  "lon": 9.2130989,
+  "link": "https://www.instagram.com/benebenebar/?hl=en",
+  "cover": "img/venues/Bene Bene Bar.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 6:00 PM–1:00 AM",
+    "Wednesday: 6:00 PM–1:00 AM",
+    "Thursday: 6:00 PM–1:30 AM",
+    "Friday: 6:00 PM–1:30 AM",
+    "Saturday: 6:00 PM–1:30 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [{ "open": 18, "close": 25 }],
+    "wed": [{ "open": 18, "close": 25 }],
+    "thu": [{ "open": 18, "close": 25.5 }],
+    "fri": [{ "open": 18, "close": 25.5 }],
+    "sat": [{ "open": 18, "close": 25.5 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Aperitivo, Friendly, Local, Drinks, Everyday",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Gesto Milano",
+  "vibe": "Small plates, Shared dining, Playful, Young crowd, Social, Casual, Lively, Creative bites, Drinks, Urban",
+  "type": ["dinner", "cocktail"],
+  "lat": 45.47337,
+  "lon": 9.208,
+  "link": "https://www.instagram.com/gesto.milano/",
+  "cover": "img/venues/Gesto Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 6:30 PM–2:00 AM",
+    "Wednesday: 6:30 PM–2:00 AM",
+    "Thursday: 6:30 PM–2:00 AM",
+    "Friday: 6:30 PM–2:00 AM",
+    "Saturday: 6:30 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [{ "open": 18.5, "close": 26 }],
+    "wed": [{ "open": 18.5, "close": 26 }],
+    "thu": [{ "open": 18.5, "close": 26 }],
+    "fri": [{ "open": 18.5, "close": 26 }],
+    "sat": [{ "open": 18.5, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Plates, Social, Playful, Young, Casual",
+  "price": "$$$",
+  "duration": 1.75
+},
+{
+  "name": "Onda Listening Bar",
+  "vibe": "Vinyl, Music, Cozy, Dim light, Social, Creative, Cocktails, Intimate, Night linger, Retro",
+  "type": ["cocktail", "lifestyle"],
+  "lat": 45.4635833,
+  "lon": 9.2118562,
+  "link": "https://www.instagram.com/onda_milano/",
+  "cover": "img/venues/Onda Listening Bar.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 7:00 PM–2:00 AM",
+    "Wednesday: 7:00 PM–2:00 AM",
+    "Thursday: 7:00 PM–2:00 AM",
+    "Friday: 7:00 PM–2:00 AM",
+    "Saturday: 7:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [{ "open": 19, "close": 26 }],
+    "wed": [{ "open": 19, "close": 26 }],
+    "thu": [{ "open": 19, "close": 26 }],
+    "fri": [{ "open": 19, "close": 26 }],
+    "sat": [{ "open": 19, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Vinyl, Music, Retro, Night, Cocktails",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "Section80Bar",
+  "vibe": "Cocktails, Hip‑hop, Retro vibe, Young crowd, Music, Dim light, Lively, Urban, Social, Energy",
+  "type": ["bar", "lifestyle"],
+  "lat": 45.4909616,
+  "lon": 9.183956,
+  "link": "https://www.instagram.com/section80.bar/",
+  "cover": "img/venues/Section80Bar.png",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 10:00 AM–12:00 AM",
+    "Wednesday: 10:00 AM–12:00 AM",
+    "Thursday: 10:00 AM–12:00 AM",
+    "Friday: 10:00 AM–12:00 AM",
+    "Saturday: 10:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [{ "open": 10, "close": 24 }],
+    "wed": [{ "open": 10, "close": 24 }],
+    "thu": [{ "open": 10, "close": 24 }],
+    "fri": [{ "open": 10, "close": 24 }],
+    "sat": [{ "open": 10, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Hip‑hop, Music, Night, Urban, Young",
+  "price": "$",
+  "duration": 1.5
+},
+{
+  "name": "Palinurobar",
+  "vibe": "Aperitivo, Local, Hidden, Informal, Neighborhood, Friendly, Cozy, Relax, Casual, Warm",
+  "type": ["wine bar"],
+  "lat": 45.4817434,
+  "lon": 9.2202106,
+  "link": "https://www.instagram.com/palinurobar/",
+  "cover": "img/venues/Palinurobar.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 5:45 PM–12:00 AM",
+    "Tuesday: 5:45 PM–12:00 AM",
+    "Wednesday: 5:45 PM–12:00 AM",
+    "Thursday: 5:45 PM–12:00 AM",
+    "Friday: 5:45 PM–1:00 AM",
+    "Saturday: 6:00 PM–1:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 17.75, "close": 24 }],
+    "tue": [{ "open": 17.75, "close": 24 }],
+    "wed": [{ "open": 17.75, "close": 24 }],
+    "thu": [{ "open": 17.75, "close": 24 }],
+    "fri": [{ "open": 17.75, "close": 25 }],
+    "sat": [{ "open": 18, "close": 25 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Local, Aperitivo, Drinks, Cozy, Friendly",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Club Giovanile Milano",
+  "vibe": "Youthful, Social, Community, Lively, Informal, Local, Gathering, Casual, Everyday, Urban",
+  "type": ["cocktail"],
+  "lat": 45.5030999,
+  "lon": 9.1412839,
+  "link": "https://www.instagram.com/clubgiovanilemilano/",
+  "cover": "img/venues/Club Giovanile Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 12:00 PM–3:00 PM",
+    "Tuesday: 12:00 PM–3:00 PM",
+    "Wednesday: 12:00 PM–3:00 PM",
+    "Thursday: 12:00 PM–3:00 PM; 5:00 PM–11:00 PM",
+    "Friday: 12:00 PM–3:00 PM; 6:00 PM–1:00 AM",
+    "Saturday: 6:00 PM–1:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 12, "close": 15 }],
+    "tue": [{ "open": 12, "close": 15 }],
+    "wed": [{ "open": 12, "close": 15 }],
+    "thu": [{ "open": 12, "close": 15 }, { "open": 17, "close": 23 }],
+    "fri": [{ "open": 12, "close": 15 }, { "open": 18, "close": 25 }],
+    "sat": [{ "open": 18, "close": 25 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "MD",
+    "tue": "MD",
+    "wed": "MD",
+    "thu": "E",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Midday, Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Youth, Social, Local, Informal, Community",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "Lubna Milano",
+  "vibe": "Cocktails, Mixology, Sleek, Stylish, Dim light, Intimate, Social, Contemporary, Evening linger, Chic",
+  "type": ["cocktail"],
+  "lat": 45.4411785,
+  "lon": 9.2051574,
+  "link": "https://www.instagram.com/lubnamilano/",
+  "cover": "img/venues/Lubna Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:00 PM–1:00 AM",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: 6:00 PM–1:00 AM",
+    "Thursday: 6:00 PM–1:00 AM",
+    "Friday: 6:00 PM–2:00 AM",
+    "Saturday: 6:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18, "close": 25 }],
+    "mon": [],
+    "tue": [],
+    "wed": [{ "open": 18, "close": 25 }],
+    "thu": [{ "open": 18, "close": 25 }],
+    "fri": [{ "open": 18, "close": 26 }],
+    "sat": [{ "open": 18, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "–",
+    "tue": "–",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Cocktails, Sleek, Chic, Stylish, Intimate",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "Fondazione Prada",
+  "vibe": "Contemporary art, Architecture, Bold, Iconic, Cultural hub, Avant-garde, Experimental, Inspiring, Vast space, Landmark",
+  "type": ["gallery", "museum"],
+  "lat": 45.4442774,
+  "lon": 9.2053413,
+  "link": "https://www.instagram.com/fondazioneprada/",
+  "cover": "img/venues/Fondazione Prada.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 10:00 AM–7:00 PM",
+    "Monday: 10:00 AM–7:00 PM",
+    "Tuesday: Closed",
+    "Wednesday: 10:00 AM–7:00 PM",
+    "Thursday: 10:00 AM–7:00 PM",
+    "Friday: 10:00 AM–7:00 PM",
+    "Saturday: 10:00 AM–7:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 10, "close": 19 }],
+    "mon": [{ "open": 10, "close": 19 }],
+    "tue": [],
+    "wed": [{ "open": 10, "close": 19 }],
+    "thu": [{ "open": 10, "close": 19 }],
+    "fri": [{ "open": 10, "close": 19 }],
+    "sat": [{ "open": 10, "close": 19 }]
+  },
+  "dayParts": {
+    "sun": "A",
+    "mon": "A",
+    "tue": "–",
+    "wed": "A",
+    "thu": "A",
+    "fri": "A",
+    "sat": "A"
+  },
+  "timeCategory": "Afternoon",
+  "energyRamp": 3,
+  "tags": "Art, Bold, Cultural, Contemporary, Iconic",
+  "price": "$",
+  "duration": 2
+},
+{
+  "name": "Granaio Duomo - Ristorante & Cafè",
+  "vibe": "Café, Historic, Central, Elegant, Everyday, Breakfast, Milanese spirit, Warm, Pastries, Heritage",
+  "type": ["bakery", "dessert", "lunch"],
+  "lat": 45.4655421,
+  "lon": 9.1883083,
+  "link": "https://www.instagram.com/ristorantegranaio_italia/?hl=en",
+  "cover": "img/venues/Granaio Duomo.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 7:00 AM–11:00 PM",
+    "Monday: 7:00 AM–11:00 PM",
+    "Tuesday: 7:00 AM–11:00 PM",
+    "Wednesday: 7:00 AM–11:00 PM",
+    "Thursday: 7:00 AM–11:00 PM",
+    "Friday: 7:00 AM–11:00 PM",
+    "Saturday: 7:00 AM–11:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 7, "close": 23 }],
+    "mon": [{ "open": 7, "close": 23 }],
+    "tue": [{ "open": 7, "close": 23 }],
+    "wed": [{ "open": 7, "close": 23 }],
+    "thu": [{ "open": 7, "close": 23 }],
+    "fri": [{ "open": 7, "close": 23 }],
+    "sat": [{ "open": 7, "close": 23 }]
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "M",
+    "tue": "M",
+    "wed": "M",
+    "thu": "M",
+    "fri": "M",
+    "sat": "M"
+  },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "Central, Breakfast, Pastry, Heritage, Elegant",
+  "price": "$$",
+  "duration": 1.75
+},
+{
+  "name": "Jazz Cafè Milano",
+  "vibe": "Cocktails, Music, Chic, Lively, Aperitivo, Stylish, Young crowd, Social, Trendy, Energy",
+  "type": ["dinner", "club"],
+  "lat": 45.477287,
+  "lon": 9.170729,
+  "link": "https://www.instagram.com/jazzcafemilano/?hl=en",
+  "cover": "img/venues/Jazz Cafè Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:30 PM–2:00 AM",
+    "Monday: Closed",
+    "Tuesday: 6:30 PM–2:00 AM",
+    "Wednesday: 6:30 PM–2:00 AM",
+    "Thursday: 6:30 PM–2:00 AM",
+    "Friday: 6:30 PM–3:00 AM",
+    "Saturday: 6:30 PM–3:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18.5, "close": 26 }],
+    "mon": [],
+    "tue": [{ "open": 18.5, "close": 26 }],
+    "wed": [{ "open": 18.5, "close": 26 }],
+    "thu": [{ "open": 18.5, "close": 26 }],
+    "fri": [{ "open": 18.5, "close": 27 }],
+    "sat": [{ "open": 18.5, "close": 27 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "–",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Aperitivo, Social, Stylish, Trendy, Drinks",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "Sequoia Milano",
+  "vibe": "Club, Nightlife, Dance, Sleek, Late night, Trendy, Young crowd, Lively, Music, Energy",
+  "type": ["lounge"],
+  "lat": 45.4783188,
+  "lon": 9.2001288,
+  "link": "https://www.instagram.com/sequoiamilano/?hl=en",
+  "cover": "img/venues/Sequoia Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 7:00 PM–4:00 AM",
+    "Monday: 7:00 PM–4:00 AM",
+    "Tuesday: 7:00 PM–4:00 AM",
+    "Wednesday: 7:00 PM–4:00 AM",
+    "Thursday: 7:00 PM–4:00 AM",
+    "Friday: 7:00 PM–4:00 AM",
+    "Saturday: 7:00 PM–4:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 19, "close": 28 }],
+    "mon": [{ "open": 19, "close": 28 }],
+    "tue": [{ "open": 19, "close": 28 }],
+    "wed": [{ "open": 19, "close": 28 }],
+    "thu": [{ "open": 19, "close": 28 }],
+    "fri": [{ "open": 19, "close": 28 }],
+    "sat": [{ "open": 19, "close": 28 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Nightlife, Dance, Sleek, Young, Music",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "Volt",
+  "vibe": "Nightlife, Electronic, Underground, Dark, Dance, Late night, Urban edge, Music, Energy, Trendy",
+  "type": ["club"],
+  "lat": 45.4568891,
+  "lon": 9.1840788,
+  "link": "https://www.instagram.com/voltclub.milano/?hl=en",
+  "cover": "img/venues/Volt.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: Closed",
+    "Thursday: 11:30 PM–5:00 AM",
+    "Friday: 11:45 PM–5:00 AM",
+    "Saturday: 11:45 PM–5:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [{ "open": 23.5, "close": 29 }],
+    "fri": [{ "open": 23.75, "close": 29 }],
+    "sat": [{ "open": 23.75, "close": 29 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Electronic, Dark, Clubbing, Energy, Urban",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "Deus Cafe Isola - The Portal of Possibilities",
+  "vibe": "Café, Motorbikes, Design, Urban, Informal, Social, Creative, Brunch, Casual, Stylish",
+  "type": ["brunch", "lunch", "cocktail", "lifestyle"],
+  "lat": 45.4908677,
+  "lon": 9.18891,
+  "link": "https://www.instagram.com/deuscafe_milano/?hl=en",
+  "cover": "img/venues/Deus Cafe Isola.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 9:30 AM–1:00 AM",
+    "Monday: 5:00 PM–1:00 AM",
+    "Tuesday: 12:00 PM–1:00 AM",
+    "Wednesday: 12:00 PM–1:00 AM",
+    "Thursday: 12:00 PM–1:00 AM",
+    "Friday: 12:00 PM–2:00 AM",
+    "Saturday: 9:30 AM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 9.5, "close": 25 }],
+    "mon": [{ "open": 17, "close": 25 }],
+    "tue": [{ "open": 12, "close": 25 }],
+    "wed": [{ "open": 12, "close": 25 }],
+    "thu": [{ "open": 12, "close": 25 }],
+    "fri": [{ "open": 12, "close": 26 }],
+    "sat": [{ "open": 9.5, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Design, Bikes, Creative, Brunch, Social",
+  "price": "$$",
+  "duration": 1.75
+},
+{
+  "name": "Gino's 1928",
+  "vibe": "Trattoria, Italian cuisine, Heritage, Cozy, Traditional, Warm, Risotto, Family‑style, Slow dining, Refined",
+  "type": ["lunch", "dinner"],
+  "lat": 45.4656639,
+  "lon": 9.1910917,
+  "link": "https://www.instagram.com/ginos_1928/?hl=en",
+  "cover": "img/venues/Gino's 1928.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 PM–12:00 AM",
+    "Monday: 12:00 PM–12:00 AM",
+    "Tuesday: 12:00 PM–12:00 AM",
+    "Wednesday: 12:00 PM–12:00 AM",
+    "Thursday: 12:00 PM–12:00 AM",
+    "Friday: 12:00 PM–12:00 AM",
+    "Saturday: 12:00 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 12, "close": 24 }],
+    "mon": [{ "open": 12, "close": 24 }],
+    "tue": [{ "open": 12, "close": 24 }],
+    "wed": [{ "open": 12, "close": 24 }],
+    "thu": [{ "open": 12, "close": 24 }],
+    "fri": [{ "open": 12, "close": 24 }],
+    "sat": [{ "open": 12, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Trattoria, Italian, Classic, Family, Tradition",
+  "price": "$$",
+  "duration": 1.75
+},
+{
+  "name": "The Sanctuary Milan",
+  "vibe": "Wellness, Retreat, Green, Escape, Mindful, Spiritual, Social hub, Yoga, Contemporary, Community",
+  "type": ["dinner", "cocktail"],
+  "lat": 45.4506164,
+  "lon": 9.1678904,
+  "link": "https://www.instagram.com/thesanctuarymilan/?hl=en",
+  "cover": "img/venues/The Sanctuary Milan.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:00 PM–1:00 AM",
+    "Monday: Closed",
+    "Tuesday: 6:00 PM–1:00 AM",
+    "Wednesday: 6:00 PM–1:00 AM",
+    "Thursday: 6:00 PM–1:00 AM",
+    "Friday: 6:00 PM–1:00 AM",
+    "Saturday: 6:00 PM–1:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18, "close": 25 }],
+    "mon": [],
+    "tue": [{ "open": 18, "close": 25 }],
+    "wed": [{ "open": 18, "close": 25 }],
+    "thu": [{ "open": 18, "close": 25 }],
+    "fri": [{ "open": 18, "close": 25 }],
+    "sat": [{ "open": 18, "close": 25 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "–",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Retreat, Yoga, Escape, Green, Mindful",
+  "price": "$$$",
+  "duration": 2.25
+},
+{
+  "name": "Armani/Silos",
+  "vibe": "Fashion, Minimal, Sleek, Architectural, Curated, Iconic, Contemporary, Design, Elegant, Cultural",
+  "type": ["gallery", "museum"],
+  "lat": 45.4516329,
+  "lon": 9.1649082,
+  "link": "https://www.facebook.com/armanisilos/",
+  "cover": "img/venues/Armani:Silos.png",
+	"openNow": true,
+  "hours": [
+    "Sunday: 11:00 AM–7:00 PM",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: 11:00 AM–7:00 PM",
+    "Thursday: 11:00 AM–9:00 PM",
+    "Friday: 11:00 AM–7:00 PM",
+    "Saturday: 11:00 AM–9:00 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 11, "close": 19 }],
+    "mon": [],
+    "tue": [],
+    "wed": [{ "open": 11, "close": 19 }],
+    "thu": [{ "open": 11, "close": 21 }],
+    "fri": [{ "open": 11, "close": 19 }],
+    "sat": [{ "open": 11, "close": 21 }]
+  },
+  "dayParts": {
+    "sun": "A",
+    "mon": "–",
+    "tue": "–",
+    "wed": "A",
+    "thu": "E",
+    "fri": "A",
+    "sat": "E"
+  },
+  "timeCategory": "Afternoon, Evening",
+  "energyRamp": 3,
+  "tags": "Fashion, Sleek, Minimal, Iconic, Exhibition",
+  "price": "$",
+  "duration": 2
+},
+{
+  "name": "Bosco Verticale",
+  "vibe": "Vertical forest, Green, Iconic, Architectural, Contemporary, Landmark, Urban nature, Skyline, Innovative, Photogenic",
+  "type": ["landmark"],
+  "lat": 45.4856052,
+  "lon": 9.1908346,
+  "link": "https://www.instagram.com/boscoverticalemilano/?utm_source=ig_embed&ig_rid=1bb81922-eb06-4282-9d8f-7cd6ed4d835f&ig_mid=C0F969B3-63FA-4DC1-A4DA-D572A3517909",
+  "cover": "img/venues/Bosco Verticale.jpg",
+	"openNow": true,
+  "hours": [
+    "Open daily: 12:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 0, "close": 24 }],
+    "mon": [{ "open": 0, "close": 24 }],
+    "tue": [{ "open": 0, "close": 24 }],
+    "wed": [{ "open": 0, "close": 24 }],
+    "thu": [{ "open": 0, "close": 24 }],
+    "fri": [{ "open": 0, "close": 24 }],
+    "sat": [{ "open": 0, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "M",
+    "tue": "M",
+    "wed": "M",
+    "thu": "M",
+    "fri": "M",
+    "sat": "M"
+  },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "Green, Vertical, Innovative, Landmark, Skyline",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "11Clubroom",
+  "vibe": "Nightlife, Sleek, Dance, Cocktails, Late night, Young crowd, Stylish, Trendy, Music, Energy",
+  "type": ["club"],
+  "lat": 45.4824137,
+  "lon": 9.1869313,
+  "link": "https://www.instagram.com/11clubroom/?hl=en",
+  "cover": "img/venues/11Clubroom.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 11:00 PM–5:00 AM",
+    "Tuesday: 11:00 PM–5:00 AM",
+    "Wednesday: 11:00 PM–5:00 AM",
+    "Thursday: 11:00 PM–5:00 AM",
+    "Friday: 8:00 PM–5:00 AM",
+    "Saturday: 8:00 PM–5:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 23, "close": 29 }],
+    "tue": [{ "open": 23, "close": 29 }],
+    "wed": [{ "open": 23, "close": 29 }],
+    "thu": [{ "open": 23, "close": 29 }],
+    "fri": [{ "open": 20, "close": 29 }],
+    "sat": [{ "open": 20, "close": 29 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Club, Music, Dance, Party, Trendy",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "Fabrique",
+  "vibe": "Concerts, Industrial, Music, Vast space, Lively, Nightlife, Young crowd, Events, Energy, Urban",
+  "type": ["club"],
+  "lat": 45.4521243,
+  "lon": 9.2522773,
+  "link": "https://www.instagram.com/fabrique_milano/?hl=en",
+  "cover": "img/venues/Fabrique.jpg",
+	"openNow": true,
+  "hours": [
+    "Open hours: -"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [],
+    "fri": [],
+    "sat": []
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "–",
+    "fri": "–",
+    "sat": "–"
+  },
+  "timeCategory": "",
+  "energyRamp": 3,
+  "tags": "Concerts, Events, Industrial, Youthful, Vast",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "Amnesia",
+  "vibe": "Nightlife, Electronic, Dance, Underground, Late night, Music, Energy, Trendy, Urban edge, Clubbing",
+  "type": ["club"],
+  "lat": 45.4630586,
+  "lon": 9.2400321,
+  "link": "https://www.instagram.com/amnesiamilano/?hl=en",
+  "cover": "img/venues/Amnesia.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: Closed",
+    "Thursday: Closed",
+    "Friday: 11:30 PM–5:00 AM",
+    "Saturday: 11:45 PM–5:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [],
+    "fri": [{ "open": 23.5, "close": 29 }],
+    "sat": [{ "open": 23.75, "close": 29 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "–",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Underground, DJ, Dance, Techno, Nightlife",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "Tocqueville 13",
+  "vibe": "Nightlife, Stylish, Dance, Chic, Young crowd, Trendy, Sleek, Social, Music, Energy",
+  "type": ["club"],
+  "lat": 45.4822341,
+  "lon": 9.1863112,
+  "link": "https://www.instagram.com/tocqueville13/?hl=en",
+  "cover": "img/venues/Tocqueville 13.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 11:00 PM–5:00 AM",
+    "Monday: Closed",
+    "Tuesday: 11:00 PM–5:00 AM",
+    "Wednesday: Closed",
+    "Thursday: Closed",
+    "Friday: 11:00 PM–5:00 AM",
+    "Saturday: 11:00 PM–5:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 23, "close": 29 }],
+    "mon": [],
+    "tue": [{ "open": 23, "close": 29 }],
+    "wed": [],
+    "thu": [],
+    "fri": [{ "open": 23, "close": 29 }],
+    "sat": [{ "open": 23, "close": 29 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "–",
+    "tue": "L",
+    "wed": "–",
+    "thu": "–",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Chic, Stylish, Trendy, Young, Dance",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "Frida",
+  "vibe": "Aperitivo, Bohemian, Creative, Casual, Garden, Lively, Social, Alternative, Informal, Relax",
+  "type": ["bar"],
+  "lat": 45.4887512,
+  "lon": 9.187111,
+  "link": "https://www.instagram.com/fridaisola/?hl=en",
+  "cover": "img/venues/Frida.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 5:00 PM–1:00 AM",
+    "Monday: 12:00 PM–1:00 AM",
+    "Tuesday: 12:00 PM–1:00 AM",
+    "Wednesday: 12:00 PM–1:00 AM",
+    "Thursday: 12:00 PM–2:00 AM",
+    "Friday: 12:00 PM–2:00 AM",
+    "Saturday: 6:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 17, "close": 25 }],
+    "mon": [{ "open": 12, "close": 25 }],
+    "tue": [{ "open": 12, "close": 25 }],
+    "wed": [{ "open": 12, "close": 25 }],
+    "thu": [{ "open": 12, "close": 26 }],
+    "fri": [{ "open": 12, "close": 26 }],
+    "sat": [{ "open": 18, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Bohemian, Garden, Aperitivo, Relax, Casual",
+  "price": "$$",
+  "duration": 1.75
+},
+{
+  "name": "Gattopardo Milano",
+  "vibe": "Club, Historic church, Elegant, Dance, Glamorous, Late night, Stylish, Music, Energy, Iconic",
+  "type": ["club"],
+  "lat": 45.4852727,
+  "lon": 9.1614309,
+  "link": "https://www.instagram.com/gattopardomilano/?hl=en",
+  "cover": "img/venues/Gattopardo Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: 11:30 PM–5:00 AM",
+    "Wednesday: 11:30 PM–5:00 AM",
+    "Thursday: 11:30 PM–5:00 AM",
+    "Friday: 11:30 PM–5:00 AM",
+    "Saturday: 11:30 PM–5:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [{ "open": 23.5, "close": 29 }],
+    "wed": [{ "open": 23.5, "close": 29 }],
+    "thu": [{ "open": 23.5, "close": 29 }],
+    "fri": [{ "open": 23.5, "close": 29 }],
+    "sat": [{ "open": 23.5, "close": 29 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Glamorous, Historic, Clubbing, Elegant, Iconic",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "The roof milano",
+  "vibe": "Rooftop, Panoramic, Elegant, Aperitivo, Chic, Skyline views, Stylish, Sunset, Cocktails, Refined",
+  "type": ["rooftop", "lounge", "coffee", "lunch", "dinner"],
+  "lat": 45.460908,
+  "lon": 9.1886889,
+  "link": "https://www.instagram.com/theroofmilano/?hl=en",
+  "cover": "img/venues/The roof milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 PM–1:00 AM",
+    "Monday: 12:00 PM–1:00 AM",
+    "Tuesday: 12:00 PM–1:00 AM",
+    "Wednesday: 12:00 PM–1:00 AM",
+    "Thursday: 12:00 PM–2:00 AM",
+    "Friday: 12:00 PM–2:00 AM",
+    "Saturday: 12:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 12, "close": 25 }],
+    "mon": [{ "open": 12, "close": 25 }],
+    "tue": [{ "open": 12, "close": 25 }],
+    "wed": [{ "open": 12, "close": 25 }],
+    "thu": [{ "open": 12, "close": 26 }],
+    "fri": [{ "open": 12, "close": 26 }],
+    "sat": [{ "open": 12, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Rooftop, Views, Skyline, Sunset, Cocktails",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "White Rabbit Speakeasy",
+  "vibe": "Hidden, Cocktails, Mixology, Dim light, Intimate, Retro, Secret, Chic, Stylish, Evening linger",
+  "type": ["cocktail"],
+  "lat": 45.4879033,
+  "lon": 9.1895387,
+  "link": "https://www.instagram.com/whiterabbitmilano/?hl=en",
+  "cover": "img/venues/White Rabbit Speakeasy.png",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:00 PM–2:00 AM",
+    "Monday: 6:00 PM–3:00 AM",
+    "Tuesday: 6:00 PM–3:00 AM",
+    "Wednesday: 6:00 PM–3:00 AM",
+    "Thursday: 6:00 PM–3:00 AM",
+    "Friday: 6:00 PM–3:00 AM",
+    "Saturday: 8:00 PM–3:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18, "close": 26 }],
+    "mon": [{ "open": 18, "close": 27 }],
+    "tue": [{ "open": 18, "close": 27 }],
+    "wed": [{ "open": 18, "close": 27 }],
+    "thu": [{ "open": 18, "close": 27 }],
+    "fri": [{ "open": 18, "close": 27 }],
+    "sat": [{ "open": 20, "close": 27 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Secret, Hidden, Cocktails, Retro, Mixology",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "Apophis Club",
+  "vibe": "Nightlife, Dark, Sleek, Trendy, Electronic, Dance, Late night, Young crowd, Energy, Urban",
+  "type": ["club"],
+  "lat": 45.4625693,
+  "lon": 9.1960437,
+  "link": "https://www.instagram.com/apophisclub/?hl=en",
+  "cover": "img/venues/Apophis Club.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: Closed",
+    "Thursday: 12:00 PM–5:00 AM",
+    "Friday: 12:00 PM–5:00 AM",
+    "Saturday: 12:00 PM–5:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [{ "open": 12, "close": 29 }],
+    "fri": [{ "open": 12, "close": 29 }],
+    "sat": [{ "open": 12, "close": 29 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Sleek, Modern, Nightlife, Young, Dance",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "The Spirit",
+  "vibe": "Cocktails, Mixology, Refined, Elegant, Intimate, Sleek, Classic, Evening linger, Stylish, Chic",
+  "type": ["cocktail"],
+  "lat": 45.44935,
+  "lon": 9.20542,
+  "link": "https://www.instagram.com/the_spirit_milano/?hl=en",
+  "cover": "img/venues/The Spirit.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:30 PM–2:00 AM",
+    "Monday: Closed",
+    "Tuesday: 6:30 PM–2:00 AM",
+    "Wednesday: 6:30 PM–2:00 AM",
+    "Thursday: 6:30 PM–2:00 AM",
+    "Friday: 6:30 PM–2:00 AM",
+    "Saturday: 6:30 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18.5, "close": 26 }],
+    "mon": [],
+    "tue": [{ "open": 18.5, "close": 26 }],
+    "wed": [{ "open": 18.5, "close": 26 }],
+    "thu": [{ "open": 18.5, "close": 26 }],
+    "fri": [{ "open": 18.5, "close": 26 }],
+    "sat": [{ "open": 18.5, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "–",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Refined, Classic, Mixology, Elegant, Chic",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "Il Salumaio di Montenapoleone - since 1957",
+  "vibe": "Trattoria, Heritage, Milanese, Elegant, Timeless, Risotto, Courtyard, Slow dining, Refined, Tradition",
+  "type": ["breakfast", "lunch", "dinner"],
+  "lat": 45.4695089,
+  "lon": 9.1950255,
+  "link": "https://www.instagram.com/ilsalumaiodimontenapoleone1957/?hl=en",
+  "cover": "img/venues/Il Salumaio di Montenapoleone.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: 9:00 AM–10:30 PM",
+    "Tuesday: 9:00 AM–10:30 PM",
+    "Wednesday: 9:00 AM–10:30 PM",
+    "Thursday: 9:00 AM–10:30 PM",
+    "Friday: 9:00 AM–10:30 PM",
+    "Saturday: 9:00 AM–10:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [{ "open": 9, "close": 22.5 }],
+    "tue": [{ "open": 9, "close": 22.5 }],
+    "wed": [{ "open": 9, "close": 22.5 }],
+    "thu": [{ "open": 9, "close": 22.5 }],
+    "fri": [{ "open": 9, "close": 22.5 }],
+    "sat": [{ "open": 9, "close": 22.5 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Courtyard, Risotto, Heritage, Milanese, Timeless",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "La Bullona",
+  "vibe": "Chic, Dinner & cocktails, Glamorous, Stylish, Social, Trendy, Music, Lively, Refined, Night linger",
+  "type": ["dinner", "club"],
+  "lat": 45.48598,
+  "lon": 9.1606,
+  "link": "https://www.instagram.com/la_bullona/?hl=en",
+  "cover": "img/venues/La Bullona.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 8:00 PM–2:00 AM",
+    "Monday: 8:00 PM–2:00 AM",
+    "Tuesday: 8:00 PM–2:00 AM",
+    "Wednesday: 8:00 PM–2:00 AM",
+    "Thursday: 8:00 PM–3:00 AM",
+    "Friday: 8:00 PM–3:00 AM",
+    "Saturday: 8:00 PM–3:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 20, "close": 26 }],
+    "mon": [{ "open": 20, "close": 26 }],
+    "tue": [{ "open": 20, "close": 26 }],
+    "wed": [{ "open": 20, "close": 26 }],
+    "thu": [{ "open": 20, "close": 27 }],
+    "fri": [{ "open": 20, "close": 27 }],
+    "sat": [{ "open": 20, "close": 27 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Dinner, Chic, Stylish, Music, Night",
+  "price": "$$$$",
+  "duration": 2.5
+},
+{
+  "name": "LùBar",
+  "vibe": "Café, Sicilian flavors, Garden, Elegant, Light-filled, Aperitivo, Stylish, Casual chic, Green, Relax",
+  "type": ["breakfast", "lunch", "dinner"],
+  "lat": 45.4726566,
+  "lon": 9.2001177,
+  "link": "https://www.instagram.com/lubar/?hl=en",
+  "cover": "img/venues/LùBar.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 8:00 AM–11:00 AM",
+    "Monday: 8:00 AM–12:00 AM",
+    "Tuesday: 8:00 AM–12:00 AM",
+    "Wednesday: 8:00 AM–12:00 AM",
+    "Thursday: 8:00 AM–12:00 AM",
+    "Friday: 8:00 AM–12:00 AM",
+    "Saturday: 8:00 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 8, "close": 11 }],
+    "mon": [{ "open": 8, "close": 24 }],
+    "tue": [{ "open": 8, "close": 24 }],
+    "wed": [{ "open": 8, "close": 24 }],
+    "thu": [{ "open": 8, "close": 24 }],
+    "fri": [{ "open": 8, "close": 24 }],
+    "sat": [{ "open": 8, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Morning, Evening",
+  "energyRamp": 3,
+  "tags": "Sicilian, Light-filled, Garden, Elegant, Aperitivo",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "Maio Restaurant",
+  "vibe": "Rooftop, Refined, Italian cuisine, Elegant, Panoramic, Contemporary, Chic, Slow dining, Skyline, Light-filled",
+  "type": ["rooftop", "lunch", "dinner"],
+  "lat": 45.4652946,
+  "lon": 9.1919035,
+  "link": "https://www.instagram.com/maiorestaurant_milano/?hl=en",
+  "cover": "img/venues/Maio Restaurant.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 11:30 AM–12:00 AM",
+    "Monday: 11:30 AM–12:00 AM",
+    "Tuesday: 11:30 AM–12:00 AM",
+    "Wednesday: 11:30 AM–12:00 AM",
+    "Thursday: 11:30 AM–12:00 AM",
+    "Friday: 11:30 AM–12:00 AM",
+    "Saturday: 11:30 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 11.5, "close": 24 }],
+    "mon": [{ "open": 11.5, "close": 24 }],
+    "tue": [{ "open": 11.5, "close": 24 }],
+    "wed": [{ "open": 11.5, "close": 24 }],
+    "thu": [{ "open": 11.5, "close": 24 }],
+    "fri": [{ "open": 11.5, "close": 24 }],
+    "sat": [{ "open": 11.5, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Skyline, Refined, Rooftop, Chic, Dining",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "Cantera Milano",
+  "vibe": "Tacos, Cocktails, Street food, Lively, Young crowd, Informal, Social, Urban, Casual, Flavorful",
+  "type": ["dinner"],
+  "lat": 45.4594207,
+  "lon": 9.2111688,
+  "link": "https://www.instagram.com/cantera.milano/",
+  "cover": "img/venues/Cantera Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 8:00 PM–2:00 AM",
+    "Monday: Closed",
+    "Tuesday: 8:00 PM–2:00 AM",
+    "Wednesday: 8:00 PM–2:00 AM",
+    "Thursday: 8:00 PM–2:00 AM",
+    "Friday: 8:00 PM–2:00 AM",
+    "Saturday: 8:00 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 20, "close": 26 }],
+    "mon": [],
+    "tue": [{ "open": 20, "close": 26 }],
+    "wed": [{ "open": 20, "close": 26 }],
+    "thu": [{ "open": 20, "close": 26 }],
+    "fri": [{ "open": 20, "close": 26 }],
+    "sat": [{ "open": 20, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "–",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Tacos, Street, Lively, Cocktails, Young",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "Backdoor 43",
+  "vibe": "Smallest bar, Hidden, Cocktails, Mixology, Tiny, Secret, Intimate, Playful, Unique, Evening linger",
+  "type": ["cocktail"],
+  "lat": 45.4512973,
+  "lon": 9.1733671,
+  "link": "https://www.instagram.com/backdoor43_milano/",
+  "cover": "img/venues/Backdoor 43.png",
+	"openNow": true,
+  "hours": [
+    "Sunday: 6:30 PM–2:00 AM",
+    "Monday: 6:30 PM–2:00 AM",
+    "Tuesday: 6:30 PM–2:00 AM",
+    "Wednesday: 6:30 PM–2:00 AM",
+    "Thursday: 6:30 PM–2:00 AM",
+    "Friday: 6:30 PM–2:00 AM",
+    "Saturday: 6:30 PM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 18.5, "close": 26 }],
+    "mon": [{ "open": 18.5, "close": 26 }],
+    "tue": [{ "open": 18.5, "close": 26 }],
+    "wed": [{ "open": 18.5, "close": 26 }],
+    "thu": [{ "open": 18.5, "close": 26 }],
+    "fri": [{ "open": 18.5, "close": 26 }],
+    "sat": [{ "open": 18.5, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "L",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Tiny, Hidden, Secret, Intimate, Unique",
+  "price": "$$",
+  "duration": 1.25
+},
+{
+  "name": "Ceresio 7 Pools & Restaurant",
+  "vibe": "Rooftop, Pools, Stylish, Glamorous, Elegant, Chic, Aperitivo, Skyline views, Trendy, Iconic",
+  "type": ["rooftop", "lunch", "dinner", "cocktail"],
+  "lat": 45.4835174,
+  "lon": 9.1803112,
+  "link": "https://www.instagram.com/ceresio7/",
+  "cover": "img/venues/Ceresio 7 Pools & Restaurant.png",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:30 PM–1:00 AM",
+    "Monday: 12:30 PM–1:00 AM",
+    "Tuesday: 12:30 PM–1:00 AM",
+    "Wednesday: 12:30 PM–1:00 AM",
+    "Thursday: 12:30 PM–1:00 AM",
+    "Friday: 12:30 PM–1:00 AM",
+    "Saturday: 12:30 PM–1:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 12.5, "close": 25 }],
+    "mon": [{ "open": 12.5, "close": 25 }],
+    "tue": [{ "open": 12.5, "close": 25 }],
+    "wed": [{ "open": 12.5, "close": 25 }],
+    "thu": [{ "open": 12.5, "close": 25 }],
+    "fri": [{ "open": 12.5, "close": 25 }],
+    "sat": [{ "open": 12.5, "close": 25 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Pools, Rooftop, Glamorous, Stylish, Iconic",
+  "price": "$$$",
+  "duration": 2
+},
+{
+  "name": "Camparino in Galleria",
+  "vibe": "Historic, Aperitivo, Iconic, Elegant, Campari, Milanese spirit, Refined, Central, Heritage, Timeless",
+  "type": ["cocktail"],
+  "lat": 45.4648056,
+  "lon": 9.1899242,
+  "link": "https://www.instagram.com/camparinoingalleria/",
+  "cover": "img/venues/Camparino in Galleria.jpg",
+	"openNow": true,
+  "hours": [
+    "Every day: 9:30 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 9.5, "close": 24 }],
+    "mon": [{ "open": 9.5, "close": 24 }],
+    "tue": [{ "open": 9.5, "close": 24 }],
+    "wed": [{ "open": 9.5, "close": 24 }],
+    "thu": [{ "open": 9.5, "close": 24 }],
+    "fri": [{ "open": 9.5, "close": 24 }],
+    "sat": [{ "open": 9.5, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "HH",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Happy Hour, Evening",
+  "energyRamp": 3,
+  "tags": "Campari, Aperitivo, Heritage, Central, Icon",
+  "price": "$$",
+  "duration": 1.66
+},
+{
+  "name": "MAG La Pusterla - Caffe con Cucina",
+  "vibe": "Cocktails, Café, Creative, Informal, Warm, Neighborhood, Social, Playful, Contemporary, Everyday",
+  "type": ["cocktail", "bistro"],
+  "lat": 45.4586086,
+  "lon": 9.1784979,
+  "link": "https://www.instagram.com/magcafe/?hl=en",
+  "cover": "img/venues/MAG La Pusterla.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 11:00 AM–1:30 AM",
+    "Monday: 5:00 PM–1:30 AM",
+    "Tuesday: 5:00 PM–1:30 AM",
+    "Wednesday: 5:00 PM–1:30 AM",
+    "Thursday: 5:00 PM–1:30 AM",
+    "Friday: 5:00 PM–1:30 AM",
+    "Saturday: 5:00 PM–1:30 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 11, "close": 25.5 }],
+    "mon": [{ "open": 17, "close": 25.5 }],
+    "tue": [{ "open": 17, "close": 25.5 }],
+    "wed": [{ "open": 17, "close": 25.5 }],
+    "thu": [{ "open": 17, "close": 25.5 }],
+    "fri": [{ "open": 17, "close": 25.5 }],
+    "sat": [{ "open": 17, "close": 25.5 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Playful, Neighborhood, Social, Warm, Informal",
+  "price": "$$",
+  "duration": 1.5
+},
+{
+  "name": "The Rocket Club",
+  "vibe": "Nightlife, Indie, Alternative, Dance, Young crowd, Music, Informal, Social, Urban, Energy",
+  "type": ["club"],
+  "lat": 45.4494977,
+  "lon": 9.1617214,
+  "link": "https://www.instagram.com/rocketclubmilano/?hl=en",
+  "cover": "img/venues/The Rocket Club.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: Closed",
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: Closed",
+    "Thursday: 11:00 PM–4:00 AM",
+    "Friday: 11:00 PM–4:00 AM",
+    "Saturday: 11:00 PM–4:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [{ "open": 23, "close": 28 }],
+    "fri": [{ "open": 23, "close": 28 }],
+    "sat": [{ "open": 23, "close": 28 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Indie, Alternative, Music, Casual, Youth",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "FRED",
+  "vibe": "Cocktails, Stylish, Mixology, Sleek, Intimate, Contemporary, Chic, Evening linger, Social, Trendy",
+  "type": ["lifestyle", "breakfast", "lunch", "cocktail"],
+  "lat": 45.4862076,
+  "lon": 9.2318065,
+  "link": "https://www.instagram.com/fredrecords_milano/",
+  "cover": "img/venues/FRED.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 9:00 AM–12:00 AM",
+    "Monday: 5:00 PM–1:00 AM",
+    "Tuesday: 5:00 PM–1:00 AM",
+    "Wednesday: 5:00 PM–1:00 AM",
+    "Thursday: 5:00 PM–1:00 AM",
+    "Friday: 5:00 PM–2:00 AM",
+    "Saturday: 9:00 AM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 9, "close": 24 }],
+    "mon": [{ "open": 17, "close": 25 }],
+    "tue": [{ "open": 17, "close": 25 }],
+    "wed": [{ "open": 17, "close": 25 }],
+    "thu": [{ "open": 17, "close": 25 }],
+    "fri": [{ "open": 17, "close": 26 }],
+    "sat": [{ "open": 9, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "L",
+    "tue": "L",
+    "wed": "L",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Evening, Late Night",
+  "energyRamp": 3,
+  "tags": "Sleek, Cocktails, Chic, Stylish, Night",
+  "price": "$",
+  "duration": 1.33
+},
+{
+  "name": "Gate Milano",
+  "vibe": "Club, Vast space, Electronic, Music, Late night, Trendy, Young crowd, Energy, Urban, Dance",
+  "type": ["club"],
+  "lat": 45.4943879,
+  "lon": 9.1826121,
+  "link": "https://www.instagram.com/gatemilano/",
+  "cover": "img/venues/Gate Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday–Thursday: Closed",
+    "Friday: 11:00 PM–5:00 AM",
+    "Saturday: 11:00 PM–5:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [],
+    "fri": [{ "open": 23, "close": 29 }],
+    "sat": [{ "open": 23, "close": 29 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "–",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Vast, Party, Clubbing, Young, Energy",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "Republic Milano",
+  "vibe": "Club, Nightlife, Sleek, Stylish, Dance, Young crowd, Music, Trendy, Energy, Urban",
+  "type": ["club"],
+  "lat": 45.4779376,
+  "lon": 9.1984233,
+  "link": "https://www.instagram.com/republicmilan/",
+  "cover": "img/venues/Republic Milano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday–Wednesday: Closed",
+    "Thursday–Sunday: 11:30 PM–5:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [],
+    "mon": [],
+    "tue": [],
+    "wed": [],
+    "thu": [{ "open": 23.5, "close": 29 }],
+    "fri": [{ "open": 23.5, "close": 29 }],
+    "sat": [{ "open": 23.5, "close": 29 }]
+  },
+  "dayParts": {
+    "sun": "–",
+    "mon": "–",
+    "tue": "–",
+    "wed": "–",
+    "thu": "L",
+    "fri": "L",
+    "sat": "L"
+  },
+  "timeCategory": "Late Night",
+  "energyRamp": 3,
+  "tags": "Stylish, Sleek, Dance, Trendy, Night",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "Basilica di Santa Maria delle Grazie",
+  "vibe": "Renaissance, Sacred, Timeless, Iconic, Spiritual, UNESCO, Historic, Awe, Reflective, Cultural",
+  "type": ["landmark"],
+  "lat": 45.4665022,
+  "lon": 9.171535,
+  "link": "https://en.wikipedia.org/wiki/Santa_Maria_delle_Grazie,_Milan",
+  "cover": "img/venues/Basilica di Santa Maria delle Grazie.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 7:30 AM–12:30 PM; 3:00 PM–9:00 PM",
+    "Monday–Saturday: 9:00 AM–12:00 PM; 3:00 PM–5:30 PM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 7.5, "close": 12.5 }, { "open": 15, "close": 21 }],
+    "mon": [{ "open": 9, "close": 12 }, { "open": 15, "close": 17.5 }],
+    "tue": [{ "open": 9, "close": 12 }, { "open": 15, "close": 17.5 }],
+    "wed": [{ "open": 9, "close": 12 }, { "open": 15, "close": 17.5 }],
+    "thu": [{ "open": 9, "close": 12 }, { "open": 15, "close": 17.5 }],
+    "fri": [{ "open": 9, "close": 12 }, { "open": 15, "close": 17.5 }],
+    "sat": [{ "open": 9, "close": 12 }, { "open": 15, "close": 17.5 }]
+  },
+  "dayParts": {
+    "sun": "M",
+    "mon": "M",
+    "tue": "M",
+    "wed": "M",
+    "thu": "M",
+    "fri": "M",
+    "sat": "M"
+  },
+  "timeCategory": "Morning",
+  "energyRamp": 3,
+  "tags": "Sacred, Renaissance, Historic, UNESCO, Timeless",
+  "price": "$",
+  "duration": 0.5
+},
+{
+  "name": "The Football Pub",
+  "vibe": "Casual, Sports, Pints, Social, Lively, Informal, Young crowd, Neighborhood, Relax, Friendly",
+  "type": ["bar"],
+  "lat": 45.461982,
+  "lon": 9.1854662,
+  "link": "https://www.instagram.com/thefootballpubmi/",
+  "cover": "img/venues/The Football Pub.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 12:00 PM–12:00 AM",
+    "Monday–Thursday: 12:00 PM–3:00 PM; 5:00 PM–12:00 AM",
+    "Friday–Saturday: 12:00 PM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 12, "close": 24 }],
+    "mon": [{ "open": 12, "close": 15 }, { "open": 17, "close": 24 }],
+    "tue": [{ "open": 12, "close": 15 }, { "open": 17, "close": 24 }],
+    "wed": [{ "open": 12, "close": 15 }, { "open": 17, "close": 24 }],
+    "thu": [{ "open": 12, "close": 15 }, { "open": 17, "close": 24 }],
+    "fri": [{ "open": 12, "close": 24 }],
+    "sat": [{ "open": 12, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Sports, Beer, Casual, Friendly, Informal",
+  "price": "$",
+  "duration": 1.5
+},
+{
+  "name": "QC Termemilano",
+  "vibe": "Wellness, Thermal baths, Relax, Escape, Green, Historic setting, Spa, Slow pace, Mindful, Gentle",
+  "type": ["spa"],
+  "lat": 45.4517364,
+  "lon": 9.2021361,
+  "link": "https://www.instagram.com/qcterme/",
+  "cover": "img/venues/QC Termemilano.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 8:00 AM–11:00 PM",
+    "Monday–Friday: 8:30 AM–11:00 PM",
+    "Saturday: 8:30 AM–12:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 8, "close": 23 }],
+    "mon": [{ "open": 8.5, "close": 23 }],
+    "tue": [{ "open": 8.5, "close": 23 }],
+    "wed": [{ "open": 8.5, "close": 23 }],
+    "thu": [{ "open": 8.5, "close": 23 }],
+    "fri": [{ "open": 8.5, "close": 23 }],
+    "sat": [{ "open": 8.5, "close": 24 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Spa, Thermal, Relax, Historic, Gentle",
+  "price": "$$$",
+  "duration": 2.5
+},
+{
+  "name": "Bar Quadronno",
+  "vibe": "Café, Historic, Pastries, Milanese spirit, Elegant, Everyday, Breakfast, Local, Cozy, Heritage",
+  "type": ["bar", "café"],
+  "lat": 45.4542945,
+  "lon": 9.1956022,
+  "link": "https://www.instagram.com/barquadronno/",
+  "cover": "img/venues/Bar Quadronno.jpg",
+	"openNow": true,
+  "hours": [
+    "Sunday: 8:00 AM–2:00 AM",
+    "Monday–Friday: 7:30 AM–2:00 AM",
+    "Saturday: 9:00 AM–2:00 AM"
+  ],
+  "dateEvents": [
+    { "date": "-", "title": "-", "time": "-" },
+    { "date": "-", "title": "-", "time": "-" }
+  ],
+  "hoursNumeric": {
+    "sun": [{ "open": 8, "close": 26 }],
+    "mon": [{ "open": 7.5, "close": 26 }],
+    "tue": [{ "open": 7.5, "close": 26 }],
+    "wed": [{ "open": 7.5, "close": 26 }],
+    "thu": [{ "open": 7.5, "close": 26 }],
+    "fri": [{ "open": 7.5, "close": 26 }],
+    "sat": [{ "open": 9, "close": 26 }]
+  },
+  "dayParts": {
+    "sun": "E",
+    "mon": "E",
+    "tue": "E",
+    "wed": "E",
+    "thu": "E",
+    "fri": "E",
+    "sat": "E"
+  },
+  "timeCategory": "Evening",
+  "energyRamp": 3,
+  "tags": "Pastry, Local, Elegant, Coffee, Morning",
+  "price": "$",
+  "duration": 1.25
 }
 ]
