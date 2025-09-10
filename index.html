@@ -159,13 +159,25 @@ const defaultIcon = L.icon({
   
 const map = L.map('map', {
   zoomControl: false
-}).setView([41.9028, 12.4534], 12);
-  L.control.zoom({ position: 'bottomleft' }).addTo(map);
+});
+
+// Add zoom control to bottom left
+L.control.zoom({ position: 'bottomleft' }).addTo(map);
+
+// Add dark basemap
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; OpenStreetMap contributors & Carto',
   subdomains: 'abcd',
   maxZoom: 19
 }).addTo(map);
+
+// Fit bounds to Milan and Rome
+const bounds = L.latLngBounds([
+  [41.9028, 12.4534], // Rome
+  [45.4642, 9.1900]   // Milan
+]);
+map.fitBounds(bounds);
+
 
   const dayPartColors = {
   M: 'blue',         // Morning
