@@ -88,21 +88,40 @@
   <option value="work session">Work Session</option>
   </select>
   <select id="neighborhood-input">
-<option value="">Select Neighborhood</option>
-<option value="aventino">Aventino</option>
-<option value="centro storico">Centro Storico</option>
-<option value="esquilino">Esquilino</option>
-<option value="flaminio">Flaminio</option>
-<option value="garbatella">Garbatella</option>
-<option value="monteverde">Monteverde</option>
-<option value="monti">Monti</option>
-<option value="parioli">Parioli</option>
-<option value="pigneto">Pigneto</option>
-<option value="prati">Prati</option>
-<option value="san lorenzo">San Lorenzo</option>
-<option value="testaccio">Testaccio</option>
-<option value="trastevere">Trastevere</option>
+  <option value="">Select Neighborhood</option>
+
+  <optgroup label="Milan">
+    <option value="centro storico">Centro Storico</option>
+    <option value="brera">Brera</option>
+    <option value="navigli">Navigli</option>
+    <option value="porta romana">Porta Romana</option>
+    <option value="porta venezia">Porta Venezia</option>
+    <option value="porta nuova">Porta Nuova</option>
+    <option value="isola">Isola</option>
+    <option value="ticinese">Ticinese</option>
+    <option value="corso buenos aires">Corso Buenos Aires</option>
+    <option value="città studi">Città Studi</option>
+    <option value="zona tortona">Zona Tortona</option>
+    <option value="moscova">Moscova</option>
+  </optgroup>
+
+  <optgroup label="Rome">
+    <option value="aventino">Aventino</option>
+    <option value="centro storico">Centro Storico</option>
+    <option value="esquilino">Esquilino</option>
+    <option value="flaminio">Flaminio</option>
+    <option value="garbatella">Garbatella</option>
+    <option value="monteverde">Monteverde</option>
+    <option value="monti">Monti</option>
+    <option value="parioli">Parioli</option>
+    <option value="pigneto">Pigneto</option>
+    <option value="prati">Prati</option>
+    <option value="san lorenzo">San Lorenzo</option>
+    <option value="testaccio">Testaccio</option>
+    <option value="trastevere">Trastevere</option>
+  </optgroup>
 </select>
+
   <select id="priceFilter">
     <option value="">Price</option>
     <option value="$">$</option>
@@ -1220,6 +1239,7 @@ document.getElementById('favoritesBtn').addEventListener('click', () => {
 });
   
 const neighborhoodCenters = {
+  // Rome
   "aventino": L.latLng(41.8850, 12.4810),
   "centro storico": L.latLng(41.9028, 12.4534),
   "esquilino": L.latLng(41.8949, 12.5075),
@@ -1232,7 +1252,21 @@ const neighborhoodCenters = {
   "prati": L.latLng(41.9092, 12.4533),
   "san lorenzo": L.latLng(41.9032, 12.5180),
   "testaccio": L.latLng(41.8765, 12.4760),
-  "trastevere": L.latLng(41.8884, 12.4701)
+  "trastevere": L.latLng(41.8884, 12.4701),
+
+  // Milan
+  "centro storico milan": L.latLng(45.4654, 9.1905),
+  "brera": L.latLng(45.4715, 9.1868),
+  "navigli": L.latLng(45.4412, 9.1794),
+  "porta romana": L.latLng(45.4428, 9.2036),
+  "porta venezia": L.latLng(45.4870, 9.2035),
+  "porta nuova": L.latLng(45.4804, 9.2029),
+  "isola": L.latLng(45.4853, 9.1844),
+  "ticinese": L.latLng(45.4423, 9.1773),
+  "corso buenos aires": L.latLng(45.4811, 9.2046),
+  "città studi": L.latLng(45.4791, 9.2227),
+  "zona tortona": L.latLng(45.4527, 9.1627),
+  "moscova": L.latLng(45.4789, 9.1859)
 };
 
 
