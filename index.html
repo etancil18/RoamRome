@@ -167,6 +167,31 @@ const bounds = L.latLngBounds([
 ]);
 map.fitBounds(bounds);
 
+// --- Geolocation: Center map and show user's location if permitted ---
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      const lat = pos.coords.latitude;
+      const lon = pos.coords.longitude;
+
+      const userMarker = L.marker([lat, lon], {
+        icon: L.icon({
+          iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png',
+          iconSize: [32, 32],
+          iconAnchor: [16, 32],
+          popupAnchor: [0, -32]
+        })
+      }).addTo(map).bindPopup("You are here").openPopup();
+
+      map.setView([lat, lon], 14); // Center map on user's location
+    },
+    (err) => {
+      console.warn("Geolocation not allowed or failed:", err);
+    }
+  );
+} else {
+  console.warn("Geolocation not supported in this browser.");
+}
 
   const dayPartColors = {
   M: 'blue',         // Morning
